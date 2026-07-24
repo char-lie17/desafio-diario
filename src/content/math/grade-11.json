@@ -1,550 +1,2802 @@
 [
   {
-    "id": "math-11-001",
     "grade": 11,
-    "category": "Funciones",
-    "subcategory": "Función inversa",
-    "difficulty": 3,
-    "type": "multiple_choice",
-    "title": "Cálculo de la Función Inversa",
-    "question": "Dada la función biyectiva f(x) = 2x - 5, encuentra la expresión analítica de su función inversa f^{-1}(x):",
-    "latex": "f^{-1}(x)",
-    "answer": "(x + 5)/2",
-    "options": [
-      "(x + 5)/2",
-      "(x - 5)/2",
-      "5x - 2",
-      "1/(2x - 5)"
-    ],
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, -4)$ y $P_2(-1, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "1",
     "solution": [
       {
-        "latex": "y = 2x - 5",
-        "explanation": "Escribimos la función como y en términos de x."
+        "latex": "m = \\frac{-3 - (-4)}{-1 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
       },
       {
-        "latex": "y + 5 = 2x \\implies x = \\frac{y + 5}{2}",
-        "explanation": "Despejamos la variable x."
+        "latex": "m = \\frac{1}{1}",
+        "explanation": "Restamos en numerador y denominador."
       },
       {
-        "latex": "f^{-1}(x) = \\frac{x + 5}{2}",
-        "explanation": "Intercambiamos las variables x e y."
+        "latex": "1",
+        "explanation": "Simplificamos la fracción."
       }
     ],
     "hints": [
-      "Despeja x en y = 2x - 5."
-    ]
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-000"
   },
   {
-    "id": "math-11-002",
     "grade": 11,
-    "category": "Logaritmos básicos",
-    "subcategory": "Propiedades de logaritmos",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Suma de Logaritmos",
-    "question": "Aplica las propiedades de los logaritmos para calcular el valor exacto de:",
-    "latex": "\\log_2(8) + \\log_2(4)",
-    "answer": "5",
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(2, 4)$ y $P_2(5, -5)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-3",
     "solution": [
       {
-        "latex": "\\log_2(8) = 3, \\quad \\text{pues } 2^3 = 8",
-        "explanation": "Evaluamos el primer término."
+        "latex": "m = \\frac{-5 - (4)}{5 - (2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
       },
       {
-        "latex": "\\log_2(4) = 2, \\quad \\text{pues } 2^2 = 4",
-        "explanation": "Evaluamos el segundo término."
+        "latex": "m = \\frac{-9}{3}",
+        "explanation": "Restamos en numerador y denominador."
       },
       {
-        "latex": "3 + 2 = 5",
-        "explanation": "Sumamos ambos logaritmos."
+        "latex": "-3",
+        "explanation": "Simplificamos la fracción."
       }
     ],
     "hints": [
-      "log_2(8) = 3 y log_2(4) = 2."
-    ]
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-001"
   },
   {
-    "id": "math-11-003",
     "grade": 11,
-    "category": "Trigonometría",
-    "subcategory": "Ley de los Senos",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Aplicación de la Ley de Senos",
-    "question": "En un triángulo, el lado a = 10 mide opuesto a un ángulo A = 30°. Si el ángulo B = 45°, ¿cuánto mide el lado b (usa \\sqrt{2} \\approx 1.41)?",
-    "latex": "\\frac{a}{\\sin(A)} = \\frac{b}{\\sin(B)}",
-    "answer": "14.1",
-    "solution": [
-      {
-        "latex": "\\frac{10}{\\sin(30^\\circ)} = \\frac{b}{\\sin(45^\\circ)}",
-        "explanation": "Sustituimos los datos conocidos."
-      },
-      {
-        "latex": "\\sin(30^\\circ) = 0.5, \\quad \\sin(45^\\circ) = \\frac{\\sqrt{2}}{2} \\approx 0.707",
-        "explanation": "Valores de senos."
-      },
-      {
-        "latex": "\\frac{10}{0.5} = 20 \\implies b = 20 \\times 0.707 = 14.14",
-        "explanation": "Despejamos b = 10 * sin(45) / sin(30)."
-      }
-    ],
-    "hints": [
-      "Usa b = 10 × sin(45°) / sin(30°)."
-    ]
-  },
-  {
-    "id": "math-11-004",
-    "grade": 11,
-    "category": "Funciones exponenciales",
-    "subcategory": "Crecimiento exponencial",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Población de Bacterias en Crecimiento",
-    "question": "Una población inicial de 100 bacterias se duplica cada hora según f(t) = 100 \\cdot 2^t. ¿Cuántas bacterias habrá al cabo de 5 horas?",
-    "latex": "f(5) = 100 \\cdot 2^5",
-    "answer": "3200",
-    "solution": [
-      {
-        "latex": "2^5 = 32",
-        "explanation": "Calculamos la potencia de 2 elevada a la 5."
-      },
-      {
-        "latex": "f(5) = 100 \\times 32 = 3200",
-        "explanation": "Multiplicamos por la población inicial 100."
-      }
-    ],
-    "hints": [
-      "Calcula 100 × 2^5."
-    ]
-  },
-  {
-    "id": "math-11-005",
-    "grade": 11,
-    "category": "Optimización elemental",
-    "subcategory": "Máximo de función cuadrática",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Optimización del Área de un Rectángulo",
-    "question": "Se dispone de 40 metros de malla para cercar un terreno rectangular. ¿Cuál es el área MÁXIMA posible en m^2?",
-    "latex": "A(x) = x(20 - x)",
-    "answer": "100",
-    "solution": [
-      {
-        "latex": "2x + 2y = 40 \\implies x + y = 20 \\implies y = 20 - x",
-        "explanation": "Perímetro fijo."
-      },
-      {
-        "latex": "A(x) = 20x - x^2",
-        "explanation": "Función de área."
-      },
-      {
-        "latex": "x_{\\text{máx}} = -\\frac{20}{2(-1)} = 10 \\implies y = 10",
-        "explanation": "El área máxima se alcanza con un cuadrado de 10x10."
-      },
-      {
-        "latex": "A_{\\text{máx}} = 10 \\times 10 = 100",
-        "explanation": "Área máxima 100 m^2."
-      }
-    ],
-    "hints": [
-      "El área máxima de un rectángulo con perímetro fijo se logra cuando es un cuadrado (lados de 10 m)."
-    ]
-  },
-  {
-    "id": "math-11-006",
-    "grade": 11,
-    "category": "Geometría analítica",
-    "subcategory": "Ecuación de la parábola",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Foco de Parábola Canónica",
-    "question": "Dada la parábola y^2 = 12x, ¿cuál es la coordenada 'x' de su foco F(p, 0)?",
-    "latex": "y^2 = 4px",
-    "answer": "3",
-    "solution": [
-      {
-        "latex": "4p = 12 \\implies p = 3",
-        "explanation": "Comparamos coeficientes con la forma canónica."
-      },
-      {
-        "latex": "F(p, 0) = F(3, 0)",
-        "explanation": "La distancia focal es p = 3."
-      }
-    ],
-    "hints": [
-      "Divide 12 entre 4 para hallar p."
-    ]
-  },
-  {
-    "id": "math-11-007",
-    "grade": 11,
-    "category": "Probabilidad",
-    "subcategory": "Probabilidad condicional",
-    "difficulty": 4,
-    "type": "multiple_choice",
-    "title": "Probabilidad Condicional en Baraja",
-    "question": "Se extrae una carta de una baraja estándar de 52 cartas. Si sabemos que la carta es de CORAZONES (13 cartas), ¿cuál es la probabilidad de que sea un AS?",
-    "latex": "P(A | B) = \\frac{P(A \\cap B)}{P(B)}",
-    "answer": "1/13",
-    "options": [
-      "1/13",
-      "1/52",
-      "1/4",
-      "4/13"
-    ],
-    "solution": [
-      {
-        "latex": "\\text{Nuevo espacio reducido} = 13 \\text{ cartas de corazones}",
-        "explanation": "Al saber que es de corazones, el total se reduce a 13."
-      },
-      {
-        "latex": "\\text{Casos favorables} = 1 \\text{ (As de corazones)}",
-        "explanation": "Solo hay 1 As dentro de los corazones."
-      },
-      {
-        "latex": "P = \\frac{1}{13}",
-        "explanation": "Probabilidad condicional."
-      }
-    ],
-    "hints": [
-      "Hay solo 1 As entre las 13 cartas de Corazones."
-    ]
-  },
-  {
-    "id": "math-11-008",
-    "grade": 11,
-    "category": "Logaritmos básicos",
-    "subcategory": "Ecuación logarítmica",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Ecuación con Logaritmos Naturales",
-    "question": "Resuelve para x la ecuación logarítmica:",
-    "latex": "\\ln(2x - 3) = 0",
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(16)",
     "answer": "2",
     "solution": [
       {
-        "latex": "e^0 = 1 \\implies 2x - 3 = 1",
-        "explanation": "Aplicamos la función exponencial en ambos lados ya que e^0 = 1."
+        "latex": "4^x = 16",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
       },
       {
-        "latex": "2x = 4 \\implies x = 2",
-        "explanation": "Sumamos 3 y dividimos entre 2."
-      }
-    ],
-    "hints": [
-      "ln(1) = 0, por lo que 2x - 3 debe ser igual a 1."
-    ]
-  },
-  {
-    "id": "math-11-009",
-    "grade": 11,
-    "category": "Trigonometría",
-    "subcategory": "Ley del Coseno",
-    "difficulty": 5,
-    "type": "numeric",
-    "title": "Cálculo de Lado con Ley del Coseno",
-    "question": "En un triángulo, a = 5, b = 8 y el ángulo C entre ellos es 60°. Calcula la longitud del lado c:",
-    "latex": "c^2 = a^2 + b^2 - 2ab \\cos(C)",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "c^2 = 5^2 + 8^2 - 2(5)(8)\\cos(60^\\circ)",
-        "explanation": "Sustituimos valores en la Ley del Coseno."
-      },
-      {
-        "latex": "\\cos(60^\\circ) = 0.5 \\implies 2(5)(8)(0.5) = 40",
-        "explanation": "Calculamos el producto con el coseno."
-      },
-      {
-        "latex": "c^2 = 25 + 64 - 40 = 49",
-        "explanation": "Operamos: 89 - 40 = 49."
-      },
-      {
-        "latex": "c = \\sqrt{49} = 7",
-        "explanation": "El lado c mide 7."
-      }
-    ],
-    "hints": [
-      "Calcula 25 + 64 - 2(5)(8)(0.5) = 49 y saca la raíz."
-    ]
-  },
-  {
-    "id": "math-11-010",
-    "grade": 11,
-    "category": "Razonamiento matemático avanzado",
-    "subcategory": "Límites intuitivos",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Límite al Infinito de una Razón de Polinomios",
-    "question": "Calcula el valor del límite al infinito:",
-    "latex": "\\lim_{x \\to \\infty} \\frac{6x^2 + 5}{2x^2 - 1}",
-    "answer": "3",
-    "solution": [
-      {
-        "latex": "\\lim_{x \\to \\infty} \\frac{6 + \\frac{5}{x^2}}{2 - \\frac{1}{x^2}}",
-        "explanation": "Dividimos numerador y denominador entre x^2."
-      },
-      {
-        "latex": "\\frac{6 + 0}{2 - 0} = \\frac{6}{2} = 3",
-        "explanation": "Los términos 5/x^2 y 1/x^2 tienden a 0."
-      }
-    ],
-    "hints": [
-      "Al ir al infinito, el resultado es el cociente de los coeficientes principales: 6 / 2."
-    ]
-  },
-  {
-    "id": "math-11-011",
-    "grade": 11,
-    "category": "Funciones",
-    "subcategory": "Composición de funciones",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Composición de Funciones",
-    "question": "Dadas f(x) = x^2 + 1 y g(x) = 3x, calcula el valor de (f \\circ g)(2):",
-    "latex": "(f \\circ g)(2) = f(g(2))",
-    "answer": "37",
-    "solution": [
-      {
-        "latex": "g(2) = 3(2) = 6",
-        "explanation": "Evaluamos primero la función interna g(2)."
-      },
-      {
-        "latex": "f(6) = 6^2 + 1 = 36 + 1 = 37",
-        "explanation": "Evaluamos la función externa f en el resultado 6."
-      }
-    ],
-    "hints": [
-      "Calcula g(2) = 6 primero, luego calcula f(6) = 6^2 + 1."
-    ]
-  },
-  {
-    "id": "math-11-012",
-    "grade": 11,
-    "category": "Sucesiones",
-    "subcategory": "Suma infinita geométrica",
-    "difficulty": 5,
-    "type": "numeric",
-    "title": "Suma de una Serie Geométrica Infinita",
-    "question": "Calcula la suma infinita S de la serie geométrica 1 + 1/2 + 1/4 + 1/8 + ...:",
-    "latex": "S = \\frac{a_1}{1 - r}",
-    "answer": "2",
-    "solution": [
-      {
-        "latex": "a_1 = 1, \\quad r = \\frac{1}{2}",
-        "explanation": "Identificamos el primer término y la razón r < 1."
-      },
-      {
-        "latex": "S = \\frac{1}{1 - 1/2} = \\frac{1}{1/2} = 2",
-        "explanation": "Dividimos 1 entre 0.5."
-      }
-    ],
-    "hints": [
-      "Divide 1 entre (1 - 1/2)."
-    ]
-  },
-  {
-    "id": "math-11-013",
-    "grade": 11,
-    "category": "Geometría analítica",
-    "subcategory": "Ecuación de la elipse",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Eje Mayor de una Elipse",
-    "question": "Dada la ecuación de la elipse \\frac{x^2}{25} + \\frac{y^2}{9} = 1, ¿cuál es la longitud total de su EJE MAYOR?",
-    "latex": "\\text{Eje mayor} = 2a",
-    "answer": "10",
-    "solution": [
-      {
-        "latex": "a^2 = 25 \\implies a = 5",
-        "explanation": "Identificamos el semieje mayor a = 5."
-      },
-      {
-        "latex": "2a = 2(5) = 10",
-        "explanation": "La longitud total del eje mayor es 2a = 10."
-      }
-    ],
-    "hints": [
-      "La raíz cuadrada de 25 es 5. El eje mayor es el doble: 2 × 5."
-    ]
-  },
-  {
-    "id": "math-11-014",
-    "grade": 11,
-    "category": "Trigonometría",
-    "subcategory": "Identidad del ángulo doble",
-    "difficulty": 4,
-    "type": "multiple_choice",
-    "title": "Identidad de Seno del Ángulo Doble",
-    "question": "La expresión 2 \\sin(x) \\cos(x) es equivalente a:",
-    "latex": "2 \\sin(x) \\cos(x)",
-    "answer": "\\sin(2x)",
-    "options": [
-      "\\sin(2x)",
-      "\\cos(2x)",
-      "\\tan(2x)",
-      "\\sin^2(x)"
-    ],
-    "solution": [
-      {
-        "latex": "\\sin(2x) = 2 \\sin(x) \\cos(x)",
-        "explanation": "Es la identidad trigonométrica fundamental del ángulo doble."
-      }
-    ],
-    "hints": [
-      "Identidad clásica de \\sin(2x)."
-    ]
-  },
-  {
-    "id": "math-11-015",
-    "grade": 11,
-    "category": "Polinomios",
-    "subcategory": "División sintética",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Raíz de Polinomio de Grado 3",
-    "question": "Encuentra la solución entera positiva de x^3 - 7x + 6 = 0:",
-    "latex": "(x - 1)(x - 2)(x + 3) = 0",
-    "answer": "2",
-    "solution": [
-      {
-        "latex": "P(1) = 1 - 7 + 6 = 0, \\quad P(2) = 8 - 14 + 6 = 0",
-        "explanation": "Las raíces reales son 1, 2 y -3."
+        "latex": "4^x = 4^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
       },
       {
         "latex": "x = 2",
-        "explanation": "2 es una de las soluciones enteras positivas."
+        "explanation": "Igualamos los exponentes."
       }
     ],
     "hints": [
-      "Prueba los divisores enteros de 6 (1, 2, 3)."
-    ]
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-002"
   },
   {
-    "id": "math-11-016",
     "grade": 11,
-    "category": "Estadística",
-    "subcategory": "Distribución normal",
-    "difficulty": 3,
-    "type": "multiple_choice",
-    "title": "Regla Empírica de la Distribución Normal",
-    "question": "En una distribución normal estandarizada, ¿qué porcentaje aproximado de los datos se encuentra dentro de 1 desviación estándar respecto a la media (\\mu \\pm 1\\sigma)?",
-    "latex": "P(\\mu - \\sigma \\le X \\le \\mu + \\sigma)",
-    "answer": "68%",
-    "options": [
-      "68%",
-      "95%",
-      "99.7%",
-      "50%"
-    ],
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(3, 4)$ y $P_2(4, -2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-6",
     "solution": [
       {
-        "latex": "68\\%",
-        "explanation": "Regla 68-95-99.7 de la distribución gaussiana."
+        "latex": "m = \\frac{-2 - (4)}{4 - (3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-6}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-6",
+        "explanation": "Simplificamos la fracción."
       }
     ],
     "hints": [
-      "Es la célebre regla 68-95-99.7."
-    ]
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-003"
   },
   {
-    "id": "math-11-017",
     "grade": 11,
-    "category": "Verdadero o Falso",
-    "subcategory": "Propiedades de Logaritmos",
-    "difficulty": 3,
-    "type": "true_false",
-    "title": "Falsa Distributividad del Logaritmo",
-    "question": "¿Es verdadero o falso que \\log(a + b) = \\log(a) + \\log(b)?",
-    "latex": "\\log(a + b) \\stackrel{?}{=} \\log(a) + \\log(b)",
-    "answer": "Falso",
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-1, 3)$ y $P_2(-4, -5)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "8/3",
     "solution": [
       {
-        "latex": "\\log(a \\cdot b) = \\log(a) + \\log(b)",
-        "explanation": "La suma de logaritmos equivale al logaritmo del PRODUCTO, no de la suma."
+        "latex": "m = \\frac{-5 - (3)}{-4 - (-1)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-8}{-3}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{8}{3}",
+        "explanation": "Simplificamos la fracción."
       }
     ],
     "hints": [
-      "Recuerda que la suma de logaritmos equivale al logaritmo del producto a × b."
-    ]
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-004"
   },
   {
-    "id": "math-11-018",
     "grade": 11,
-    "category": "Ecuaciones y sistemas",
-    "subcategory": "Sistema no lineal",
-    "difficulty": 5,
-    "type": "numeric",
-    "title": "Intersección de Recta y Parábola",
-    "question": "Encuentra la coordenada x positiva donde se intersectan la parábola y = x^2 y la recta y = x + 6:",
-    "latex": "x^2 = x + 6",
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -5$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{13}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "43",
+    "solution": [
+      {
+        "latex": "a_{13} = -5 + (13-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{13} = -5 + (12)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "43",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-005"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(625)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "5^x = 625",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-006"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{14}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "81",
+    "solution": [
+      {
+        "latex": "a_{14} = 3 + (14-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{14} = 3 + (13)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "81",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-007"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 4$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{11}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "44",
+    "solution": [
+      {
+        "latex": "a_{11} = 4 + (11-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{11} = 4 + (10)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "44",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-008"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(2, 5)$ y $P_2(-3, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "8/5",
+    "solution": [
+      {
+        "latex": "m = \\frac{-3 - (5)}{-3 - (2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-8}{-5}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{8}{5}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-009"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(4)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "2^x = 4",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-010"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{22}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "87",
+    "solution": [
+      {
+        "latex": "a_{22} = 3 + (22-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{22} = 3 + (21)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "87",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-011"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, -1)$ y $P_2(-3, -5)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "m = \\frac{-5 - (-1)}{-3 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-4}{-1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "4",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-012"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -1$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{20}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "a_{20} = -1 + (20-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{20} = -1 + (19)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "37",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-013"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(4, -2)$ y $P_2(5, 4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "m = \\frac{4 - (-2)}{5 - (4)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{6}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "6",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-014"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(5, -3)$ y $P_2(-2, -4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "1/7",
+    "solution": [
+      {
+        "latex": "m = \\frac{-4 - (-3)}{-2 - (5)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-1}{-7}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{1}{7}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-015"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 8$ y la diferencia común es $d = 3$. ¿Cuál es el valor del término $a_{16}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "53",
+    "solution": [
+      {
+        "latex": "a_{16} = 8 + (16-1)(3)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{16} = 8 + (15)(3)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "53",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-016"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 7$ y la diferencia común es $d = 3$. ¿Cuál es el valor del término $a_{23}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "73",
+    "solution": [
+      {
+        "latex": "a_{23} = 7 + (23-1)(3)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{23} = 7 + (22)(3)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "73",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-017"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
     "answer": "3",
     "solution": [
       {
-        "latex": "x^2 - x - 6 = 0",
-        "explanation": "Igualamos las dos ecuaciones."
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
       },
       {
-        "latex": "(x - 3)(x + 2) = 0",
-        "explanation": "Factorizamos."
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
       },
       {
-        "latex": "x = 3 \\quad (\\text{positiva})",
-        "explanation": "La solución x positiva es 3."
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
       }
     ],
     "hints": [
-      "Factoriza x^2 - x - 6 = 0 como (x - 3)(x + 2) = 0."
-    ]
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-018"
   },
   {
-    "id": "math-11-019",
     "grade": 11,
-    "category": "Optimización elemental",
-    "subcategory": "Punto de inflexión / Derivada básica",
-    "difficulty": 5,
-    "type": "numeric",
-    "title": "Pendiente de la Tangente en un Punto",
-    "question": "Dada la curva f(x) = 2x^2 - 3x + 1, calcula el valor de la pendiente de la recta tangente a la curva en el punto x = 4:",
-    "latex": "f'(x) = 4x - 3",
-    "answer": "13",
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-5, -5)$ y $P_2(5, -4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "1/10",
     "solution": [
       {
-        "latex": "f'(x) = 4x - 3",
-        "explanation": "Calculamos la derivada usando la regla de la potencia."
+        "latex": "m = \\frac{-4 - (-5)}{5 - (-5)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
       },
       {
-        "latex": "f'(4) = 4(4) - 3 = 16 - 3 = 13",
-        "explanation": "Evaluamos la derivada en x = 4."
+        "latex": "m = \\frac{1}{10}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{1}{10}",
+        "explanation": "Simplificamos la fracción."
       }
     ],
     "hints": [
-      "La derivada f'(x) es 4x - 3. Evalúa en x = 4."
-    ]
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-019"
   },
   {
-    "id": "math-11-020",
     "grade": 11,
-    "category": "Razonamiento matemático avanzado",
-    "subcategory": "Lógica inductiva",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Suma de los Primeros N Impares",
-    "question": "Calcula la suma de los primeros 10 números impares positivos (1 + 3 + 5 + ... + 19):",
-    "latex": "\\sum_{k=1}^{n} (2k - 1) = n^2",
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(25)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "5^x = 25",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-020"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{18}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "a_{18} = 3 + (18-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{18} = 3 + (17)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "37",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-021"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(4, 5)$ y $P_2(-2, 2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "1/2",
+    "solution": [
+      {
+        "latex": "m = \\frac{2 - (5)}{-2 - (4)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-3}{-6}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{1}{2}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-022"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-023"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, -1)$ y $P_2(2, 5)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "3/2",
+    "solution": [
+      {
+        "latex": "m = \\frac{5 - (-1)}{2 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{6}{4}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{3}{2}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-024"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{22}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "87",
+    "solution": [
+      {
+        "latex": "a_{22} = 3 + (22-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{22} = 3 + (21)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "87",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-025"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-4, 3)$ y $P_2(1, -5)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-8/5",
+    "solution": [
+      {
+        "latex": "m = \\frac{-5 - (3)}{1 - (-4)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-8}{5}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "- \\frac{8}{5}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-026"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(8)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "2^x = 8",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-027"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(0, 4)$ y $P_2(1, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "m = \\frac{-3 - (4)}{1 - (0)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-7}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-7",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-028"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 8$ y la diferencia común es $d = 3$. ¿Cuál es el valor del término $a_{23}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "74",
+    "solution": [
+      {
+        "latex": "a_{23} = 8 + (23-1)(3)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{23} = 8 + (22)(3)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "74",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-029"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 0$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{24}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "138",
+    "solution": [
+      {
+        "latex": "a_{24} = 0 + (24-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{24} = 0 + (23)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "138",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-030"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-1, -5)$ y $P_2(0, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "m = \\frac{-3 - (-5)}{0 - (-1)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-031"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(125)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "5^x = 125",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-032"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -4$ y la diferencia común es $d = 5$. ¿Cuál es el valor del término $a_{17}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "76",
+    "solution": [
+      {
+        "latex": "a_{17} = -4 + (17-1)(5)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{17} = -4 + (16)(5)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "76",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-033"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(8)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "2^x = 8",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-034"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -3$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{18}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "65",
+    "solution": [
+      {
+        "latex": "a_{18} = -3 + (18-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{18} = -3 + (17)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "65",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-035"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -2$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{18}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "66",
+    "solution": [
+      {
+        "latex": "a_{18} = -2 + (18-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{18} = -2 + (17)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "66",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-036"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(16)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "2^x = 16",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-037"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(256)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "4^x = 256",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-038"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 9$ y la diferencia común es $d = 3$. ¿Cuál es el valor del término $a_{21}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "69",
+    "solution": [
+      {
+        "latex": "a_{21} = 9 + (21-1)(3)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{21} = 9 + (20)(3)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "69",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-039"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 10$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{23}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "54",
+    "solution": [
+      {
+        "latex": "a_{23} = 10 + (23-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{23} = 10 + (22)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "54",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-040"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(1, -3)$ y $P_2(2, 2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "m = \\frac{2 - (-3)}{2 - (1)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{5}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "5",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-041"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-3, 4)$ y $P_2(-4, 1)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "m = \\frac{1 - (4)}{-4 - (-3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-3}{-1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "3",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-042"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-043"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 7$ y la diferencia común es $d = 3$. ¿Cuál es el valor del término $a_{21}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "67",
+    "solution": [
+      {
+        "latex": "a_{21} = 7 + (21-1)(3)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{21} = 7 + (20)(3)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "67",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-044"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(25)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "5^x = 25",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-045"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{16}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "63",
+    "solution": [
+      {
+        "latex": "a_{16} = 3 + (16-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{16} = 3 + (15)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "63",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-046"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(0, 0)$ y $P_2(2, 2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "1",
+    "solution": [
+      {
+        "latex": "m = \\frac{2 - (0)}{2 - (0)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{2}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "1",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-047"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-3, -4)$ y $P_2(-4, -2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "m = \\frac{-2 - (-4)}{-4 - (-3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{-1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-048"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(125)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "5^x = 125",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-049"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(64)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "4^x = 64",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-050"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(4)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "2^x = 4",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-051"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-052"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 8$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{17}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "104",
+    "solution": [
+      {
+        "latex": "a_{17} = 8 + (17-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{17} = 8 + (16)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "104",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-053"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(5, -3)$ y $P_2(-2, -1)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-2/7",
+    "solution": [
+      {
+        "latex": "m = \\frac{-1 - (-3)}{-2 - (5)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{-7}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "- \\frac{2}{7}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-054"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(81)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "3^x = 81",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-055"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(256)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "4^x = 256",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-056"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 9$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{11}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "69",
+    "solution": [
+      {
+        "latex": "a_{11} = 9 + (11-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{11} = 9 + (10)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "69",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-057"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(16)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "2^x = 16",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-058"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(5, -4)$ y $P_2(-4, -1)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-1/3",
+    "solution": [
+      {
+        "latex": "m = \\frac{-1 - (-4)}{-4 - (5)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{3}{-9}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "- \\frac{1}{3}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-059"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-3, 1)$ y $P_2(-1, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "m = \\frac{-3 - (1)}{-1 - (-3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-4}{2}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-060"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(4)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "2^x = 4",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-061"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(8)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "2^x = 8",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-062"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -5$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{13}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "43",
+    "solution": [
+      {
+        "latex": "a_{13} = -5 + (13-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{13} = -5 + (12)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "43",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-063"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -5$ y la diferencia común es $d = 5$. ¿Cuál es el valor del término $a_{22}$?",
+    "latex": "a_n = a_1 + (n-1)d",
     "answer": "100",
     "solution": [
       {
-        "latex": "S_n = n^2",
-        "explanation": "La suma de los primeros n impares siempre es igual a n^2."
+        "latex": "a_{22} = -5 + (22-1)(5)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
       },
       {
-        "latex": "S_{10} = 10^2 = 100",
-        "explanation": "10 al cuadrado es 100."
+        "latex": "a_{22} = -5 + (21)(5)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "100",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
       }
     ],
     "hints": [
-      "La suma de los primeros n números impares es n^2."
-    ]
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-064"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, 5)$ y $P_2(-1, 0)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-5",
+    "solution": [
+      {
+        "latex": "m = \\frac{0 - (5)}{-1 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-5}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-5",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-065"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, 4)$ y $P_2(-1, -3)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "m = \\frac{-3 - (4)}{-1 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-7}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-7",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-066"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(0, 4)$ y $P_2(3, -2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "m = \\frac{-2 - (4)}{3 - (0)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-6}{3}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-067"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(125)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "5^x = 125",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-068"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(125)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "5^x = 125",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-069"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-070"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -5$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{11}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "a_{11} = -5 + (11-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{11} = -5 + (10)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "15",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-071"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 6$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{24}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "52",
+    "solution": [
+      {
+        "latex": "a_{24} = 6 + (24-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{24} = 6 + (23)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "52",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-072"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -4$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{13}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "68",
+    "solution": [
+      {
+        "latex": "a_{13} = -4 + (13-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{13} = -4 + (12)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "68",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-073"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 10$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{15}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "66",
+    "solution": [
+      {
+        "latex": "a_{15} = 10 + (15-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{15} = 10 + (14)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "66",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-074"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(16)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "4^x = 16",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-075"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(81)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "3^x = 81",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-076"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(0, -2)$ y $P_2(-1, 2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-4",
+    "solution": [
+      {
+        "latex": "m = \\frac{2 - (-2)}{-1 - (0)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{4}{-1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "-4",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-077"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -5$ y la diferencia común es $d = 5$. ¿Cuál es el valor del término $a_{19}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "85",
+    "solution": [
+      {
+        "latex": "a_{19} = -5 + (19-1)(5)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{19} = -5 + (18)(5)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "85",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-078"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(16)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "4^x = 16",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-079"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(3, 1)$ y $P_2(0, -4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "5/3",
+    "solution": [
+      {
+        "latex": "m = \\frac{-4 - (1)}{0 - (3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-5}{-3}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{5}{3}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-080"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-3, -1)$ y $P_2(-2, 1)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "m = \\frac{1 - (-1)}{-2 - (-3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-081"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(3, 1)$ y $P_2(-3, -4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "5/6",
+    "solution": [
+      {
+        "latex": "m = \\frac{-4 - (1)}{-3 - (3)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-5}{-6}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "\\frac{5}{6}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-082"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{5}(125)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "5^x = 125",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "5^x = 5^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-083"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(1, -5)$ y $P_2(-2, -4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-1/3",
+    "solution": [
+      {
+        "latex": "m = \\frac{-4 - (-5)}{-2 - (1)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{1}{-3}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "- \\frac{1}{3}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-084"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(256)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "4^x = 256",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-085"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(2, 0)$ y $P_2(3, 2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "m = \\frac{2 - (0)}{3 - (2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{2}{1}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "2",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-086"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(256)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "4^x = 256",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-087"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 4$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{20}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "118",
+    "solution": [
+      {
+        "latex": "a_{20} = 4 + (20-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{20} = 4 + (19)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "118",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-088"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 1$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{24}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "93",
+    "solution": [
+      {
+        "latex": "a_{24} = 1 + (24-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{24} = 1 + (23)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "93",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-089"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -1$ y la diferencia común es $d = 4$. ¿Cuál es el valor del término $a_{22}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "83",
+    "solution": [
+      {
+        "latex": "a_{22} = -1 + (22-1)(4)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{22} = -1 + (21)(4)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "83",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-090"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = -2$ y la diferencia común es $d = 2$. ¿Cuál es el valor del término $a_{23}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "42",
+    "solution": [
+      {
+        "latex": "a_{23} = -2 + (23-1)(2)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{23} = -2 + (22)(2)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "42",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-091"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(27)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "3^x = 27",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-092"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-2, -4)$ y $P_2(0, 4)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "m = \\frac{4 - (-4)}{0 - (-2)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{8}{2}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "4",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-093"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(64)",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "4^x = 64",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{3}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-094"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{2}(4)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "2^x = 4",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "2^x = 2^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-095"
+  },
+  {
+    "grade": 11,
+    "category": "Geometría Analítica",
+    "subcategory": "La recta",
+    "difficulty": 2,
+    "title": "Pendiente de la Recta",
+    "question": "Calcula la pendiente $m$ de la recta que pasa por los puntos $P_1(-1, -1)$ y $P_2(1, -2)$:",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "-1/2",
+    "solution": [
+      {
+        "latex": "m = \\frac{-2 - (-1)}{1 - (-1)}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{-1}{2}",
+        "explanation": "Restamos en numerador y denominador."
+      },
+      {
+        "latex": "- \\frac{1}{2}",
+        "explanation": "Simplificamos la fracción."
+      }
+    ],
+    "hints": [
+      "La pendiente es el cambio en y dividido por el cambio en x: (y2 - y1) / (x2 - x1)"
+    ],
+    "id": "math-11-096"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{3}(9)",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "3^x = 9",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "3^x = 3^{2}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 2",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-097"
+  },
+  {
+    "grade": 11,
+    "category": "Sucesiones",
+    "subcategory": "Progresión Aritmética",
+    "difficulty": 1,
+    "title": "Término General",
+    "question": "En una sucesión aritmética, el primer término es $a_1 = 3$ y la diferencia común es $d = 6$. ¿Cuál es el valor del término $a_{13}$?",
+    "latex": "a_n = a_1 + (n-1)d",
+    "answer": "75",
+    "solution": [
+      {
+        "latex": "a_{13} = 3 + (13-1)(6)",
+        "explanation": "Aplicamos la fórmula del término general de una sucesión aritmética."
+      },
+      {
+        "latex": "a_{13} = 3 + (12)(6)",
+        "explanation": "Restamos dentro del paréntesis."
+      },
+      {
+        "latex": "75",
+        "explanation": "Multiplicamos y sumamos para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula an = a1 + (n-1)d"
+    ],
+    "id": "math-11-098"
+  },
+  {
+    "grade": 11,
+    "category": "Logaritmos",
+    "subcategory": "Cálculo básico",
+    "difficulty": 2,
+    "title": "Evaluación de Logaritmos",
+    "question": "Calcula el valor del siguiente logaritmo:",
+    "latex": "\\log_{4}(256)",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "4^x = 256",
+        "explanation": "Transformamos el logaritmo a su forma exponencial equivalente."
+      },
+      {
+        "latex": "4^x = 4^{4}",
+        "explanation": "Expresamos el argumento como potencia de la misma base."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Igualamos los exponentes."
+      }
+    ],
+    "hints": [
+      "Pregúntate: ¿A qué exponente debo elevar la base para obtener el número entre paréntesis?"
+    ],
+    "id": "math-11-099"
   }
 ]

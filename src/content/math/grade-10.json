@@ -1,538 +1,2662 @@
 [
   {
-    "id": "math-10-001",
     "grade": 10,
-    "category": "Trigonometría básica",
-    "subcategory": "Razones trigonométricas",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
     "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Seno en un Triángulo Rectángulo 3-4-5",
-    "question": "En un triángulo rectángulo con cateto opuesto = 3 y cateto adyacente = 4 (hipotenusa = 5), calcula el valor exacto de \\sin(\\theta):",
-    "latex": "\\sin(\\theta) = \\frac{\\text{Cateto Opuesto}}{\\text{Hipotenusa}}",
-    "answer": "3/5",
-    "options": [
-      "3/5",
-      "4/5",
-      "3/4",
-      "5/3"
-    ],
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} + x - 6}",
+    "answer": "\\frac{x - 3}{x + 3}",
     "solution": [
       {
-        "latex": "\\sin(\\theta) = \\frac{3}{5}",
-        "explanation": "Aplicamos la definición de Seno = Opuesto / Hipotenusa."
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
       }
     ],
     "hints": [
-      "Seno es la razón entre el cateto opuesto y la hipotenusa."
-    ]
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-000"
   },
   {
-    "id": "math-10-002",
     "grade": 10,
-    "category": "Trigonometría básica",
-    "subcategory": "Identidad pitagórica",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Identidad Trigonométrica Fundamental",
-    "question": "Calcula el valor numérico exacto de la expresión:",
-    "latex": "7 \\cdot (\\sin^2(35^\\circ) + \\cos^2(35^\\circ))",
-    "answer": "7",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 8 x + 15}{x^{2} + x - 12}",
+    "answer": "\\frac{x - 5}{x + 4}",
     "solution": [
       {
-        "latex": "\\sin^2(\\theta) + \\cos^2(\\theta) = 1",
-        "explanation": "Aplicamos la identidad fundamental para cualquier ángulo \\theta."
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 3\\right)}{\\left(x - 3\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
       },
       {
-        "latex": "7 \\cdot (1) = 7",
-        "explanation": "Multiplicamos 7 por 1."
+        "latex": "\\frac{x - 5}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
       }
     ],
     "hints": [
-      "Recuerda que sin^2(x) + cos^2(x) siempre es igual a 1."
-    ]
-  },
-  {
-    "id": "math-10-003",
-    "grade": 10,
-    "category": "Geometría analítica",
-    "subcategory": "Distancia entre dos puntos",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Distancia entre Puntos en el Plano Cartesiano",
-    "question": "Calcula la distancia d entre los puntos P_1(1, 2) y P_2(4, 6):",
-    "latex": "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
-    "answer": "5",
-    "solution": [
-      {
-        "latex": "d = \\sqrt{(4 - 1)^2 + (6 - 2)^2}",
-        "explanation": "Sustituimos las coordenadas en la fórmula de distancia."
-      },
-      {
-        "latex": "d = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25}",
-        "explanation": "Elevamos al cuadrado y sumamos."
-      },
-      {
-        "latex": "d = 5",
-        "explanation": "La raíz de 25 es 5."
-      }
+      "Busca factorizar los trinomios en el numerador y denominador."
     ],
-    "hints": [
-      "Calcula \\sqrt{3^2 + 4^2}."
-    ]
+    "id": "math-10-001"
   },
   {
-    "id": "math-10-004",
     "grade": 10,
     "category": "Inecuaciones",
     "subcategory": "Inecuación cuadrática",
-    "difficulty": 4,
-    "type": "multiple_choice",
-    "title": "Conjunto Solución de una Inecuación Cuadrática",
-    "question": "Resuelve la inecuación cuadrática:",
-    "latex": "x^2 - 9 < 0",
-    "answer": "(-3, 3)",
-    "options": [
-      "(-3, 3)",
-      "(-\\infty, -3) \\cup (3, \\infty)",
-      "[-3, 3]",
-      "x < 3"
-    ],
-    "solution": [
-      {
-        "latex": "(x - 3)(x + 3) < 0",
-        "explanation": "Factorizamos como diferencia de cuadrados."
-      },
-      {
-        "latex": "\\text{Puntos críticos: } x = -3, \\quad x = 3",
-        "explanation": "Analizamos los intervalos de signos."
-      },
-      {
-        "latex": "x \\in (-3, 3)",
-        "explanation": "El producto es negativo entre -3 y 3."
-      }
-    ],
-    "hints": [
-      "El producto (x-3)(x+3) es menor que cero entre las raíces -3 y 3."
-    ]
-  },
-  {
-    "id": "math-10-005",
-    "grade": 10,
-    "category": "Sucesiones",
-    "subcategory": "Progresión aritmética",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Término General de Progresión Aritmética",
-    "question": "En una progresión aritmética con primer término a_1 = 4 y diferencia d = 3, calcula el décimo término a_{10}:",
-    "latex": "a_n = a_1 + (n - 1)d",
-    "answer": "31",
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - x - 12 > 0",
+    "answer": "(-inf, -3) U (4, inf)",
     "solution": [
       {
-        "latex": "a_{10} = 4 + (10 - 1) \\times 3",
-        "explanation": "Sustituimos n = 10, a_1 = 4 y d = 3."
+        "latex": "(x - -3)(x - 4) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
       },
       {
-        "latex": "a_{10} = 4 + 9 \\times 3 = 4 + 27 = 31",
-        "explanation": "Multiplicamos 9 × 3 y sumamos 4."
+        "latex": "x_1 = -3, x_2 = 4",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (4, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
       }
     ],
     "hints": [
-      "Usa a_10 = a_1 + 9d."
-    ]
-  },
-  {
-    "id": "math-10-006",
-    "grade": 10,
-    "category": "Sucesiones",
-    "subcategory": "Progresión geométrica",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Progresión Geométrica",
-    "question": "En una progresión geométrica con a_1 = 3 y razón r = 2, calcula el sexto término a_6:",
-    "latex": "a_n = a_1 \\cdot r^{n-1}",
-    "answer": "96",
-    "solution": [
-      {
-        "latex": "a_6 = 3 \\cdot 2^{6-1} = 3 \\cdot 2^5",
-        "explanation": "Sustituimos n = 6 y r = 2 en la fórmula del término general."
-      },
-      {
-        "latex": "2^5 = 32 \\implies a_6 = 3 \\cdot 32 = 96",
-        "explanation": "Multiplicamos 3 por 32."
-      }
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
     ],
-    "hints": [
-      "Calcula 3 × (2^5)."
-    ]
+    "id": "math-10-002"
   },
   {
-    "id": "math-10-007",
     "grade": 10,
-    "category": "Álgebra avanzada",
-    "subcategory": "Ecuación exponencial simple",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Resolución de Ecuación Exponencial",
-    "question": "Encuentra el valor de x que satisface la siguiente igualdad exponencial:",
-    "latex": "2^{3x - 1} = 32",
-    "answer": "2",
-    "solution": [
-      {
-        "latex": "32 = 2^5 \\implies 2^{3x - 1} = 2^5",
-        "explanation": "Expresamos ambos lados con la misma base 2."
-      },
-      {
-        "latex": "3x - 1 = 5",
-        "explanation": "Igualamos los exponentes."
-      },
-      {
-        "latex": "3x = 6 \\implies x = 2",
-        "explanation": "Resolvemos la ecuación lineal simple."
-      }
-    ],
-    "hints": [
-      "Escribe 32 como 2^5 e iguala los exponentes."
-    ]
-  },
-  {
-    "id": "math-10-008",
-    "grade": 10,
-    "category": "Trigonometría básica",
-    "subcategory": "Ángulos especiales",
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
     "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Coseno de 60 Grados",
-    "question": "¿Cuál es el valor exacto de \\cos(60^\\circ)?",
-    "latex": "\\cos(60^\\circ)",
-    "answer": "1/2",
-    "options": [
-      "1/2",
-      "\\sqrt{3}/2",
-      "\\sqrt{2}/2",
-      "1"
-    ],
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 2 x^{3} - 3 x^{2} + 2",
+    "answer": "-3",
     "solution": [
       {
-        "latex": "\\cos(60^\\circ) = 0.5 = \\frac{1}{2}",
-        "explanation": "Valor exacto de las razones de ángulos notables."
-      }
-    ],
-    "hints": [
-      "El coseno de 60° es el mismo valor que el seno de 30°."
-    ]
-  },
-  {
-    "id": "math-10-009",
-    "grade": 10,
-    "category": "Geometría analítica",
-    "subcategory": "Ecuación de la circunferencia",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Radio de una Circunferencia",
-    "question": "Dada la ecuación de la circunferencia (x - 2)^2 + (y + 5)^2 = 49, ¿cuál es la medida de su radio r?",
-    "latex": "(x - h)^2 + (y - k)^2 = r^2",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "r^2 = 49",
-        "explanation": "En la ecuación canónica de la circunferencia, el término independiente es r^2."
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
       },
       {
-        "latex": "r = \\sqrt{49} = 7",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "2(-1)^3 + -3(-1)^2 + 0(-1) + 2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
       }
     ],
     "hints": [
-      "Calcula la raíz cuadrada de 49."
-    ]
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-003"
   },
   {
-    "id": "math-10-010",
     "grade": 10,
-    "category": "Logaritmos básicos",
-    "subcategory": "Definición de logaritmo",
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = 3 x^{3} - 4 x^{2} + 2",
+    "answer": "-38",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(-2)^3 + -4(-2)^2 + 0(-2) + 2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-38",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-004"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = 2 x^{3} - 3 x^{2} - x",
+    "answer": "-26",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-2)^3 + -3(-2)^2 + -1(-2) + 0",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-26",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-005"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = x^{3} + x^{2} + 4 x + 1",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-1)^3 + 1(-1)^2 + 4(-1) + 1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-006"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Evaluación de Logaritmo en Base 3",
-    "question": "Calcula el valor numérico de:",
-    "latex": "\\log_3(81)",
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x + 3 > 0",
+    "answer": "(-inf, 1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-007"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = x^{3} - 4 x^{2} + 2 x",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-1)^3 + -4(-1)^2 + 2(-1) + 0",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-7",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-008"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 2)$:",
+    "latex": "P(x) = 2 x^{3} + 4 x^{2} + 2 x - 1",
+    "answer": "35",
+    "solution": [
+      {
+        "latex": "P(2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(2)^3 + 4(2)^2 + 2(2) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "35",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-009"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 1)$:",
+    "latex": "P(x) = x^{3} + 4 x^{2} - 3 x + 4",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "P(1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(1)^3 + 4(1)^2 + -3(1) + 4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "6",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-010"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 9 > 0",
+    "answer": "(-inf, -3) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - -3)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -3, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-011"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 4}{x^{2} - x - 12}",
+    "answer": "\\frac{x - 1}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 1\\right)}{\\left(x - 4\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-012"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = x^{3} + x + 4",
+    "answer": "-6",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-2)^3 + 0(-2)^2 + 1(-2) + 4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-6",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-013"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 1)$:",
+    "latex": "P(x) = 3 x^{3} - 4 x^{2} + 2 x - 4",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(1)^3 + -4(1)^2 + 2(1) + -4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-014"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 8 x + 15}{x^{2} + x - 12}",
+    "answer": "\\frac{x - 5}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 3\\right)}{\\left(x - 3\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 5}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-015"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = 2 x^{3} - 2 x^{2} + 2 x - 3",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(0)^3 + -2(0)^2 + 2(0) + -3",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-016"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x > 0",
+    "answer": "(-inf, 0) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-017"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 2 x^{3} - x^{2} + 2 x - 4",
+    "answer": "-9",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-1)^3 + -1(-1)^2 + 2(-1) + -4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-9",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-018"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x - 5 > 0",
+    "answer": "(-inf, -1) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-019"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} + x - 6 > 0",
+    "answer": "(-inf, -3) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -3)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -3, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-020"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 4}{x^{2} + 3 x - 4}",
+    "answer": "\\frac{x - 4}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 1\\right)}{\\left(x - 1\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 4}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-021"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = x^{3} + 2 x^{2} - 4 x + 2",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-2)^3 + 2(-2)^2 + -4(-2) + 2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "10",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-022"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = 2 x^{3} - 4 x - 2",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(0)^3 + 0(0)^2 + -4(0) + -2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-2",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-023"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 4}{x^{2} - x - 12}",
+    "answer": "\\frac{x - 1}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 1\\right)}{\\left(x - 4\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-024"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 1)$:",
+    "latex": "P(x) = 3 x^{3} + x",
     "answer": "4",
     "solution": [
       {
-        "latex": "3^x = 81",
-        "explanation": "Por definición de logaritmo \\log_b(a) = c \\iff b^c = a."
+        "latex": "P(1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
       },
       {
-        "latex": "3^4 = 81 \\implies x = 4",
-        "explanation": "3 a la 4 es 81."
+        "latex": "3(1)^3 + 0(1)^2 + 1(1) + 0",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "4",
+        "explanation": "Evaluamos para obtener el residuo."
       }
     ],
     "hints": [
-      "¿A qué exponente debes elevar 3 para obtener 81? (3^4 = 81)"
-    ]
-  },
-  {
-    "id": "math-10-011",
-    "grade": 10,
-    "category": "Probabilidad",
-    "subcategory": "Permutaciones",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Permutación de Objetos Distintos",
-    "question": "¿De cuántas formas distintas se pueden ordenar 4 libros diferentes en un estante?",
-    "latex": "P_n = n!",
-    "answer": "24",
-    "solution": [
-      {
-        "latex": "P_4 = 4! = 4 \\times 3 \\times 2 \\times 1",
-        "explanation": "Aplicamos el factorial de 4."
-      },
-      {
-        "latex": "4! = 24",
-        "explanation": "24 formas distintas de ordenación."
-      }
+      "Sustituye x por el valor que hace cero al divisor."
     ],
-    "hints": [
-      "Calcula el factorial de 4 (4 × 3 × 2 × 1)."
-    ]
+    "id": "math-10-025"
   },
   {
-    "id": "math-10-012",
     "grade": 10,
-    "category": "Polinomios",
-    "subcategory": "Teorema del resto",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Teorema del Resto de una División Polinomial",
-    "question": "Calcula el resto de dividir el polinomio P(x) = x^3 - 2x^2 + 4 entre (x - 3):",
-    "latex": "R = P(3)",
-    "answer": "13",
-    "solution": [
-      {
-        "latex": "P(3) = 3^3 - 2(3)^2 + 4",
-        "explanation": "Por el Teorema del Resto, evaluamos P(x) en x = 3."
-      },
-      {
-        "latex": "P(3) = 27 - 2(9) + 4 = 27 - 18 + 4 = 13",
-        "explanation": "27 - 18 = 9, y 9 + 4 = 13."
-      }
-    ],
-    "hints": [
-      "Sustituye x = 3 directamente en la fórmula de P(x)."
-    ]
-  },
-  {
-    "id": "math-10-013",
-    "grade": 10,
-    "category": "Geometría analítica",
-    "subcategory": "Rectas perpendiculares",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Pendiente de una Recta Perpendicular",
-    "question": "Si una recta L_1 tiene una pendiente m_1 = 4, ¿cuál debe ser el valor numérico de la pendiente m_2 de una recta L_2 perpendicular a ella?",
-    "latex": "m_1 \\cdot m_2 = -1",
-    "answer": "-0.25",
-    "solution": [
-      {
-        "latex": "4 \\cdot m_2 = -1",
-        "explanation": "Dos rectas no verticales son perpendiculares si el producto de sus pendientes es -1."
-      },
-      {
-        "latex": "m_2 = -\\frac{1}{4} = -0.25",
-        "explanation": "Despejamos m_2 = -1/4."
-      }
-    ],
-    "hints": [
-      "La pendiente perpendicular es el recíproco negativo: -1/4 = -0.25."
-    ]
-  },
-  {
-    "id": "math-10-014",
-    "grade": 10,
-    "category": "Lógica matemática",
-    "subcategory": "Tablas de verdad",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
     "difficulty": 2,
-    "type": "true_false",
-    "title": "Implicación Lógica",
-    "question": "En lógica formal, si la proposición P es Falsa y la proposición Q es Verdades, ¿la implicación P \\implies Q es Verdades?",
-    "latex": "F \\implies V",
-    "answer": "Verdadero",
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 6 x + 8}{x^{2} + x - 20}",
+    "answer": "\\frac{x - 2}{x + 5}",
     "solution": [
       {
-        "latex": "F \\implies V \\equiv V",
-        "explanation": "Una condicional o implicación sólo es falsa cuando el antecedente es Verdadero y el consecuente es Falso."
-      }
-    ],
-    "hints": [
-      "Una promesa condicional no se viola si el supuesto inicial es falso."
-    ]
-  },
-  {
-    "id": "math-10-015",
-    "grade": 10,
-    "category": "Funciones",
-    "subcategory": "Dominio de funciones",
-    "difficulty": 3,
-    "type": "multiple_choice",
-    "title": "Dominio de Función Racional",
-    "question": "Determina el dominio de la función real:",
-    "latex": "f(x) = \\frac{5}{x - 4}",
-    "answer": "R - {4}",
-    "options": [
-      "R - {4}",
-      "R - {0}",
-      "(4, \\infty)",
-      "[-4, 4]"
-    ],
-    "solution": [
-      {
-        "latex": "x - 4 \\neq 0 \\implies x \\neq 4",
-        "explanation": "El denominador no puede ser igual a cero."
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 2\\right)}{\\left(x - 4\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
       },
       {
-        "latex": "\\text{Dom}(f) = \\mathbb{R} \\setminus \\{4\\}",
-        "explanation": "Todos los reales excepto el 4."
+        "latex": "\\frac{x - 2}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
       }
     ],
     "hints": [
-      "Determina qué valor hace que el denominador valga cero."
-    ]
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-026"
   },
   {
-    "id": "math-10-016",
     "grade": 10,
-    "category": "Trigonometría básica",
-    "subcategory": "Tangente",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
     "difficulty": 2,
-    "type": "numeric",
-    "title": "Tangente de 45 Grados",
-    "question": "Calcula el valor exacto de \\tan(45^\\circ):",
-    "latex": "\\tan(45^\\circ) = \\frac{\\sin(45^\\circ)}{\\cos(45^\\circ)}",
-    "answer": "1",
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 8 x + 15}{x^{2} - 2 x - 15}",
+    "answer": "\\frac{x - 3}{x + 3}",
     "solution": [
       {
-        "latex": "\\sin(45^\\circ) = \\cos(45^\\circ) = \\frac{\\sqrt{2}}{2}",
-        "explanation": "En un ángulo de 45°, ambos catetos son iguales."
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 3\\right)}{\\left(x - 5\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
       },
       {
-        "latex": "\\tan(45^\\circ) = 1",
-        "explanation": "La razón es igual a 1."
+        "latex": "\\frac{x - 3}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
       }
     ],
     "hints": [
-      "Los catetos opuesto y adyacente son iguales a 45°."
-    ]
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-027"
   },
   {
-    "id": "math-10-017",
     "grade": 10,
-    "category": "Álgebra avanzada",
-    "subcategory": "Racionalización",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 4}{x^{2} - 2 x - 8}",
+    "answer": "\\frac{x - 1}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 1\\right)}{\\left(x - 4\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-028"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 8 x + 15}{x^{2} - x - 20}",
+    "answer": "\\frac{x - 3}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 3\\right)}{\\left(x - 5\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-029"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = x^{3} + 2 x^{2} - 4 x + 4",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(0)^3 + 2(0)^2 + -4(0) + 4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "4",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-030"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
     "difficulty": 3,
-    "type": "multiple_choice",
-    "title": "Racionalización de Denominadores",
-    "question": "Racionaliza la fracción:",
-    "latex": "\\frac{6}{\\sqrt{3}}",
-    "answer": "2\\sqrt{3}",
-    "options": [
-      "2\\sqrt{3}",
-      "6\\sqrt{3}",
-      "3\\sqrt{2}",
-      "2"
-    ],
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} + x - 6 > 0",
+    "answer": "(-inf, -3) U (2, inf)",
     "solution": [
       {
-        "latex": "\\frac{6}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}}",
-        "explanation": "Multiplicamos por \\sqrt{3}/\\sqrt{3}."
+        "latex": "(x - -3)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
       },
       {
-        "latex": "\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}",
-        "explanation": "Simplificamos 6/3 = 2."
+        "latex": "x_1 = -3, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
       }
     ],
     "hints": [
-      "Multiplica arriba y abajo por \\sqrt{3}."
-    ]
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-031"
   },
   {
-    "id": "math-10-018",
     "grade": 10,
-    "category": "Estadística",
-    "subcategory": "Cuartiles",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Primer Cuartil (Q1)",
-    "question": "Calcula la posición ordinal o valor aproximado de Q_1 para los datos ordenados: 2, 4, 6, 8, 10, 12, 14, 16",
-    "latex": "Q_1",
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 5 x + 4 > 0",
+    "answer": "(-inf, 1) U (4, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 4) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 4",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (4, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-032"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 2 x^{3} - 3 x^{2} + 4 x - 1",
+    "answer": "-10",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-1)^3 + -3(-1)^2 + 4(-1) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-10",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-033"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 3 x^{3} + 4 x^{2} - 2 x - 1",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(-1)^3 + 4(-1)^2 + -2(-1) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "2",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-034"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} + x - 6}",
+    "answer": "\\frac{x - 3}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-035"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x + 3 > 0",
+    "answer": "(-inf, 1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-036"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = 3 x^{3} + 3 x^{2} - 3 x + 2",
+    "answer": "-4",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(-2)^3 + 3(-2)^2 + -3(-2) + 2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-4",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-037"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 5 x + 4 > 0",
+    "answer": "(-inf, 1) U (4, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 4) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 4",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (4, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-038"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 3 x + 2}{x^{2} + 2 x - 8}",
+    "answer": "\\frac{x - 1}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 2\\right) \\left(x - 1\\right)}{\\left(x - 2\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-039"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x - 3 > 0",
+    "answer": "(-inf, -1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-040"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 3 x + 2}{x^{2} + 3 x - 10}",
+    "answer": "\\frac{x - 1}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 2\\right) \\left(x - 1\\right)}{\\left(x - 2\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-041"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = 3 x^{3} + x^{2} - 4 x - 1",
+    "answer": "-1",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(0)^3 + 1(0)^2 + -4(0) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-1",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-042"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 1)$:",
+    "latex": "P(x) = 3 x^{3} - 4 x^{2} - 3 x + 1",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(1)^3 + -4(1)^2 + -3(1) + 1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-043"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = x^{3} + 2 x^{2} + 2 x - 1",
+    "answer": "-5",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-2)^3 + 2(-2)^2 + 2(-2) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-5",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-044"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 2)$:",
+    "latex": "P(x) = 2 x^{3} + 4 x^{2} + x - 1",
+    "answer": "33",
+    "solution": [
+      {
+        "latex": "P(2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(2)^3 + 4(2)^2 + 1(2) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "33",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-045"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = 2 x^{3} - 2 x^{2} - 2 x - 4",
+    "answer": "-24",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-2)^3 + -2(-2)^2 + -2(-2) + -4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-24",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-046"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = x^{3} + 2 x^{2} - 3 x - 1",
     "answer": "5",
     "solution": [
       {
-        "latex": "\\text{Mitad inferior} = \\{2, 4, 6, 8\\}",
-        "explanation": "Dividimos los 8 datos en dos mitades."
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
       },
       {
-        "latex": "Q_1 = \\frac{4 + 6}{2} = 5",
-        "explanation": "Promediamos los dos valores centrales de la mitad inferior."
+        "latex": "1(-2)^3 + 2(-2)^2 + -3(-2) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "5",
+        "explanation": "Evaluamos para obtener el residuo."
       }
     ],
     "hints": [
-      "El primer cuartil es la mediana de la mitad inferior (2, 4, 6, 8)."
-    ]
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-047"
   },
   {
-    "id": "math-10-019",
     "grade": 10,
-    "category": "Sucesiones",
-    "subcategory": "Suma de progresión aritmética",
-    "difficulty": 5,
-    "type": "numeric",
-    "title": "Suma de los Primeros N Números Naturales",
-    "question": "Calcula la suma de todos los números enteros desde el 1 hasta el 50:",
-    "latex": "S_n = \\frac{n(n + 1)}{2}",
-    "answer": "1275",
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 3 x + 2}{x^{2} + 2 x - 3}",
+    "answer": "\\frac{x - 2}{x + 3}",
     "solution": [
       {
-        "latex": "S_{50} = \\frac{50 \\times 51}{2}",
-        "explanation": "Fórmula célebre de Gauss con n = 50."
+        "latex": "\\frac{\\left(x - 2\\right) \\left(x - 1\\right)}{\\left(x - 1\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
       },
       {
-        "latex": "S_{50} = 25 \\times 51 = 1275",
-        "explanation": "Multiplicamos 25 × 51 = 1275."
+        "latex": "\\frac{x - 2}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
       }
     ],
     "hints": [
-      "Aplica n(n+1)/2 para n = 50."
-    ]
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-048"
   },
   {
-    "id": "math-10-020",
     "grade": 10,
-    "category": "Ecuaciones cuadráticas",
-    "subcategory": "Completar el cuadrado",
-    "difficulty": 4,
-    "type": "multiple_choice",
-    "title": "Completar el Trinomio Cuadrado Perfecto",
-    "question": "¿Qué número se debe sumar a la expresión x^2 + 8x para formar un trinomio cuadrado perfecto?",
-    "latex": "x^2 + 8x + k",
-    "answer": "16",
-    "options": [
-      "16",
-      "64",
-      "8",
-      "4"
-    ],
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 2)$:",
+    "latex": "P(x) = 3 x^{3} + x^{2} + 4 x",
+    "answer": "36",
     "solution": [
       {
-        "latex": "k = \\left(\\frac{b}{2}\\right)^2",
-        "explanation": "Fórmula para completar el cuadrado."
+        "latex": "P(2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
       },
       {
-        "latex": "k = \\left(\\frac{8}{2}\\right)^2 = 4^2 = 16",
-        "explanation": "El valor constante a sumar es 16."
+        "latex": "3(2)^3 + 1(2)^2 + 4(2) + 0",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "36",
+        "explanation": "Evaluamos para obtener el residuo."
       }
     ],
     "hints": [
-      "Toma la mitad del coeficiente de x (8/2 = 4) y elévala al cuadrado."
-    ]
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-049"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 5 x > 0",
+    "answer": "(-inf, 0) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-050"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 3 x + 2}{x^{2} - 4}",
+    "answer": "\\frac{x - 1}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 2\\right) \\left(x - 1\\right)}{\\left(x - 2\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-051"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} - 16}",
+    "answer": "\\frac{x - 3}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 4\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-052"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 3 x^{3} - 4 x^{2} + 4 x",
+    "answer": "-11",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(-1)^3 + -4(-1)^2 + 4(-1) + 0",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-11",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-053"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x > 0",
+    "answer": "(-inf, 0) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-054"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 8 x + 15}{x^{2} + x - 12}",
+    "answer": "\\frac{x - 5}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 3\\right)}{\\left(x - 3\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 5}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-055"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 3 x > 0",
+    "answer": "(-inf, 0) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-056"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = x^{3} + 4 x^{2} + 2 x + 4",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "1(-1)^3 + 4(-1)^2 + 2(-1) + 4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "5",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-057"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = 3 x^{3} + 4 x^{2} - 3 x - 4",
+    "answer": "-4",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(0)^3 + 4(0)^2 + -3(0) + -4",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-4",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-058"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} + x - 6 > 0",
+    "answer": "(-inf, -3) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -3)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -3, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-059"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 6 x + 8}{x^{2} - x - 12}",
+    "answer": "\\frac{x - 2}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 2\\right)}{\\left(x - 4\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 2}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-060"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 10}{x^{2} - 3 x - 10}",
+    "answer": "\\frac{x - 2}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 2\\right)}{\\left(x - 5\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 2}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-061"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x > 0",
+    "answer": "(-inf, 0) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-062"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} + 2 x - 15}",
+    "answer": "\\frac{x - 4}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 3\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 4}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-063"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x - 8 > 0",
+    "answer": "(-inf, -2) U (4, inf)",
+    "solution": [
+      {
+        "latex": "(x - -2)(x - 4) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -2, x_2 = 4",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -2) \\cup (4, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-064"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -2)$:",
+    "latex": "P(x) = 2 x^{3} + 3 x^{2} - 3 x - 2",
+    "answer": "0",
+    "solution": [
+      {
+        "latex": "P(-2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-2)^3 + 3(-2)^2 + -3(-2) + -2",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "0",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-065"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 4}{x^{2} - 2 x - 8}",
+    "answer": "\\frac{x - 1}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 1\\right)}{\\left(x - 4\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-066"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} - 4}",
+    "answer": "\\frac{x - 3}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-067"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - x - 6 > 0",
+    "answer": "(-inf, -2) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - -2)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -2, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -2) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-068"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x + 3 > 0",
+    "answer": "(-inf, 1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-069"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 3 x - 10 > 0",
+    "answer": "(-inf, -2) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - -2)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -2, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -2) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-070"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} + 3 x - 10}",
+    "answer": "\\frac{x - 3}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-071"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - x - 2 > 0",
+    "answer": "(-inf, -1) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-072"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 5 x > 0",
+    "answer": "(-inf, 0) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-073"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 2)$:",
+    "latex": "P(x) = 2 x^{3} + 4 x + 3",
+    "answer": "27",
+    "solution": [
+      {
+        "latex": "P(2)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(2)^3 + 0(2)^2 + 4(2) + 3",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "27",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-074"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - x - 2 > 0",
+    "answer": "(-inf, -1) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-075"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} + 3 x - 10}",
+    "answer": "\\frac{x - 3}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-076"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 3 x + 2}{x^{2} - 4}",
+    "answer": "\\frac{x - 1}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 2\\right) \\left(x - 1\\right)}{\\left(x - 2\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 1}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-077"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 3 x - 10 > 0",
+    "answer": "(-inf, -2) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - -2)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -2, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -2) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-078"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 5 x > 0",
+    "answer": "(-inf, 0) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - 0)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 0, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 0) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-079"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 6 x + 9}{x^{2} + x - 12}",
+    "answer": "\\frac{x - 3}{x + 4}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right)^{2}}{\\left(x - 3\\right) \\left(x + 4\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 4}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-080"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 1)$:",
+    "latex": "P(x) = 3 x^{3} + x^{2} - x - 1",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "P(1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(1)^3 + 1(1)^2 + -1(1) + -1",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "2",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-081"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} + x - 20}",
+    "answer": "\\frac{x - 3}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 4\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-082"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} - x - 6}",
+    "answer": "\\frac{x - 4}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 3\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 4}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-083"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x - 3 > 0",
+    "answer": "(-inf, -1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-084"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} + 3 x - 10}",
+    "answer": "\\frac{x - 3}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-085"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x + 3 > 0",
+    "answer": "(-inf, 1) U (3, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 3) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 3",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (3, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-086"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 4 x - 5 > 0",
+    "answer": "(-inf, -1) U (5, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 5) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 5",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (5, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-087"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - x - 2 > 0",
+    "answer": "(-inf, -1) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -1)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -1, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -1) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-088"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 2 x - 8 > 0",
+    "answer": "(-inf, -2) U (4, inf)",
+    "solution": [
+      {
+        "latex": "(x - -2)(x - 4) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -2, x_2 = 4",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -2) \\cup (4, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-089"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} - 3 x + 2 > 0",
+    "answer": "(-inf, 1) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - 1)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = 1, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, 1) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-090"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 10 x + 25}{x^{2} - 3 x - 10}",
+    "answer": "\\frac{x - 5}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right)^{2}}{\\left(x - 5\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 5}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-091"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 10}{x^{2} - 2 x - 15}",
+    "answer": "\\frac{x - 2}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 5\\right) \\left(x - 2\\right)}{\\left(x - 5\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 2}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-092"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - -1)$:",
+    "latex": "P(x) = 2 x^{3} - x^{2} - 3 x - 3",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(-1)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "2(-1)^3 + -1(-1)^2 + -3(-1) + -3",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-093"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 5 x + 6}{x^{2} - 4}",
+    "answer": "\\frac{x - 3}{x + 2}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 3\\right) \\left(x - 2\\right)}{\\left(x - 2\\right) \\left(x + 2\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 2}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-094"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 6 x + 8}{x^{2} - x - 12}",
+    "answer": "\\frac{x - 2}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 2\\right)}{\\left(x - 4\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 2}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-095"
+  },
+  {
+    "grade": 10,
+    "category": "Inecuaciones",
+    "subcategory": "Inecuación cuadrática",
+    "difficulty": 3,
+    "title": "Inecuación Cuadrática",
+    "question": "Resuelve la inecuación y expresa la solución en notación de intervalo (ej. (-inf, a) U (b, inf)):",
+    "latex": "x^{2} + x - 6 > 0",
+    "answer": "(-inf, -3) U (2, inf)",
+    "solution": [
+      {
+        "latex": "(x - -3)(x - 2) > 0",
+        "explanation": "Encontramos las raíces críticas factorizando."
+      },
+      {
+        "latex": "x_1 = -3, x_2 = 2",
+        "explanation": "Puntos críticos en la recta numérica."
+      },
+      {
+        "latex": "(-inf, -3) \\cup (2, inf)",
+        "explanation": "Evaluamos los intervalos. Como es >, tomamos las zonas positivas (los extremos)."
+      }
+    ],
+    "hints": [
+      "Encuentra las raíces y evalúa los signos en la recta numérica."
+    ],
+    "id": "math-10-096"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} - x - 12}",
+    "answer": "\\frac{x - 3}{x + 3}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 4\\right) \\left(x + 3\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 3}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-097"
+  },
+  {
+    "grade": 10,
+    "category": "Fracciones Algebraicas",
+    "subcategory": "Simplificación",
+    "difficulty": 2,
+    "title": "Simplificación de Expresiones",
+    "question": "Simplifica al máximo la siguiente fracción algebraica:",
+    "latex": "\\frac{x^{2} - 7 x + 12}{x^{2} + x - 20}",
+    "answer": "\\frac{x - 3}{x + 5}",
+    "solution": [
+      {
+        "latex": "\\frac{\\left(x - 4\\right) \\left(x - 3\\right)}{\\left(x - 4\\right) \\left(x + 5\\right)}",
+        "explanation": "Factorizamos tanto el numerador como el denominador."
+      },
+      {
+        "latex": "\\frac{x - 3}{x + 5}",
+        "explanation": "Cancelamos el factor común para obtener la expresión simplificada."
+      }
+    ],
+    "hints": [
+      "Busca factorizar los trinomios en el numerador y denominador."
+    ],
+    "id": "math-10-098"
+  },
+  {
+    "grade": 10,
+    "category": "Polinomios de Tercer Grado",
+    "subcategory": "Teorema del Residuo",
+    "difficulty": 2,
+    "title": "Residuo de un Polinomio",
+    "question": "Usa el teorema del residuo para encontrar el resto al dividir el polinomio entre $(x - 0)$:",
+    "latex": "P(x) = 3 x^{3} - 3 x^{2} - 4 x - 3",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "P(0)",
+        "explanation": "Por el teorema del residuo, evaluamos el polinomio en el valor."
+      },
+      {
+        "latex": "3(0)^3 + -3(0)^2 + -4(0) + -3",
+        "explanation": "Sustituimos x."
+      },
+      {
+        "latex": "-3",
+        "explanation": "Evaluamos para obtener el residuo."
+      }
+    ],
+    "hints": [
+      "Sustituye x por el valor que hace cero al divisor."
+    ],
+    "id": "math-10-099"
   }
 ]

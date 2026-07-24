@@ -1,552 +1,2494 @@
 [
   {
-    "id": "math-8-001",
     "grade": 8,
-    "category": "Álgebra",
-    "subcategory": "Ecuaciones lineales",
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
     "difficulty": 2,
-    "type": "numeric",
-    "title": "Ecuación Lineal Simple",
-    "question": "Resuelve la siguiente ecuación de primer grado para x:",
-    "latex": "4x - 7 = 21",
-    "answer": "7",
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 4)(5 x + 2)",
+    "answer": "5 x^{2} - 18 x - 8",
     "solution": [
       {
-        "latex": "4x - 7 = 21",
-        "explanation": "Ecuación original."
+        "latex": "(1x)(5x) + (1x)(2) + (-4)(5x) + (-4)(2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
       },
       {
-        "latex": "4x = 21 + 7",
-        "explanation": "Sumamos 7 a ambos lados."
+        "latex": "5x^2 + 2x + -20x + -8",
+        "explanation": "Resolvemos las multiplicaciones parciales."
       },
       {
-        "latex": "4x = 28",
-        "explanation": "Simplificamos."
-      },
-      {
-        "latex": "x = \\frac{28}{4} = 7",
-        "explanation": "Dividimos entre 4."
+        "latex": "5 x^{2} - 18 x - 8",
+        "explanation": "Simplificamos términos semejantes."
       }
     ],
     "hints": [
-      "Suma 7 a 21 y luego divide el resultado entre 4."
-    ]
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-000"
   },
   {
-    "id": "math-8-002",
-    "grade": 8,
-    "category": "Álgebra",
-    "subcategory": "Expresiones algebraicas",
-    "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Reducción de Términos Semejantes",
-    "question": "Simplifica la expresión algebraica reduciendo términos semejantes:",
-    "latex": "5x + 3y - 2x + 7y",
-    "answer": "3x + 10y",
-    "options": [
-      "3x + 10y",
-      "7x + 10y",
-      "3x + 4y",
-      "13xy"
-    ],
-    "solution": [
-      {
-        "latex": "(5x - 2x) + (3y + 7y)",
-        "explanation": "Agrupamos las x y las y."
-      },
-      {
-        "latex": "3x + 10y",
-        "explanation": "Sumamos los coeficientes."
-      }
-    ],
-    "hints": [
-      "Junta los términos que tienen x por un lado y los términos con y por otro."
-    ]
-  },
-  {
-    "id": "math-8-003",
-    "grade": 8,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 3,
-    "type": "numeric",
-    "title": "Hipotenusa de un Triángulo Rectángulo",
-    "question": "Un triángulo rectángulo tiene catetos de a = 6 cm y b = 8 cm. ¿Cuánto mide su hipotenusa c en cm?",
-    "latex": "c = \\sqrt{a^2 + b^2}",
-    "answer": "10",
-    "solution": [
-      {
-        "latex": "c^2 = 6^2 + 8^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras."
-      },
-      {
-        "latex": "c^2 = 36 + 64 = 100",
-        "explanation": "Elevamos al cuadrado los catetos y los sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{100} = 10",
-        "explanation": "Extraemos la raíz cuadrada de 100."
-      }
-    ],
-    "hints": [
-      "Suma los cuadrados de 6 y 8 (36 + 64) y calcula la raíz cuadrada de esa suma."
-    ]
-  },
-  {
-    "id": "math-8-004",
-    "grade": 8,
-    "category": "Potencias y Raíces",
-    "subcategory": "Leyes de los exponentes",
-    "difficulty": 2,
-    "type": "numeric",
-    "title": "División de Potencias",
-    "question": "Calcula el valor numérico de la división de potencias:",
-    "latex": "\\frac{5^7}{5^4}",
-    "answer": "125",
-    "solution": [
-      {
-        "latex": "\\frac{5^7}{5^4} = 5^{7-4} = 5^3",
-        "explanation": "Al dividir potencias de la misma base, restamos los exponentes."
-      },
-      {
-        "latex": "5^3 = 5 \\times 5 \\times 5 = 125",
-        "explanation": "Calculamos 5 al cubo."
-      }
-    ],
-    "hints": [
-      "Resta los exponentes: 7 - 4 = 3, luego calcula 5^3."
-    ]
-  },
-  {
-    "id": "math-8-005",
     "grade": 8,
     "category": "Sistemas de Ecuaciones",
-    "subcategory": "Sistema 2x2 básico",
+    "subcategory": "Ecuaciones 2x2",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Sistema de Ecuaciones por Eliminación",
-    "question": "Encuentra el valor de x que satisface el siguiente sistema:",
-    "latex": "\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x -4y = -4 \\\\ 1x +2y = -1 \\end{cases}",
+    "answer": "(-1, 0)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -1, y = 0",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-001"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x  -5$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
+    "latex": "y = 3(3)  -5",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "y = 9  -5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 4",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-002"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 4)(3 x - 2)",
+    "answer": "3 x^{2} - 14 x + 8",
+    "solution": [
+      {
+        "latex": "(1x)(3x) + (1x)(-2) + (-4)(3x) + (-4)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "3x^2 + -2x + -12x + 8",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "3 x^{2} - 14 x + 8",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-003"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x  -1$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
+    "latex": "y = -3(2)  -1",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "y = -6  -1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -7",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-004"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x  -3$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = -2(1)  -3",
+    "answer": "-5",
+    "solution": [
+      {
+        "latex": "y = -2  -3",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -5",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-005"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 5)(3 x + 1)",
+    "answer": "6 x^{2} + 17 x + 5",
+    "solution": [
+      {
+        "latex": "(2x)(3x) + (2x)(1) + (5)(3x) + (5)(1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "6x^2 + 2x + 15x + 5",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "6 x^{2} + 17 x + 5",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-006"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x + 3)(5 x - 4)",
+    "answer": "15 x^{2} + 3 x - 12",
+    "solution": [
+      {
+        "latex": "(3x)(5x) + (3x)(-4) + (3)(5x) + (3)(-4)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "15x^2 + -12x + 15x + -12",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "15 x^{2} + 3 x - 12",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-007"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -1x + 4$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
+    "latex": "y = -1(3) + 4",
+    "answer": "1",
+    "solution": [
+      {
+        "latex": "y = -3 + 4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 1",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-008"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x + 3$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = 4(1) + 3",
     "answer": "7",
     "solution": [
       {
-        "latex": "(x + y) + (x - y) = 10 + 4",
-        "explanation": "Sumamos ambas ecuaciones término a término para eliminar y."
+        "latex": "y = 4 + 3",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
       },
       {
-        "latex": "2x = 14",
-        "explanation": "Simplificamos: y - y = 0."
-      },
-      {
-        "latex": "x = 7",
-        "explanation": "Dividimos 14 entre 2."
+        "latex": "y = 7",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
       }
     ],
     "hints": [
-      "Suma las dos ecuaciones para eliminar la variable y."
-    ]
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-009"
   },
   {
-    "id": "math-8-006",
     "grade": 8,
-    "category": "Geometría",
-    "subcategory": "Volumen de un prisma",
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
     "difficulty": 2,
-    "type": "numeric",
-    "title": "Volumen de un Prisma Rectangular",
-    "question": "Un prisma rectangular tiene un largo de 5 cm, ancho de 3 cm y altura de 8 cm. ¿Cuál es su volumen en \\text{cm}^3?",
-    "latex": "V = largo \\times ancho \\times altura",
-    "answer": "120",
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 1)(4 x + 5)",
+    "answer": "4 x^{2} + x - 5",
     "solution": [
       {
-        "latex": "V = 5 \\times 3 \\times 8",
-        "explanation": "Sustituimos las dimensiones en la fórmula de volumen."
+        "latex": "(1x)(4x) + (1x)(5) + (-1)(4x) + (-1)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
       },
       {
-        "latex": "V = 15 \\times 8 = 120",
-        "explanation": "Multiplicamos 5 × 3 × 8 = 120."
+        "latex": "4x^2 + 5x + -4x + -5",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "4 x^{2} + x - 5",
+        "explanation": "Simplificamos términos semejantes."
       }
     ],
     "hints": [
-      "Multiplica las tres dimensiones: 5 × 3 × 8."
-    ]
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-010"
   },
   {
-    "id": "math-8-007",
     "grade": 8,
-    "category": "Probabilidad básica",
-    "subcategory": "Lanzamiento de dado",
-    "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Probabilidad de un Evento Simple",
-    "question": "Al lanzar un dado estándar de 6 caras, ¿cuál es la probabilidad de obtener un número par?",
-    "latex": "P = \\frac{\\text{Casos favorables}}{\\text{Casos posibles}}",
-    "answer": "1/2",
-    "options": [
-      "1/2",
-      "1/3",
-      "1/6",
-      "2/3"
-    ],
-    "solution": [
-      {
-        "latex": "\\text{Casos posibles: } \\{1, 2, 3, 4, 5, 6\\} \\implies 6",
-        "explanation": "Total de resultados posibles."
-      },
-      {
-        "latex": "\\text{Casos favorables (pares): } \\{2, 4, 6\\} \\implies 3",
-        "explanation": "Los números pares en un dado."
-      },
-      {
-        "latex": "P = \\frac{3}{6} = \\frac{1}{2}",
-        "explanation": "Simplificamos 3/6 a 1/2."
-      }
-    ],
-    "hints": [
-      "Hay 3 números pares (2, 4, 6) de un total de 6 caras."
-    ]
-  },
-  {
-    "id": "math-8-008",
-    "grade": 8,
-    "category": "Álgebra",
-    "subcategory": "Productos notables",
-    "difficulty": 3,
-    "type": "multiple_choice",
-    "title": "Binomio al Cuadrado",
-    "question": "Desarrolla el binomio al cuadrado:",
-    "latex": "(x + 4)^2",
-    "answer": "x^2 + 8x + 16",
-    "options": [
-      "x^2 + 8x + 16",
-      "x^2 + 16",
-      "x^2 + 4x + 16",
-      "2x + 8"
-    ],
-    "solution": [
-      {
-        "latex": "(a + b)^2 = a^2 + 2ab + b^2",
-        "explanation": "Fórmula del cuadrado de un binomio."
-      },
-      {
-        "latex": "x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16",
-        "explanation": "Aplicamos la regla con a = x y b = 4."
-      }
-    ],
-    "hints": [
-      "Recuerda que (a+b)^2 = a^2 + 2ab + b^2, no olvides el término del medio 2ab."
-    ]
-  },
-  {
-    "id": "math-8-009",
-    "grade": 8,
-    "category": "Estadística básica",
-    "subcategory": "Media aritmética",
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
     "difficulty": 1,
-    "type": "numeric",
-    "title": "Promedio de Calificaciones",
-    "question": "Un estudiante obtuvo las siguientes notas en 4 exámenes: 80, 90, 75 y 95. ¿Cuál es su promedio?",
-    "latex": "\\bar{x} = \\frac{\\sum x}{n}",
-    "answer": "85",
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 2x + 5$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = 2(-1) + 5",
+    "answer": "3",
     "solution": [
       {
-        "latex": "80 + 90 + 75 + 95 = 340",
-        "explanation": "Sumamos todas las notas."
+        "latex": "y = -2 + 5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
       },
       {
-        "latex": "\\bar{x} = \\frac{340}{4} = 85",
-        "explanation": "Dividimos la suma total entre la cantidad de exámenes (4)."
+        "latex": "y = 3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
       }
     ],
     "hints": [
-      "Suma los 4 datos y divide entre 4."
-    ]
-  },
-  {
-    "id": "math-8-010",
-    "grade": 8,
-    "category": "Geometría",
-    "subcategory": "Ángulos en un triángulo",
-    "difficulty": 1,
-    "type": "numeric",
-    "title": "Suma de Ángulos Interiores",
-    "question": "Dos ángulos de un triángulo miden 45° y 65°. ¿Cuánto mide el tercer ángulo en grados?",
-    "latex": "\\alpha + \\beta + \\gamma = 180^\\circ",
-    "answer": "70",
-    "solution": [
-      {
-        "latex": "45^\\circ + 65^\\circ = 110^\\circ",
-        "explanation": "Sumamos los dos ángulos conocidos."
-      },
-      {
-        "latex": "180^\\circ - 110^\\circ = 70^\\circ",
-        "explanation": "Restamos de 180° ya que la suma de ángulos internos de cualquier triángulo es 180°."
-      }
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
     ],
-    "hints": [
-      "La suma de los tres ángulos de un triángulo siempre es 180°."
-    ]
+    "id": "math-8-011"
   },
   {
-    "id": "math-8-011",
     "grade": 8,
-    "category": "Álgebra",
-    "subcategory": "Ecuaciones con incógnita en ambos lados",
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Ecuaciones con Variables en Ambos Lados",
-    "question": "Resuelve la ecuación:",
-    "latex": "5x - 3 = 2x + 12",
-    "answer": "5",
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x -4y = 15 \\\\ 1x -4y = 5 \\end{cases}",
+    "answer": "(5, 0)",
     "solution": [
       {
-        "latex": "5x - 2x = 12 + 3",
-        "explanation": "Pasamos los términos con x a la izquierda y las constantes a la derecha."
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
       },
       {
-        "latex": "3x = 15",
-        "explanation": "Simplificamos ambos lados."
-      },
-      {
-        "latex": "x = \\frac{15}{3} = 5",
-        "explanation": "Dividimos entre 3."
+        "latex": "x = 5, y = 0",
+        "explanation": "Solución del sistema."
       }
     ],
     "hints": [
-      "Resta 2x en ambos lados y suma 3 en ambos lados."
-    ]
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-012"
   },
   {
-    "id": "math-8-012",
     "grade": 8,
-    "category": "Potencias y Raíces",
-    "subcategory": "Raíz cuadrada",
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x +3y = 15 \\\\ 3x -3y = -15 \\end{cases}",
+    "answer": "(0, 5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 0, y = 5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-013"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x +1y = -3 \\\\ 2x +2y = -8 \\end{cases}",
+    "answer": "(1, -5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 1, y = -5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-014"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x -1y = -16 \\\\ 4x +2y = -8 \\end{cases}",
+    "answer": "(-4, 4)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -4, y = 4",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-015"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
     "difficulty": 2,
-    "type": "numeric",
-    "title": "Operaciones con Raíces",
-    "question": "Calcula el valor de la siguiente expresión:",
-    "latex": "\\sqrt{144} - \\sqrt{49}",
-    "answer": "5",
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 2)(4 x + 5)",
+    "answer": "20 x^{2} + 33 x + 10",
     "solution": [
       {
-        "latex": "\\sqrt{144} = 12, \\quad \\sqrt{49} = 7",
-        "explanation": "Calculamos las raíces cuadradas exactas."
+        "latex": "(5x)(4x) + (5x)(5) + (2)(4x) + (2)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
       },
       {
-        "latex": "12 - 7 = 5",
-        "explanation": "Restamos los resultados."
+        "latex": "20x^2 + 25x + 8x + 10",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "20 x^{2} + 33 x + 10",
+        "explanation": "Simplificamos términos semejantes."
       }
     ],
     "hints": [
-      "12^2 = 144 y 7^2 = 49."
-    ]
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-016"
   },
   {
-    "id": "math-8-013",
     "grade": 8,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporción inversa",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Proporcionalidad Inversa de Trabajadores",
-    "question": "Si 6 obreros construyen una cerca en 12 horas, ¿cuántas horas tardarán 9 obreros trabajando al mismo ritmo?",
-    "latex": "x = \\frac{6 \\times 12}{9}",
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x  -3$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = 4(-1)  -3",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "y = -4  -3",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -7",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-017"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 4)(3 x + 1)",
+    "answer": "3 x^{2} - 11 x - 4",
+    "solution": [
+      {
+        "latex": "(1x)(3x) + (1x)(1) + (-4)(3x) + (-4)(1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "3x^2 + 1x + -12x + -4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "3 x^{2} - 11 x - 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-018"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +1y = 18 \\\\ 3x +1y = 14 \\end{cases}",
+    "answer": "(4, 2)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 4, y = 2",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-019"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x + 3)(2 x + 3)",
+    "answer": "6 x^{2} + 15 x + 9",
+    "solution": [
+      {
+        "latex": "(3x)(2x) + (3x)(3) + (3)(2x) + (3)(3)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "6x^2 + 9x + 6x + 9",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "6 x^{2} + 15 x + 9",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-020"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x  -1$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = -2(1)  -1",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "y = -2  -1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-021"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(4 x + 1)(3 x - 1)",
+    "answer": "12 x^{2} - x - 1",
+    "solution": [
+      {
+        "latex": "(4x)(3x) + (4x)(-1) + (1)(3x) + (1)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "12x^2 + -4x + 3x + -1",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "12 x^{2} - x - 1",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-022"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +2y = -30 \\\\ 3x -1y = -10 \\end{cases}",
+    "answer": "(-5, -5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -5, y = -5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-023"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x -4y = -6 \\\\ 3x -1y = 11 \\end{cases}",
+    "answer": "(5, 4)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 5, y = 4",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-024"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x -3y = -17 \\\\ 3x -2y = -18 \\end{cases}",
+    "answer": "(-4, 3)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -4, y = 3",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-025"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x - 2)(4 x + 5)",
+    "answer": "12 x^{2} + 7 x - 10",
+    "solution": [
+      {
+        "latex": "(3x)(4x) + (3x)(5) + (-2)(4x) + (-2)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "12x^2 + 15x + -8x + -10",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "12 x^{2} + 7 x - 10",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-026"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x + 0$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
+    "latex": "y = -3(-3) + 0",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "y = 9 + 0",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 9",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-027"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x +3y = 11 \\\\ 2x +4y = 16 \\end{cases}",
+    "answer": "(-2, 5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -2, y = 5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-028"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 2)(2 x + 3)",
+    "answer": "2 x^{2} - x - 6",
+    "solution": [
+      {
+        "latex": "(1x)(2x) + (1x)(3) + (-2)(2x) + (-2)(3)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "2x^2 + 3x + -4x + -6",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "2 x^{2} - x - 6",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-029"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +3y = -6 \\\\ 3x +1y = -7 \\end{cases}",
+    "answer": "(-3, 2)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -3, y = 2",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-030"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 4)(2 x - 1)",
+    "answer": "10 x^{2} + 3 x - 4",
+    "solution": [
+      {
+        "latex": "(5x)(2x) + (5x)(-1) + (4)(2x) + (4)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "10x^2 + -5x + 8x + -4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "10 x^{2} + 3 x - 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-031"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x  -5$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
+    "latex": "y = 3(3)  -5",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "y = 9  -5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 4",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-032"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x + 2)(3 x - 1)",
+    "answer": "9 x^{2} + 3 x - 2",
+    "solution": [
+      {
+        "latex": "(3x)(3x) + (3x)(-1) + (2)(3x) + (2)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "9x^2 + -3x + 6x + -2",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "9 x^{2} + 3 x - 2",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-033"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x -1y = 2 \\\\ 1x +4y = 1 \\end{cases}",
+    "answer": "(1, 0)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 1, y = 0",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-034"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x - 4)(2 x - 2)",
+    "answer": "4 x^{2} - 12 x + 8",
+    "solution": [
+      {
+        "latex": "(2x)(2x) + (2x)(-2) + (-4)(2x) + (-4)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "4x^2 + -4x + -8x + 8",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "4 x^{2} - 12 x + 8",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-035"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x + 5$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = -3(-1) + 5",
     "answer": "8",
     "solution": [
       {
-        "latex": "6 \\times 12 = 72 \\text{ horas-obrero}",
-        "explanation": "La cantidad total de trabajo requerido es constante (inversa)."
+        "latex": "y = 3 + 5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
       },
       {
-        "latex": "x = \\frac{72}{9} = 8 \\text{ horas}",
-        "explanation": "Dividimos entre los 9 obreros."
+        "latex": "y = 8",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
       }
     ],
     "hints": [
-      "Al haber más obreros, se tarda MENOS tiempo. Es una proporción inversa: 6 × 12 = 9 × x."
-    ]
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-036"
   },
   {
-    "id": "math-8-014",
     "grade": 8,
-    "category": "Lógica",
-    "subcategory": "Desigualdades simples",
-    "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Inecuación Lineal",
-    "question": "Encuentra el conjunto solución para x en la inecuación:",
-    "latex": "2x + 5 > 13",
-    "answer": "x > 4",
-    "options": [
-      "x > 4",
-      "x < 4",
-      "x > 9",
-      "x >= 4"
-    ],
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -1x + 0$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = -1(-1) + 0",
+    "answer": "1",
     "solution": [
       {
-        "latex": "2x > 13 - 5",
-        "explanation": "Restamos 5 en ambos lados."
+        "latex": "y = 1 + 0",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
       },
       {
-        "latex": "2x > 8 \\implies x > 4",
-        "explanation": "Dividimos entre 2 manteniendo la dirección del signo."
+        "latex": "y = 1",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
       }
     ],
     "hints": [
-      "Resta 5 y luego divide entre 2."
-    ]
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-037"
   },
   {
-    "id": "math-8-015",
     "grade": 8,
-    "category": "Geometría",
-    "subcategory": "Área de un círculo",
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x - 2)(4 x - 1)",
+    "answer": "20 x^{2} - 13 x + 2",
+    "solution": [
+      {
+        "latex": "(5x)(4x) + (5x)(-1) + (-2)(4x) + (-2)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "20x^2 + -5x + -8x + 2",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "20 x^{2} - 13 x + 2",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-038"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Área de Círculo expresada con Pi",
-    "question": "Si un círculo tiene un radio r = 5 cm, calcula su área expresada en términos de \\pi \\text{ cm}^2:",
-    "latex": "A = \\pi r^2",
-    "answer": "25",
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +1y = 20 \\\\ 1x +3y = 5 \\end{cases}",
+    "answer": "(5, 0)",
     "solution": [
       {
-        "latex": "A = \\pi \\times 5^2",
-        "explanation": "Sustituimos el radio r = 5 en la fórmula."
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
       },
       {
-        "latex": "A = 25\\pi",
-        "explanation": "Como la respuesta nos pide el coeficiente de \\pi, el valor es 25."
+        "latex": "x = 5, y = 0",
+        "explanation": "Solución del sistema."
       }
     ],
     "hints": [
-      "Eleva el radio 5 al cuadrado (5 × 5)."
-    ]
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-039"
   },
   {
-    "id": "math-8-016",
     "grade": 8,
-    "category": "Álgebra",
-    "subcategory": "Factor común",
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
     "difficulty": 2,
-    "type": "multiple_choice",
-    "title": "Factorización por Factor Común",
-    "question": "Factoriza la siguiente expresión algebraica:",
-    "latex": "6x^2 + 12x",
-    "answer": "6x(x + 2)",
-    "options": [
-      "6x(x + 2)",
-      "6(x^2 + 2)",
-      "x(6x + 12)",
-      "18x^3"
-    ],
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x - 4)(x + 3)",
+    "answer": "5 x^{2} + 11 x - 12",
     "solution": [
       {
-        "latex": "\\text{MCD}(6, 12) = 6, \\quad \\text{Factor de variable} = x",
-        "explanation": "Identificamos el término común 6x."
+        "latex": "(5x)(1x) + (5x)(3) + (-4)(1x) + (-4)(3)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
       },
       {
-        "latex": "6x(x + 2)",
-        "explanation": "Dividimos cada término entre 6x."
+        "latex": "5x^2 + 15x + -4x + -12",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "5 x^{2} + 11 x - 12",
+        "explanation": "Simplificamos términos semejantes."
       }
     ],
     "hints": [
-      "Extrae 6x fuera de un paréntesis."
-    ]
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-040"
   },
   {
-    "id": "math-8-017",
     "grade": 8,
-    "category": "Porcentajes",
-    "subcategory": "Aumento porcentual",
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 3)(3 x - 2)",
+    "answer": "6 x^{2} + 5 x - 6",
+    "solution": [
+      {
+        "latex": "(2x)(3x) + (2x)(-2) + (3)(3x) + (3)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "6x^2 + -4x + 9x + -6",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "6 x^{2} + 5 x - 6",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-041"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x - 1)(3 x - 4)",
+    "answer": "6 x^{2} - 11 x + 4",
+    "solution": [
+      {
+        "latex": "(2x)(3x) + (2x)(-4) + (-1)(3x) + (-1)(-4)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "6x^2 + -8x + -3x + 4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "6 x^{2} - 11 x + 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-042"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(4 x - 3)(4 x + 2)",
+    "answer": "16 x^{2} - 4 x - 6",
+    "solution": [
+      {
+        "latex": "(4x)(4x) + (4x)(2) + (-3)(4x) + (-3)(2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "16x^2 + 8x + -12x + -6",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "16 x^{2} - 4 x - 6",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-043"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 2)(2 x + 3)",
+    "answer": "4 x^{2} + 10 x + 6",
+    "solution": [
+      {
+        "latex": "(2x)(2x) + (2x)(3) + (2)(2x) + (2)(3)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "4x^2 + 6x + 4x + 6",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "4 x^{2} + 10 x + 6",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-044"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x  -4$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = 3(1)  -4",
+    "answer": "-1",
+    "solution": [
+      {
+        "latex": "y = 3  -4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -1",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-045"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(4 x - 1)(x - 1)",
+    "answer": "4 x^{2} - 5 x + 1",
+    "solution": [
+      {
+        "latex": "(4x)(1x) + (4x)(-1) + (-1)(1x) + (-1)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "4x^2 + -4x + -1x + 1",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "4 x^{2} - 5 x + 1",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-046"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x  -1$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = -2(1)  -1",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "y = -2  -1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-047"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
     "difficulty": 3,
-    "type": "numeric",
-    "title": "Cálculo de Precio con IVA",
-    "question": "Un artículo cuesta $150 sin impuestos. Si se le aplica un impuesto al consumo del 16%, ¿cuál es el precio final?",
-    "latex": "Precio = 150 \\times (1 + 0.16)",
-    "answer": "174",
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x -1y = -13 \\\\ 4x +1y = -19 \\end{cases}",
+    "answer": "(-4, -3)",
     "solution": [
       {
-        "latex": "150 \\times 0.16 = 24",
-        "explanation": "Calculamos el monto del 16% de IVA."
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
       },
       {
-        "latex": "150 + 24 = 174",
-        "explanation": "Sumamos el impuesto al precio original."
+        "latex": "x = -4, y = -3",
+        "explanation": "Solución del sistema."
       }
     ],
     "hints": [
-      "Calcula el 16% de 150 (24) y súmaselo a 150."
-    ]
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-048"
   },
   {
-    "id": "math-8-018",
     "grade": 8,
-    "category": "Verdadero o Falso",
-    "subcategory": "Exponentes",
-    "difficulty": 2,
-    "type": "true_false",
-    "title": "Exponente Cero",
-    "question": "¿Es verdadero o falso que cualquier número real diferente de cero elevado a la potencia 0 es igual a 1?",
-    "latex": "a^0 = 1 \\quad (a \\neq 0)",
-    "answer": "Verdadero",
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x +2y = -6 \\\\ 1x +3y = -9 \\end{cases}",
+    "answer": "(0, -3)",
     "solution": [
       {
-        "latex": "a^0 = a^{n-n} = \\frac{a^n}{a^n} = 1",
-        "explanation": "Por definición de propiedades de potencia, cualquier número no nulo elevado a 0 resulta 1."
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 0, y = -3",
+        "explanation": "Solución del sistema."
       }
     ],
     "hints": [
-      "Recuerda la regla de los exponentes para a^0."
-    ]
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-049"
   },
   {
-    "id": "math-8-019",
     "grade": 8,
-    "category": "Estadística básica",
-    "subcategory": "Mediana",
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x -3y = 30 \\\\ 1x +3y = -10 \\end{cases}",
+    "answer": "(5, -5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 5, y = -5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-050"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x + 2$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
+    "latex": "y = -3(3) + 2",
+    "answer": "-7",
+    "solution": [
+      {
+        "latex": "y = -9 + 2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -7",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-051"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
     "difficulty": 2,
-    "type": "numeric",
-    "title": "Mediana de un Conjunto de Datos",
-    "question": "Encuentra la mediana del siguiente conjunto ordenado de datos: 3, 5, 8, 12, 15, 19, 21",
-    "latex": "\\text{Mediana}",
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x - 5)(4 x - 2)",
+    "answer": "12 x^{2} - 26 x + 10",
+    "solution": [
+      {
+        "latex": "(3x)(4x) + (3x)(-2) + (-5)(4x) + (-5)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "12x^2 + -6x + -20x + 10",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "12 x^{2} - 26 x + 10",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-052"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x -3y = -13 \\\\ 1x +3y = 7 \\end{cases}",
+    "answer": "(-2, 3)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -2, y = 3",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-053"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x  -2$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = -2(-1)  -2",
+    "answer": "0",
+    "solution": [
+      {
+        "latex": "y = 2  -2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 0",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-054"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 1x  -1$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = 1(-1)  -1",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "y = -1  -1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -2",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-055"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 2x + 4$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
+    "latex": "y = 2(-2) + 4",
+    "answer": "0",
+    "solution": [
+      {
+        "latex": "y = -4 + 4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 0",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-056"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(4 x + 1)(2 x - 4)",
+    "answer": "8 x^{2} - 14 x - 4",
+    "solution": [
+      {
+        "latex": "(4x)(2x) + (4x)(-4) + (1)(2x) + (1)(-4)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "8x^2 + -16x + 2x + -4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "8 x^{2} - 14 x - 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-057"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x + 4$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
+    "latex": "y = 3(-3) + 4",
+    "answer": "-5",
+    "solution": [
+      {
+        "latex": "y = -9 + 4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -5",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-058"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 1x +3y = -5 \\\\ 1x -1y = 3 \\end{cases}",
+    "answer": "(1, -2)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 1, y = -2",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-059"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x - 4)(5 x + 5)",
+    "answer": "10 x^{2} - 10 x - 20",
+    "solution": [
+      {
+        "latex": "(2x)(5x) + (2x)(5) + (-4)(5x) + (-4)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "10x^2 + 10x + -20x + -20",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "10 x^{2} - 10 x - 20",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-060"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x + 0$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
+    "latex": "y = 3(3) + 0",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "y = 9 + 0",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 9",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-061"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x + 3$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
+    "latex": "y = -3(-3) + 3",
     "answer": "12",
     "solution": [
       {
-        "latex": "3, 5, 8, \\mathbf{12}, 15, 19, 21",
-        "explanation": "El conjunto consta de 7 elementos (impar)."
+        "latex": "y = 9 + 3",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
       },
       {
-        "latex": "\\text{Elemento central} = 12",
-        "explanation": "La mediana es el valor que ocupa la posición central exactas (el cuarto elemento)."
+        "latex": "y = 12",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
       }
     ],
     "hints": [
-      "Como hay 7 datos ordenados, la mediana es el dato justo del medio (posición 4)."
-    ]
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-062"
   },
   {
-    "id": "math-8-020",
     "grade": 8,
-    "category": "Geometría",
-    "subcategory": "Polígonos regulares",
-    "difficulty": 4,
-    "type": "numeric",
-    "title": "Suma de Ángulos de un Pentágono",
-    "question": "Calcula la suma de los ángulos interiores de un pentágono (5 lados) en grados:",
-    "latex": "S = (n - 2) \\times 180^\\circ",
-    "answer": "540",
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +3y = -6 \\\\ 4x -4y = 8 \\end{cases}",
+    "answer": "(0, -2)",
     "solution": [
       {
-        "latex": "S = (5 - 2) \\times 180^\\circ",
-        "explanation": "Sustituimos n = 5 en la fórmula de la suma de ángulos de polígonos."
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
       },
       {
-        "latex": "S = 3 \\times 180^\\circ = 540^\\circ",
-        "explanation": "Multiplicamos 3 por 180°."
+        "latex": "x = 0, y = -2",
+        "explanation": "Solución del sistema."
       }
     ],
     "hints": [
-      "Usa la fórmula (n - 2) × 180° con n = 5."
-    ]
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-063"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 1x + 1$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
+    "latex": "y = 1(2) + 1",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "y = 2 + 1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-064"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x - 3)(5 x - 1)",
+    "answer": "25 x^{2} - 20 x + 3",
+    "solution": [
+      {
+        "latex": "(5x)(5x) + (5x)(-1) + (-3)(5x) + (-3)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "25x^2 + -5x + -15x + 3",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "25 x^{2} - 20 x + 3",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-065"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 1)(3 x + 5)",
+    "answer": "15 x^{2} + 28 x + 5",
+    "solution": [
+      {
+        "latex": "(5x)(3x) + (5x)(5) + (1)(3x) + (1)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "15x^2 + 25x + 3x + 5",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "15 x^{2} + 28 x + 5",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-066"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x + 0$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = 3(-1) + 0",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "y = -3 + 0",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-067"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +4y = 20 \\\\ 3x +2y = 15 \\end{cases}",
+    "answer": "(5, 0)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 5, y = 0",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-068"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 5)(x + 4)",
+    "answer": "5 x^{2} + 25 x + 20",
+    "solution": [
+      {
+        "latex": "(5x)(1x) + (5x)(4) + (5)(1x) + (5)(4)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "5x^2 + 20x + 5x + 20",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "5 x^{2} + 25 x + 20",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-069"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(3 x - 2)(x + 5)",
+    "answer": "3 x^{2} + 13 x - 10",
+    "solution": [
+      {
+        "latex": "(3x)(1x) + (3x)(5) + (-2)(1x) + (-2)(5)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "3x^2 + 15x + -2x + -10",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "3 x^{2} + 13 x - 10",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-070"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 4)(3 x - 1)",
+    "answer": "6 x^{2} + 10 x - 4",
+    "solution": [
+      {
+        "latex": "(2x)(3x) + (2x)(-1) + (4)(3x) + (4)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "6x^2 + -2x + 12x + -4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "6 x^{2} + 10 x - 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-071"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 1x -2y = -3 \\\\ 2x -2y = -6 \\end{cases}",
+    "answer": "(-3, 0)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -3, y = 0",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-072"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -1x  -2$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = -1(1)  -2",
+    "answer": "-3",
+    "solution": [
+      {
+        "latex": "y = -1  -2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-073"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 3x + 4$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = 3(-1) + 4",
+    "answer": "1",
+    "solution": [
+      {
+        "latex": "y = -3 + 4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 1",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-074"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -1x + 5$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
+    "latex": "y = -1(0) + 5",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "y = 0 + 5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 5",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-075"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x + 5$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = 4(1) + 5",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "y = 4 + 5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 9",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-076"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x  -2$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = -2(-1)  -2",
+    "answer": "0",
+    "solution": [
+      {
+        "latex": "y = 2  -2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 0",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-077"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 1x +1y = -1 \\\\ 4x +2y = 6 \\end{cases}",
+    "answer": "(4, -5)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 4, y = -5",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-078"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x + 2$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
+    "latex": "y = -2(-2) + 2",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "y = 4 + 2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 6",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-079"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x  -2$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
+    "latex": "y = 4(-2)  -2",
+    "answer": "-10",
+    "solution": [
+      {
+        "latex": "y = -8  -2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -10",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-080"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x  -5$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
+    "latex": "y = 4(0)  -5",
+    "answer": "-5",
+    "solution": [
+      {
+        "latex": "y = 0  -5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -5",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-081"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x -3y = 17 \\\\ 4x +4y = -4 \\end{cases}",
+    "answer": "(2, -3)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 2, y = -3",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-082"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 5)(x + 1)",
+    "answer": "5 x^{2} + 10 x + 5",
+    "solution": [
+      {
+        "latex": "(5x)(1x) + (5x)(1) + (5)(1x) + (5)(1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "5x^2 + 5x + 5x + 5",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "5 x^{2} + 10 x + 5",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-083"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x - 1)(x - 4)",
+    "answer": "2 x^{2} - 9 x + 4",
+    "solution": [
+      {
+        "latex": "(2x)(1x) + (2x)(-4) + (-1)(1x) + (-1)(-4)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "2x^2 + -8x + -1x + 4",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "2 x^{2} - 9 x + 4",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-084"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 4)(5 x - 2)",
+    "answer": "10 x^{2} + 16 x - 8",
+    "solution": [
+      {
+        "latex": "(2x)(5x) + (2x)(-2) + (4)(5x) + (4)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "10x^2 + -4x + 20x + -8",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "10 x^{2} + 16 x - 8",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-085"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 2x  -2$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
+    "latex": "y = 2(0)  -2",
+    "answer": "-2",
+    "solution": [
+      {
+        "latex": "y = 0  -2",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = -2",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-086"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(5 x + 2)(3 x - 1)",
+    "answer": "15 x^{2} + x - 2",
+    "solution": [
+      {
+        "latex": "(5x)(3x) + (5x)(-1) + (2)(3x) + (2)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "15x^2 + -5x + 6x + -2",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "15 x^{2} + x - 2",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-087"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x +3y = -5 \\\\ 1x +1y = -2 \\end{cases}",
+    "answer": "(-1, -1)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -1, y = -1",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-088"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = 4x  -4$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
+    "latex": "y = 4(2)  -4",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "y = 8  -4",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 4",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-089"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(x - 3)(2 x - 1)",
+    "answer": "2 x^{2} - 7 x + 3",
+    "solution": [
+      {
+        "latex": "(1x)(2x) + (1x)(-1) + (-3)(2x) + (-3)(-1)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "2x^2 + -1x + -6x + 3",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "2 x^{2} - 7 x + 3",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-090"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -3x  -1$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
+    "latex": "y = -3(-1)  -1",
+    "answer": "2",
+    "solution": [
+      {
+        "latex": "y = 3  -1",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 2",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-091"
+  },
+  {
+    "grade": 8,
+    "category": "Operaciones con Polinomios",
+    "subcategory": "Multiplicación",
+    "difficulty": 2,
+    "title": "Multiplicación de Binomios",
+    "question": "Desarrolla el siguiente producto de binomios:",
+    "latex": "(2 x + 4)(5 x - 2)",
+    "answer": "10 x^{2} + 16 x - 8",
+    "solution": [
+      {
+        "latex": "(2x)(5x) + (2x)(-2) + (4)(5x) + (4)(-2)",
+        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+      },
+      {
+        "latex": "10x^2 + -4x + 20x + -8",
+        "explanation": "Resolvemos las multiplicaciones parciales."
+      },
+      {
+        "latex": "10 x^{2} + 16 x - 8",
+        "explanation": "Simplificamos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+    ],
+    "id": "math-8-092"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x -2y = -20 \\\\ 3x -4y = -28 \\end{cases}",
+    "answer": "(-4, 4)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -4, y = 4",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-093"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 3x +2y = 17 \\\\ 3x -1y = 5 \\end{cases}",
+    "answer": "(3, 4)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 3, y = 4",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-094"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 4x +2y = 22 \\\\ 3x +3y = 18 \\end{cases}",
+    "answer": "(5, 1)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = 5, y = 1",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-095"
+  },
+  {
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Ecuaciones 2x2",
+    "difficulty": 3,
+    "title": "Sistema de Ecuaciones Lineales",
+    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
+    "latex": "\\begin{cases} 2x -2y = -12 \\\\ 1x +2y = 6 \\end{cases}",
+    "answer": "(-2, 4)",
+    "solution": [
+      {
+        "latex": "x, y",
+        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+      },
+      {
+        "latex": "x = -2, y = 4",
+        "explanation": "Solución del sistema."
+      }
+    ],
+    "hints": [
+      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+    ],
+    "id": "math-8-096"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones Lineales",
+    "subcategory": "Evaluación",
+    "difficulty": 1,
+    "title": "Evaluación de la Función Lineal",
+    "question": "Si $y = -2x + 5$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
+    "latex": "y = -2(1) + 5",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "y = -2 + 5",
+        "explanation": "Multiplicamos el valor de x por la pendiente."
+      },
+      {
+        "latex": "y = 3",
+        "explanation": "Sumamos el intercepto para obtener el resultado."
+      }
+    ],
+    "hints": [
+      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+    ],
+    "id": "math-8-097"
   }
 ]
