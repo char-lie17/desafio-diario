@@ -209,6 +209,23 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
                   </div>
                 </div>
               )}
+
+              {/* FORMATTING GUIDE (Collapsible, right below input) */}
+              <details className="mt-1 bg-slate-900/40 border border-slate-800/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden text-left">
+                <summary className="px-4 py-3 cursor-pointer flex items-center justify-between text-xs font-semibold text-slate-400 hover:text-slate-300 hover:bg-slate-800/40 transition-colors select-none">
+                  <span>💡 Guía: Cómo dar formato a tus respuestas</span>
+                  <span className="text-[10px] opacity-60 uppercase tracking-wider">Expandir</span>
+                </summary>
+                <div className="px-4 pb-4 pt-2 text-xs text-slate-400 leading-relaxed border-t border-slate-800/40 mt-1">
+                  <p className="mb-2 text-slate-300 font-medium">Para expresiones complejas, sigue estas reglas de escritura:</p>
+                  <ul className="list-disc pl-4 space-y-1.5">
+                    <li><strong>Multiplicación:</strong> Usa un asterisco <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">*</code>. Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">22*sqrt(3)</code> (en vez de <code className="bg-slate-800 text-rose-400 px-1 py-0.5 rounded">22sqrt(3)</code>).</li>
+                    <li><strong>Fracciones:</strong> Usa la barra diagonal <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">/</code>. Usa paréntesis: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">(x+1)/(x-1)</code>.</li>
+                    <li><strong>Exponentes:</strong> Usa <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">^</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">x^2</code>. Usa paréntesis si es necesario: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">2^(x+1)</code>.</li>
+                    <li><strong>Raíces:</strong> Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt()</code>. Para $\sqrt{{5}}$: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt(5)</code>.</li>
+                  </ul>
+                </div>
+              </details>
             </div>
           )}
 
