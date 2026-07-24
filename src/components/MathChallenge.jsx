@@ -1,7 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { Star, CheckCircle, XCircle, Lightbulb, BookOpen, RefreshCw, Award } from 'lucide-react';
 import KaTeXView from './KaTeXView';
+import MathToolbar from './MathToolbar';
 import confetti from 'canvas-confetti';
+
+function formatUserAnswerToLatex(str) {
+  if (!str) return '';
+  let res = str;
+  // Convert fractions like (A)/(B) to \frac{A}{B}
+  res = res.replace(/\(([^()]+)\)\/\(([^()]+)\)/g, '\\frac{$1}{$2}');
+  // Convert sqrt(...) to \sqrt{...}
+  res = res.replace(/sqrt\(([^()]+)\)/g, '\\sqrt{$1}');
+  // Convert ^2 to ^2, ^(N) to ^{N}
+  res = res.replace(/\^\(([^()]+)\)/g, '^{$1}');
+  // Convert inf to \infty
+  res = res.replace(/inf/g, '\\infty');
+  // Convert U to \cup
+  res = res.replace(/\sU\s/g, ' \\cup ');
+  // Convert <= and >=
+  res = res.replace(/<=/g, '\\le ').replace(/>=/g, '\\ge ');
+  return res;
+}
 
 export default function MathChallenge({ problem, onSolve, isCompleted }) {
   const [userAnswer, setUserAnswer] = useState('');
@@ -160,15 +179,29 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
           )}
 
           {(!problem.type || problem.type === 'numeric' || problem.type === 'algebraic') && (
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="text"
-                value={userAnswer}
-                onChange={(e) => setUserAnswer(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleCheckAnswer()}
-                placeholder="Ingresa tu respuesta aquí..."
-                className="flex-1 px-4 py-3.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 font-mono"
-              />
+            <div className="flex flex-col gap-3">
+              <MathToolbar onInsert={(text) => setUserAnswer((prev) => prev + text)} />
+              
+              <div className="flex flex-col sm:flex-row gap-3">
+                <input
+                  type="text"
+                  value={userAnswer}
+                  onChange={(e) => setUserAnswer(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleCheckAnswer()}
+                  placeholder="Ingresa tu respuesta (usa los botones o escribe)..."
+                  className="flex-1 px-4 py-3.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 font-mono"
+                />
+              </div>
+
+              {/* Live Math Formatted Preview */}
+              {userAnswer.trim() !== '' && (
+                <div className="p-3 bg-slate-950/60 border border-slate-800 rounded-xl flex items-center gap-3 text-sm">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Vista Previa:</span>
+                  <div className="text-emerald-400 font-medium">
+                    <KaTeXView math={formatUserAnswerToLatex(userAnswer)} displayMode={false} />
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
