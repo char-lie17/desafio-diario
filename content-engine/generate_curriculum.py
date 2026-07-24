@@ -124,7 +124,7 @@ def generate_8th():
             "subcategory": "Aplicaciones",
             "difficulty": 3,
             "title": "Problema de Recaudación",
-            "question": f"En un cine se vendieron {total_tickets} boletos en total. El boleto de adulto cuesta ${adult_p} y el de niño ${kid_p}. Si se recaudaron ${total_revenue}, ¿cuántos boletos de niño se vendieron?",
+            "question": f"En un cine se vendieron {total_tickets} boletos en total. El boleto de adulto cuesta {adult_p} córdobas y el de niño {kid_p} córdobas. Si se recaudaron {total_revenue} córdobas, ¿cuántos boletos de niño se vendieron?",
             "latex": f"A + N = {total_tickets} \\quad \\text{{y}} \\quad {adult_p}A + {kid_p}N = {total_revenue}",
             "answer": str(kid_t),
             "solution": [
@@ -186,7 +186,7 @@ def generate_8th():
             "subcategory": "Aplicaciones",
             "difficulty": 2,
             "title": "Modelado Lineal",
-            "question": f"Una compañía de taxis cobra una tarifa base de ${base_fee} más ${per_km} por cada kilómetro recorrido. Si un viaje costó un total de ${total_cost}, ¿cuántos kilómetros recorrió el taxi?",
+            "question": f"Una compañía de taxis cobra una tarifa base de {base_fee} córdobas más {per_km} córdobas por cada kilómetro recorrido. Si un viaje costó un total de {total_cost} córdobas, ¿cuántos kilómetros recorrió el taxi?",
             "latex": f"{per_km}x + {base_fee} = {total_cost}",
             "answer": str(kms),
             "solution": [
