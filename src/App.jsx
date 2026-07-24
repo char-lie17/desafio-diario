@@ -234,7 +234,26 @@ export default function App() {
             />
           )}
         </div>
-
+        {/* FORMATTING GUIDE (Collapsible, out of the way) */}
+        <div className="mt-12 flex justify-center">
+          <details className="w-full max-w-2xl bg-slate-900/40 border border-slate-800/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+            <summary className="px-6 py-4 cursor-pointer flex items-center justify-between text-sm font-semibold text-slate-400 hover:text-slate-300 hover:bg-slate-800/40 transition-colors select-none">
+              <span>💡 Guía: Cómo dar formato a tus respuestas</span>
+              <span className="text-xs opacity-60">Haz clic para expandir</span>
+            </summary>
+            <div className="px-6 pb-6 pt-2 text-sm text-slate-400 leading-relaxed border-t border-slate-800/40 mt-1">
+              <p className="mb-3 text-slate-300 font-medium">Si tu respuesta incluye expresiones matemáticas, sigue estas reglas para que el sistema la califique correctamente:</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li><strong>Multiplicación explícita:</strong> Usa un asterisco <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">*</code>. Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">22*sqrt(3)</code> en lugar de <code className="bg-slate-800 text-rose-400 px-1 py-0.5 rounded">22sqrt(3)</code>.</li>
+                <li><strong>Fracciones:</strong> Usa la barra diagonal <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">/</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">3/4</code>. Usa paréntesis si es necesario: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">(x+1)/(x-1)</code>.</li>
+                <li><strong>Exponentes:</strong> Usa el símbolo <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">^</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">x^2</code>. Si el exponente es complejo, usa paréntesis: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">2^(x+1)</code>.</li>
+                <li><strong>Raíces:</strong> Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt()</code>. Ejemplo para $\sqrt{{5}}$: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt(5)</code>.</li>
+                <li><strong>Intervalos y Conjuntos:</strong> Usa coma para separar y la letra <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">U</code> mayúscula para uniones. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">(-inf, 0) U (5, inf)</code>.</li>
+              </ul>
+              <p className="mt-4 text-xs italic opacity-80 text-amber-500/80">Nota: El sistema ignora los espacios en blanco y mayúsculas, pero requiere que los operadores lógicos y matemáticos estén presentes.</p>
+            </div>
+          </details>
+        </div>
         {/* FOOTER */}
         <footer className="mt-16 text-center border-t border-slate-800/80 pt-8 pb-4 text-xs text-slate-500">
           <p className="font-semibold text-slate-400 mb-1">
