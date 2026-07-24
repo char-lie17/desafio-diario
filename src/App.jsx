@@ -42,7 +42,7 @@ export default function App() {
     setMathProblem(math);
     setChessPuzzle(chess);
 
-    const status = getCompletedStatus(currentDateStr);
+    const status = getCompletedStatus(currentDateStr, selectedGrade);
     setCompletedStatus(status);
     setStreak(getStreak());
   }, [selectedGrade, currentDateStr]);
@@ -52,7 +52,7 @@ export default function App() {
   };
 
   const handleMathSolved = () => {
-    const updated = markChallengeCompleted('math', currentDateStr);
+    const updated = markChallengeCompleted('math', currentDateStr, selectedGrade);
     setCompletedStatus({ ...updated });
     setStreak(getStreak());
   };

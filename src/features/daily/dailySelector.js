@@ -73,26 +73,42 @@ export function saveGrade(grade) {
   localStorage.setItem(STORAGE_GRADE_KEY, grade.toString());
 }
 
-export function getCompletedStatus(dateStr = getTodayDateString()) {
+export function getCompletedStatus(dateStr = getTodayDateString(), grade = null) {
   try {
     const raw = localStorage.getItem(STORAGE_COMPLETED_KEY);
     const data = raw ? JSON.parse(raw) : {};
-    return data[dateStr] || { math: false, chess: false };
+    const dayData = data[dateStr] || { math: {}, chess: false };
+    // Migrate legacy boolean math format to per-grade object
+    if (typeof dayData.math === 'boolean') {
+      dayData.math = {};
+    }
+    const mathDone = grade !== null ? (dayData.math[grade] || false) : false;
+    return { math: mathDone, chess: dayData.chess || false };
   } catch (e) {
     return { math: false, chess: false };
   }
 }
 
-export function markChallengeCompleted(type, dateStr = getTodayDateString()) {
+export function markChallengeCompleted(type, dateStr = getTodayDateString(), grade = null) {
   try {
     const raw = localStorage.getItem(STORAGE_COMPLETED_KEY);
     const data = raw ? JSON.parse(raw) : {};
-    const dayData = data[dateStr] || { math: false, chess: false };
-    dayData[type] = true;
+    const dayData = data[dateStr] || { math: {}, chess: false };
+    // Migrate legacy boolean math format
+    if (typeof dayData.math === 'boolean') {
+      dayData.math = {};
+    }
+    if (type === 'math' && grade !== null) {
+      dayData.math[grade] = true;
+    } else if (type === 'chess') {
+      dayData.chess = true;
+    }
     data[dateStr] = dayData;
     localStorage.setItem(STORAGE_COMPLETED_KEY, JSON.stringify(data));
     updateStreak();
-    return dayData;
+    // Return the resolved status for this specific grade
+    const mathDone = grade !== null ? (dayData.math[grade] || false) : false;
+    return { math: mathDone, chess: dayData.chess || false };
   } catch (e) {
     return { math: false, chess: false };
   }

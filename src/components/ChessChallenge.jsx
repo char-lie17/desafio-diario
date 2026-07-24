@@ -4,9 +4,17 @@ import { Chessboard } from 'react-chessboard';
 import { Award, CheckCircle, Lightbulb, RotateCcw, Eye, ShieldAlert } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
+// Helper: parse UCI string (e.g. "e2e4", "e7e8q") into chess.js move object
+function uciToMoveObj(uci) {
+  if (!uci || uci.length < 4) return null;
+  const obj = { from: uci.slice(0, 2), to: uci.slice(2, 4) };
+  if (uci.length > 4) obj.promotion = uci[4];
+  return obj;
+}
+
 export default function ChessChallenge({ puzzle, onSolve, isCompleted }) {
   const [game, setGame] = useState(null);
-  const [currentFen, setCurrentFen] = useState('');
+  const [currentFen, setCurrentFen] = useState('start');
   const [moveIndex, setMoveIndex] = useState(0);
   const [status, setStatus] = useState(isCompleted ? 'success' : 'idle'); // 'idle', 'error', 'success'
   const [showHint, setShowHint] = useState(false);
@@ -41,11 +49,12 @@ export default function ChessChallenge({ puzzle, onSolve, isCompleted }) {
       if (!result) return false;
 
       // Check if move matches expected solution at current step
-      const expectedMoveSan = puzzle.solution[moveIndex];
-      const isCorrectSan = result.san === expectedMoveSan;
-      const isCorrectUci = (result.from + result.to) === expectedMoveSan;
+      const expectedUci = puzzle.solution[moveIndex];
+      const actualUci = result.from + result.to + (result.promotion || '');
+      const expectedNormalized = expectedUci.toLowerCase();
+      const isCorrect = actualUci === expectedNormalized || (result.from + result.to) === expectedNormalized;
 
-      if (isCorrectSan || isCorrectUci) {
+      if (isCorrect) {
         setGame(gameCopy);
         setCurrentFen(gameCopy.fen());
         const nextIndex = moveIndex + 1;
@@ -67,10 +76,11 @@ export default function ChessChallenge({ puzzle, onSolve, isCompleted }) {
         } else {
           // If puzzle has opponent response move next in sequence
           setTimeout(() => {
-            const oppMove = puzzle.solution[nextIndex];
-            if (oppMove) {
+            const oppUci = puzzle.solution[nextIndex];
+            const oppMoveObj = uciToMoveObj(oppUci);
+            if (oppMoveObj) {
               const oppGame = new Chess(gameCopy.fen());
-              const oppResult = oppGame.move(oppMove);
+              const oppResult = oppGame.move(oppMoveObj);
               if (oppResult) {
                 setGame(oppGame);
                 setCurrentFen(oppGame.fen());
@@ -148,6 +158,7 @@ export default function ChessChallenge({ puzzle, onSolve, isCompleted }) {
         <div className="md:col-span-7 flex justify-center">
           <div className="w-full max-w-[380px] sm:max-w-[420px] aspect-square rounded-xl overflow-hidden border-2 border-slate-700 shadow-2xl bg-slate-950 p-1">
             <Chessboard
+              key={puzzle.id}
               position={currentFen}
               onPieceDrop={onDrop}
               boardOrientation={boardOrientation}
