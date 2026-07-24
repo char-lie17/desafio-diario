@@ -3,7 +3,8 @@ import grade8 from '../../content/math/grade-8.json';
 import grade9 from '../../content/math/grade-9.json';
 import grade10 from '../../content/math/grade-10.json';
 import grade11 from '../../content/math/grade-11.json';
-import chessPuzzles from '../../content/chess/puzzles.json';
+
+export const LAUNCH_DATE = '2026-07-23';
 
 const MATH_BY_GRADE = {
   7: grade7,
@@ -40,23 +41,23 @@ export function formatDisplayDate(dateStr) {
   return formatted.charAt(0).toUpperCase() + formatted.slice(1);
 }
 
-// Get deterministic daily math problem based on Date + Grade
+// Get sequential daily math problem based on days since LAUNCH_DATE
 export function getDailyMathProblem(grade = 9, dateStr = getTodayDateString()) {
   const problems = MATH_BY_GRADE[grade] || MATH_BY_GRADE[9];
   if (!problems || problems.length === 0) return null;
 
-  const seedKey = `${dateStr}-math-grade-${grade}`;
-  const index = hashString(seedKey) % problems.length;
+  const [lY, lM, lD] = LAUNCH_DATE.split('-').map(Number);
+  const launchDateObj = new Date(lY, lM - 1, lD);
+  const [cY, cM, cD] = dateStr.split('-').map(Number);
+  const currentDateObj = new Date(cY, cM - 1, cD);
+  
+  const diffTime = currentDateObj - launchDateObj;
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+  
+  // Capped at 0 to prevent negative indices if someone accesses a pre-launch date
+  const index = Math.max(0, diffDays) % problems.length;
+  
   return problems[index];
-}
-
-// Get deterministic daily chess puzzle based on Date
-export function getDailyChessPuzzle(dateStr = getTodayDateString()) {
-  if (!chessPuzzles || chessPuzzles.length === 0) return null;
-
-  const seedKey = `${dateStr}-chess-puzzle`;
-  const index = hashString(seedKey) % chessPuzzles.length;
-  return chessPuzzles[index];
 }
 
 // Storage keys
@@ -105,7 +106,7 @@ export function markChallengeCompleted(type, dateStr = getTodayDateString(), gra
     }
     data[dateStr] = dayData;
     localStorage.setItem(STORAGE_COMPLETED_KEY, JSON.stringify(data));
-    updateStreak();
+    updateStreak(dateStr);
     // Return the resolved status for this specific grade
     const mathDone = grade !== null ? (dayData.math[grade] || false) : false;
     return { math: mathDone, chess: dayData.chess || false };
@@ -117,20 +118,50 @@ export function markChallengeCompleted(type, dateStr = getTodayDateString(), gra
 export function getStreak() {
   try {
     const raw = localStorage.getItem(STORAGE_STREAK_KEY);
-    return raw ? parseInt(raw, 10) : 1;
+    let currentStreak = raw ? parseInt(raw, 10) : 1;
+    
+    const lastStreakDate = localStorage.getItem('desafiodiario_last_streak');
+    if (lastStreakDate) {
+      const today = getTodayDateString();
+      const [lY, lM, lD] = lastStreakDate.split('-').map(Number);
+      const lastObj = new Date(lY, lM - 1, lD);
+      const [tY, tM, tD] = today.split('-').map(Number);
+      const todayObj = new Date(tY, tM - 1, tD);
+      
+      const diffTime = todayObj - lastObj;
+      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+      
+      // If it's been more than 1 day since last streak update, reset to 1
+      if (diffDays > 1) {
+        currentStreak = 1;
+        localStorage.setItem(STORAGE_STREAK_KEY, '1');
+      }
+    }
+    return currentStreak;
   } catch (e) {
     return 1;
   }
 }
 
-function updateStreak() {
+function updateStreak(dateStr) {
   try {
     const today = getTodayDateString();
-    const status = getCompletedStatus(today);
-    // If both math and chess completed today, increment or set streak
-    if (status.math && status.chess) {
-      let streak = getStreak();
+    // Enforce: Streak only increases if they solve TODAY's problem
+    if (dateStr !== today) return;
+
+    const lastStreakDate = localStorage.getItem('desafiodiario_last_streak');
+    // Enforce: Only one streak point per day
+    if (lastStreakDate === today) return;
+
+    let streak = getStreak();
+    // If it's the very first time completing, streak might be 1, but we want it to be 1 now, not 2.
+    // Wait, getStreak defaults to 1. If we complete day 1, streak should be 1. Day 2 -> 2.
+    // Let's check if they never had a lastStreakDate.
+    if (!lastStreakDate) {
+      localStorage.setItem(STORAGE_STREAK_KEY, '1');
+    } else {
       localStorage.setItem(STORAGE_STREAK_KEY, (streak + 1).toString());
     }
+    localStorage.setItem('desafiodiario_last_streak', today);
   } catch (e) {}
 }
