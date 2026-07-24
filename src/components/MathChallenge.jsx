@@ -159,7 +159,7 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
             </div>
           )}
 
-          {(problem.type === 'numeric' || problem.type === 'algebraic') && (
+          {(!problem.type || problem.type === 'numeric' || problem.type === 'algebraic') && (
             <div className="flex flex-col sm:flex-row gap-3">
               <input
                 type="text"
