@@ -1,2494 +1,3434 @@
 [
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 4)(5 x + 2)",
-    "answer": "5 x^{2} - 18 x - 8",
-    "solution": [
-      {
-        "latex": "(1x)(5x) + (1x)(2) + (-4)(5x) + (-4)(2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "5x^2 + 2x + -20x + -8",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "5 x^{2} - 18 x - 8",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-000"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x -4y = -4 \\\\ 1x +2y = -1 \\end{cases}",
-    "answer": "(-1, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 173 boletos en total. El boleto de adulto cuesta $12 y el de niño $8. Si se recaudaron $1752, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 173 \\quad \\text{y} \\quad 12A + 8N = 1752",
+    "answer": "81",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 173 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = -1, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "12(173 - N) + 8N = 1752",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2076 - 12N + 8N = 1752",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-4N = -324",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 81",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-001"
+    "id": "math-8-000",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x  -5$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
-    "latex": "y = 3(3)  -5",
-    "answer": "4",
-    "solution": [
-      {
-        "latex": "y = 9  -5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 4",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-002"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 4)(3 x - 2)",
-    "answer": "3 x^{2} - 14 x + 8",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 81)^\\circ$, $(3x + 18)^\\circ$ y $(3x + 11)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 81) + (3x + 18) + (3x + 11) = 180",
+    "answer": "10",
     "solution": [
       {
-        "latex": "(1x)(3x) + (1x)(-2) + (-4)(3x) + (-4)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(1x + 81) + (3x + 18) + (3x + 11) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "3x^2 + -2x + -12x + 8",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "7x + 110 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "3 x^{2} - 14 x + 8",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "7x = 70",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-003"
+    "id": "math-8-001",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x  -1$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
-    "latex": "y = -3(2)  -1",
-    "answer": "-7",
-    "solution": [
-      {
-        "latex": "y = -6  -1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -7",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-004"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x  -3$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = -2(1)  -3",
-    "answer": "-5",
-    "solution": [
-      {
-        "latex": "y = -2  -3",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -5",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-005"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 5)(3 x + 1)",
-    "answer": "6 x^{2} + 17 x + 5",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 8)^\\circ$, $(3x + 47)^\\circ$ y $(1x  -1)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 8) + (3x + 47) + (1x + -1) = 180",
+    "answer": "18",
     "solution": [
       {
-        "latex": "(2x)(3x) + (2x)(1) + (5)(3x) + (5)(1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(3x + 8) + (3x + 47) + (1x  -1) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "6x^2 + 2x + 15x + 5",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "7x + 54 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "6 x^{2} + 17 x + 5",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "7x = 126",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-006"
+    "id": "math-8-002",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x + 3)(5 x - 4)",
-    "answer": "15 x^{2} + 3 x - 12",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x  -10)^\\circ$, $(1x + 96)^\\circ$ y $(1x + 28)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + -10) + (1x + 96) + (1x + 28) = 180",
+    "answer": "22",
     "solution": [
       {
-        "latex": "(3x)(5x) + (3x)(-4) + (3)(5x) + (3)(-4)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(1x  -10) + (1x + 96) + (1x + 28) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "15x^2 + -12x + 15x + -12",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "3x + 114 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "15 x^{2} + 3 x - 12",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "3x = 66",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-007"
+    "id": "math-8-003",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -1x + 4$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
-    "latex": "y = -1(3) + 4",
-    "answer": "1",
-    "solution": [
-      {
-        "latex": "y = -3 + 4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 1",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-008"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x + 3$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = 4(1) + 3",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "y = 4 + 3",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 7",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-009"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 1)(4 x + 5)",
-    "answer": "4 x^{2} + x - 5",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $50 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $245, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 50 = 245",
+    "answer": "15",
     "solution": [
       {
-        "latex": "(1x)(4x) + (1x)(5) + (-1)(4x) + (-1)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 13x + 50",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "4x^2 + 5x + -4x + -5",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "13x + 50 = 245",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "4 x^{2} + x - 5",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "13x = 195",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-010"
+    "id": "math-8-004",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 2x + 5$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = 2(-1) + 5",
-    "answer": "3",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $23 más $8 por cada kilómetro recorrido. Si un viaje costó un total de $207, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "8x + 23 = 207",
+    "answer": "23",
     "solution": [
       {
-        "latex": "y = -2 + 5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
+        "latex": "f(x) = 8x + 23",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "y = 3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
+        "latex": "8x + 23 = 207",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "8x = 184",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 23",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-011"
+    "id": "math-8-005",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x -4y = 15 \\\\ 1x -4y = 5 \\end{cases}",
-    "answer": "(5, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 226 boletos en total. El boleto de adulto cuesta $11 y el de niño $4. Si se recaudaron $1576, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 226 \\quad \\text{y} \\quad 11A + 4N = 1576",
+    "answer": "130",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 226 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 5, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "11(226 - N) + 4N = 1576",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2486 - 11N + 4N = 1576",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-7N = -910",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 130",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-012"
+    "id": "math-8-006",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x +3y = 15 \\\\ 3x -3y = -15 \\end{cases}",
-    "answer": "(0, 5)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 0, y = 5",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-013"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x +1y = -3 \\\\ 2x +2y = -8 \\end{cases}",
-    "answer": "(1, -5)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 1, y = -5",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-014"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x -1y = -16 \\\\ 4x +2y = -8 \\end{cases}",
-    "answer": "(-4, 4)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -4, y = 4",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-015"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 2)(4 x + 5)",
-    "answer": "20 x^{2} + 33 x + 10",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 16)^\\circ$, $(1x + 38)^\\circ$ y $(2x + 61)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 16) + (1x + 38) + (2x + 61) = 180",
+    "answer": "13",
     "solution": [
       {
-        "latex": "(5x)(4x) + (5x)(5) + (2)(4x) + (2)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(2x + 16) + (1x + 38) + (2x + 61) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "20x^2 + 25x + 8x + 10",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "5x + 115 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "20 x^{2} + 33 x + 10",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "5x = 65",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-016"
+    "id": "math-8-007",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x  -3$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = 4(-1)  -3",
-    "answer": "-7",
-    "solution": [
-      {
-        "latex": "y = -4  -3",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -7",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-017"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 4)(3 x + 1)",
-    "answer": "3 x^{2} - 11 x - 4",
-    "solution": [
-      {
-        "latex": "(1x)(3x) + (1x)(1) + (-4)(3x) + (-4)(1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "3x^2 + 1x + -12x + -4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "3 x^{2} - 11 x - 4",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-018"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +1y = 18 \\\\ 3x +1y = 14 \\end{cases}",
-    "answer": "(4, 2)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 182 boletos en total. El boleto de adulto cuesta $19 y el de niño $9. Si se recaudaron $2448, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 182 \\quad \\text{y} \\quad 19A + 9N = 2448",
+    "answer": "101",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 182 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 4, y = 2",
-        "explanation": "Solución del sistema."
+        "latex": "19(182 - N) + 9N = 2448",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3458 - 19N + 9N = 2448",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-10N = -1010",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 101",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-019"
+    "id": "math-8-008",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x + 3)(2 x + 3)",
-    "answer": "6 x^{2} + 15 x + 9",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 51)^\\circ$, $(1x + 36)^\\circ$ y $(2x + 9)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 51) + (1x + 36) + (2x + 9) = 180",
+    "answer": "21",
     "solution": [
       {
-        "latex": "(3x)(2x) + (3x)(3) + (3)(2x) + (3)(3)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(1x + 51) + (1x + 36) + (2x + 9) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "6x^2 + 9x + 6x + 9",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "4x + 96 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "6 x^{2} + 15 x + 9",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "4x = 84",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 21",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-020"
+    "id": "math-8-009",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x  -1$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = -2(1)  -1",
-    "answer": "-3",
-    "solution": [
-      {
-        "latex": "y = -2  -1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-021"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(4 x + 1)(3 x - 1)",
-    "answer": "12 x^{2} - x - 1",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 29)^\\circ$, $(1x  -6)^\\circ$ y $(1x + 57)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 29) + (1x + -6) + (1x + 57) = 180",
+    "answer": "20",
     "solution": [
       {
-        "latex": "(4x)(3x) + (4x)(-1) + (1)(3x) + (1)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(3x + 29) + (1x  -6) + (1x + 57) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "12x^2 + -4x + 3x + -1",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "5x + 80 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "12 x^{2} - x - 1",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "5x = 100",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-022"
+    "id": "math-8-010",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +2y = -30 \\\\ 3x -1y = -10 \\end{cases}",
-    "answer": "(-5, -5)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -5, y = -5",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-023"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x -4y = -6 \\\\ 3x -1y = 11 \\end{cases}",
-    "answer": "(5, 4)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 5, y = 4",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-024"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x -3y = -17 \\\\ 3x -2y = -18 \\end{cases}",
-    "answer": "(-4, 3)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -4, y = 3",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-025"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x - 2)(4 x + 5)",
-    "answer": "12 x^{2} + 7 x - 10",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $41 más $10 por cada kilómetro recorrido. Si un viaje costó un total de $361, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "10x + 41 = 361",
+    "answer": "32",
     "solution": [
       {
-        "latex": "(3x)(4x) + (3x)(5) + (-2)(4x) + (-2)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 10x + 41",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "12x^2 + 15x + -8x + -10",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "10x + 41 = 361",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "12 x^{2} + 7 x - 10",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "10x = 320",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-026"
+    "id": "math-8-011",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x + 0$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
-    "latex": "y = -3(-3) + 0",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 47)^\\circ$, $(1x + 46)^\\circ$ y $(1x + 47)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 47) + (1x + 46) + (1x + 47) = 180",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "(2x + 47) + (1x + 46) + (1x + 47) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "4x + 140 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "4x = 40",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-012",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $11 más $3 por cada kilómetro recorrido. Si un viaje costó un total de $80, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "3x + 11 = 80",
+    "answer": "23",
+    "solution": [
+      {
+        "latex": "f(x) = 3x + 11",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "3x + 11 = 80",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "3x = 69",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 23",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-013",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 159 boletos en total. El boleto de adulto cuesta $17 y el de niño $8. Si se recaudaron $1974, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 159 \\quad \\text{y} \\quad 17A + 8N = 1974",
+    "answer": "81",
+    "solution": [
+      {
+        "latex": "A = 159 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "17(159 - N) + 8N = 1974",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2703 - 17N + 8N = 1974",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-9N = -729",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 81",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-014",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 148 boletos en total. El boleto de adulto cuesta $13 y el de niño $9. Si se recaudaron $1632, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 148 \\quad \\text{y} \\quad 13A + 9N = 1632",
+    "answer": "73",
+    "solution": [
+      {
+        "latex": "A = 148 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "13(148 - N) + 9N = 1632",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1924 - 13N + 9N = 1632",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-4N = -292",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 73",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-015",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 36)^\\circ$, $(2x + 8)^\\circ$ y $(1x + 4)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 36) + (2x + 8) + (1x + 4) = 180",
+    "answer": "22",
+    "solution": [
+      {
+        "latex": "(3x + 36) + (2x + 8) + (1x + 4) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "6x + 48 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "6x = 132",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-016",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 180 boletos en total. El boleto de adulto cuesta $20 y el de niño $6. Si se recaudaron $1850, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 180 \\quad \\text{y} \\quad 20A + 6N = 1850",
+    "answer": "125",
+    "solution": [
+      {
+        "latex": "A = 180 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "20(180 - N) + 6N = 1850",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3600 - 20N + 6N = 1850",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-14N = -1750",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 125",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-017",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $38 más $5 por cada kilómetro recorrido. Si un viaje costó un total de $223, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "5x + 38 = 223",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "f(x) = 5x + 38",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "5x + 38 = 223",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "5x = 185",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 37",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-018",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 99 boletos en total. El boleto de adulto cuesta $20 y el de niño $6. Si se recaudaron $1154, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 99 \\quad \\text{y} \\quad 20A + 6N = 1154",
+    "answer": "59",
+    "solution": [
+      {
+        "latex": "A = 99 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "20(99 - N) + 6N = 1154",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1980 - 20N + 6N = 1154",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-14N = -826",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 59",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-019",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $48 más $8 por cada kilómetro recorrido. Si un viaje costó un total de $328, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "8x + 48 = 328",
+    "answer": "35",
+    "solution": [
+      {
+        "latex": "f(x) = 8x + 48",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "8x + 48 = 328",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "8x = 280",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 35",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-020",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $33 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $514, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 33 = 514",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "f(x) = 13x + 33",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "13x + 33 = 514",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "13x = 481",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 37",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-021",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $20 más $10 por cada kilómetro recorrido. Si un viaje costó un total de $370, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "10x + 20 = 370",
+    "answer": "35",
+    "solution": [
+      {
+        "latex": "f(x) = 10x + 20",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "10x + 20 = 370",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "10x = 350",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 35",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-022",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 91 boletos en total. El boleto de adulto cuesta $12 y el de niño $6. Si se recaudaron $822, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 91 \\quad \\text{y} \\quad 12A + 6N = 822",
+    "answer": "45",
+    "solution": [
+      {
+        "latex": "A = 91 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "12(91 - N) + 6N = 822",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1092 - 12N + 6N = 822",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-6N = -270",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 45",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-023",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $12 más $5 por cada kilómetro recorrido. Si un viaje costó un total de $62, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "5x + 12 = 62",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "f(x) = 5x + 12",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "5x + 12 = 62",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "5x = 50",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-024",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 202 boletos en total. El boleto de adulto cuesta $13 y el de niño $4. Si se recaudaron $1600, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 202 \\quad \\text{y} \\quad 13A + 4N = 1600",
+    "answer": "114",
+    "solution": [
+      {
+        "latex": "A = 202 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "13(202 - N) + 4N = 1600",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2626 - 13N + 4N = 1600",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-9N = -1026",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 114",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-025",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $30 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $646, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 30 = 646",
+    "answer": "44",
+    "solution": [
+      {
+        "latex": "f(x) = 14x + 30",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "14x + 30 = 646",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "14x = 616",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 44",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-026",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $32 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $550, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 32 = 550",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "f(x) = 14x + 32",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "14x + 32 = 550",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "14x = 518",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 37",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-027",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $37 más $11 por cada kilómetro recorrido. Si un viaje costó un total de $191, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "11x + 37 = 191",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "f(x) = 11x + 37",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "11x + 37 = 191",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "11x = 154",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-028",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 88 boletos en total. El boleto de adulto cuesta $16 y el de niño $6. Si se recaudaron $968, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 88 \\quad \\text{y} \\quad 16A + 6N = 968",
+    "answer": "44",
+    "solution": [
+      {
+        "latex": "A = 88 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "16(88 - N) + 6N = 968",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1408 - 16N + 6N = 968",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-10N = -440",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 44",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-029",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $33 más $7 por cada kilómetro recorrido. Si un viaje costó un total de $292, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "7x + 33 = 292",
+    "answer": "37",
+    "solution": [
+      {
+        "latex": "f(x) = 7x + 33",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "7x + 33 = 292",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "7x = 259",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 37",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-030",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 210 boletos en total. El boleto de adulto cuesta $18 y el de niño $7. Si se recaudaron $2537, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 210 \\quad \\text{y} \\quad 18A + 7N = 2537",
+    "answer": "113",
+    "solution": [
+      {
+        "latex": "A = 210 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "18(210 - N) + 7N = 2537",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3780 - 18N + 7N = 2537",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-11N = -1243",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 113",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-031",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 185 boletos en total. El boleto de adulto cuesta $20 y el de niño $9. Si se recaudaron $2204, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 185 \\quad \\text{y} \\quad 20A + 9N = 2204",
+    "answer": "136",
+    "solution": [
+      {
+        "latex": "A = 185 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "20(185 - N) + 9N = 2204",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3700 - 20N + 9N = 2204",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-11N = -1496",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 136",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-032",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 42)^\\circ$, $(2x  -6)^\\circ$ y $(1x + 30)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 42) + (2x + -6) + (1x + 30) = 180",
+    "answer": "19",
+    "solution": [
+      {
+        "latex": "(3x + 42) + (2x  -6) + (1x + 30) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "6x + 66 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "6x = 114",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 19",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-033",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 32)^\\circ$, $(3x + 8)^\\circ$ y $(2x  -4)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 32) + (3x + 8) + (2x + -4) = 180",
+    "answer": "18",
+    "solution": [
+      {
+        "latex": "(3x + 32) + (3x + 8) + (2x  -4) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "8x + 36 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "8x = 144",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-034",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 162 boletos en total. El boleto de adulto cuesta $18 y el de niño $5. Si se recaudaron $1330, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 162 \\quad \\text{y} \\quad 18A + 5N = 1330",
+    "answer": "122",
+    "solution": [
+      {
+        "latex": "A = 162 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "18(162 - N) + 5N = 1330",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2916 - 18N + 5N = 1330",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-13N = -1586",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 122",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-035",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 125)^\\circ$, $(1x + 3)^\\circ$ y $(2x + 2)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 125) + (1x + 3) + (2x + 2) = 180",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "(2x + 125) + (1x + 3) + (2x + 2) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "5x + 130 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 50",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-036",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 107 boletos en total. El boleto de adulto cuesta $13 y el de niño $9. Si se recaudaron $1259, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 107 \\quad \\text{y} \\quad 13A + 9N = 1259",
+    "answer": "33",
+    "solution": [
+      {
+        "latex": "A = 107 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "13(107 - N) + 9N = 1259",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1391 - 13N + 9N = 1259",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-4N = -132",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 33",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-037",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 138 boletos en total. El boleto de adulto cuesta $12 y el de niño $8. Si se recaudaron $1356, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 138 \\quad \\text{y} \\quad 12A + 8N = 1356",
+    "answer": "75",
+    "solution": [
+      {
+        "latex": "A = 138 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "12(138 - N) + 8N = 1356",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1656 - 12N + 8N = 1356",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-4N = -300",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 75",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-038",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $47 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $621, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 47 = 621",
+    "answer": "41",
+    "solution": [
+      {
+        "latex": "f(x) = 14x + 47",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "14x + 47 = 621",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "14x = 574",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 41",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-039",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 222 boletos en total. El boleto de adulto cuesta $13 y el de niño $7. Si se recaudaron $2154, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 222 \\quad \\text{y} \\quad 13A + 7N = 2154",
+    "answer": "122",
+    "solution": [
+      {
+        "latex": "A = 222 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "13(222 - N) + 7N = 2154",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2886 - 13N + 7N = 2154",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-6N = -732",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 122",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-040",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 66)^\\circ$, $(2x + 15)^\\circ$ y $(3x + 3)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 66) + (2x + 15) + (3x + 3) = 180",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "(1x + 66) + (2x + 15) + (3x + 3) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "6x + 84 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "6x = 96",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-041",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 129 boletos en total. El boleto de adulto cuesta $10 y el de niño $9. Si se recaudaron $1246, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 129 \\quad \\text{y} \\quad 10A + 9N = 1246",
+    "answer": "44",
+    "solution": [
+      {
+        "latex": "A = 129 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "10(129 - N) + 9N = 1246",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1290 - 10N + 9N = 1246",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-1N = -44",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 44",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-042",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 5)^\\circ$, $(2x  -5)^\\circ$ y $(2x + 82)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 5) + (2x + -5) + (2x + 82) = 180",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "(3x + 5) + (2x  -5) + (2x + 82) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "7x + 82 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "7x = 98",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-043",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 166 boletos en total. El boleto de adulto cuesta $18 y el de niño $8. Si se recaudaron $2248, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 166 \\quad \\text{y} \\quad 18A + 8N = 2248",
+    "answer": "74",
+    "solution": [
+      {
+        "latex": "A = 166 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "18(166 - N) + 8N = 2248",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2988 - 18N + 8N = 2248",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-10N = -740",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 74",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-044",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 61)^\\circ$, $(3x + 16)^\\circ$ y $(1x + 28)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 61) + (3x + 16) + (1x + 28) = 180",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "(1x + 61) + (3x + 16) + (1x + 28) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "5x + 105 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 75",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-045",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $14 más $7 por cada kilómetro recorrido. Si un viaje costó un total de $287, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "7x + 14 = 287",
+    "answer": "39",
+    "solution": [
+      {
+        "latex": "f(x) = 7x + 14",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "7x + 14 = 287",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "7x = 273",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 39",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-046",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $18 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $369, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 18 = 369",
+    "answer": "27",
+    "solution": [
+      {
+        "latex": "f(x) = 13x + 18",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "13x + 18 = 369",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "13x = 351",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 27",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-047",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 164 boletos en total. El boleto de adulto cuesta $15 y el de niño $6. Si se recaudaron $1713, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 164 \\quad \\text{y} \\quad 15A + 6N = 1713",
+    "answer": "83",
+    "solution": [
+      {
+        "latex": "A = 164 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "15(164 - N) + 6N = 1713",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2460 - 15N + 6N = 1713",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-9N = -747",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 83",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-048",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 97)^\\circ$, $(3x + 33)^\\circ$ y $(1x  -5)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 97) + (3x + 33) + (1x + -5) = 180",
+    "answer": "11",
+    "solution": [
+      {
+        "latex": "(1x + 97) + (3x + 33) + (1x  -5) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "5x + 125 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 55",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-049",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 6)^\\circ$, $(3x + 65)^\\circ$ y $(1x  -3)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 6) + (3x + 65) + (1x + -3) = 180",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "(3x + 6) + (3x + 65) + (1x  -3) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "7x + 68 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "7x = 112",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-050",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 161 boletos en total. El boleto de adulto cuesta $20 y el de niño $4. Si se recaudaron $2164, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 161 \\quad \\text{y} \\quad 20A + 4N = 2164",
+    "answer": "66",
+    "solution": [
+      {
+        "latex": "A = 161 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "20(161 - N) + 4N = 2164",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3220 - 20N + 4N = 2164",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-16N = -1056",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 66",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-051",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $30 más $9 por cada kilómetro recorrido. Si un viaje costó un total de $210, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "9x + 30 = 210",
+    "answer": "20",
+    "solution": [
+      {
+        "latex": "f(x) = 9x + 30",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "9x + 30 = 210",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "9x = 180",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-052",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $29 más $3 por cada kilómetro recorrido. Si un viaje costó un total de $158, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "3x + 29 = 158",
+    "answer": "43",
+    "solution": [
+      {
+        "latex": "f(x) = 3x + 29",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "3x + 29 = 158",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "3x = 129",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 43",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-053",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $27 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $404, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 27 = 404",
+    "answer": "29",
+    "solution": [
+      {
+        "latex": "f(x) = 13x + 27",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "13x + 27 = 404",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "13x = 377",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 29",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-054",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 138 boletos en total. El boleto de adulto cuesta $13 y el de niño $5. Si se recaudaron $1210, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 138 \\quad \\text{y} \\quad 13A + 5N = 1210",
+    "answer": "73",
+    "solution": [
+      {
+        "latex": "A = 138 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "13(138 - N) + 5N = 1210",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1794 - 13N + 5N = 1210",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-8N = -584",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 73",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-055",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 96 boletos en total. El boleto de adulto cuesta $16 y el de niño $8. Si se recaudaron $1256, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 96 \\quad \\text{y} \\quad 16A + 8N = 1256",
+    "answer": "35",
+    "solution": [
+      {
+        "latex": "A = 96 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "16(96 - N) + 8N = 1256",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1536 - 16N + 8N = 1256",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-8N = -280",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 35",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-056",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $16 más $5 por cada kilómetro recorrido. Si un viaje costó un total de $166, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "5x + 16 = 166",
+    "answer": "30",
+    "solution": [
+      {
+        "latex": "f(x) = 5x + 16",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "5x + 16 = 166",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "5x = 150",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 30",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-057",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 220 boletos en total. El boleto de adulto cuesta $16 y el de niño $5. Si se recaudaron $1991, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 220 \\quad \\text{y} \\quad 16A + 5N = 1991",
+    "answer": "139",
+    "solution": [
+      {
+        "latex": "A = 220 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "16(220 - N) + 5N = 1991",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3520 - 16N + 5N = 1991",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-11N = -1529",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 139",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-058",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 39)^\\circ$, $(1x + 55)^\\circ$ y $(3x  -5)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 39) + (1x + 55) + (3x + -5) = 180",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "(3x + 39) + (1x + 55) + (3x  -5) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "7x + 89 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "7x = 91",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-059",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 12)^\\circ$, $(1x + 7)^\\circ$ y $(2x + 105)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 12) + (1x + 7) + (2x + 105) = 180",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "(1x + 12) + (1x + 7) + (2x + 105) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "4x + 124 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "4x = 56",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-060",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 44)^\\circ$, $(1x + 25)^\\circ$ y $(1x + 59)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 44) + (1x + 25) + (1x + 59) = 180",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "(2x + 44) + (1x + 25) + (1x + 59) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "4x + 128 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "4x = 52",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-061",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 7)^\\circ$, $(1x + 73)^\\circ$ y $(2x + 10)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 7) + (1x + 73) + (2x + 10) = 180",
+    "answer": "18",
+    "solution": [
+      {
+        "latex": "(2x + 7) + (1x + 73) + (2x + 10) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "5x + 90 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 90",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-062",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 163 boletos en total. El boleto de adulto cuesta $12 y el de niño $5. Si se recaudaron $1452, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 163 \\quad \\text{y} \\quad 12A + 5N = 1452",
+    "answer": "72",
+    "solution": [
+      {
+        "latex": "A = 163 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
+      },
+      {
+        "latex": "12(163 - N) + 5N = 1452",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1956 - 12N + 5N = 1452",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-7N = -504",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 72",
+        "explanation": "Resolvemos para el total de boletos de niño."
+      }
+    ],
+    "hints": [
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
+    ],
+    "id": "math-8-063",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $41 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $167, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 41 = 167",
     "answer": "9",
     "solution": [
       {
-        "latex": "y = 9 + 0",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
+        "latex": "f(x) = 14x + 41",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "y = 9",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
+        "latex": "14x + 41 = 167",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "14x = 126",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-027"
+    "id": "math-8-064",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $38 más $15 por cada kilómetro recorrido. Si un viaje costó un total de $518, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "15x + 38 = 518",
+    "answer": "32",
+    "solution": [
+      {
+        "latex": "f(x) = 15x + 38",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "15x + 38 = 518",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "15x = 480",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-065",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x +3y = 11 \\\\ 2x +4y = 16 \\end{cases}",
-    "answer": "(-2, 5)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 186 boletos en total. El boleto de adulto cuesta $14 y el de niño $6. Si se recaudaron $1788, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 186 \\quad \\text{y} \\quad 14A + 6N = 1788",
+    "answer": "102",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 186 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = -2, y = 5",
-        "explanation": "Solución del sistema."
+        "latex": "14(186 - N) + 6N = 1788",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2604 - 14N + 6N = 1788",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-8N = -816",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 102",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-028"
+    "id": "math-8-066",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 2)(2 x + 3)",
-    "answer": "2 x^{2} - x - 6",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 53)^\\circ$, $(2x + 3)^\\circ$ y $(3x  -12)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 53) + (2x + 3) + (3x + -12) = 180",
+    "answer": "17",
     "solution": [
       {
-        "latex": "(1x)(2x) + (1x)(3) + (-2)(2x) + (-2)(3)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(3x + 53) + (2x + 3) + (3x  -12) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "2x^2 + 3x + -4x + -6",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "8x + 44 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "2 x^{2} - x - 6",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "8x = 136",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 17",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-029"
+    "id": "math-8-067",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $37 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $323, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 37 = 323",
+    "answer": "22",
+    "solution": [
+      {
+        "latex": "f(x) = 13x + 37",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "13x + 37 = 323",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "13x = 286",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-068",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x  -3)^\\circ$, $(3x  -3)^\\circ$ y $(3x + 2)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + -3) + (3x + -3) + (3x + 2) = 180",
+    "answer": "23",
+    "solution": [
+      {
+        "latex": "(2x  -3) + (3x  -3) + (3x + 2) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "8x  -4 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "8x = 184",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 23",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-069",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +3y = -6 \\\\ 3x +1y = -7 \\end{cases}",
-    "answer": "(-3, 2)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 201 boletos en total. El boleto de adulto cuesta $20 y el de niño $8. Si se recaudaron $2304, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 201 \\quad \\text{y} \\quad 20A + 8N = 2304",
+    "answer": "143",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 201 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = -3, y = 2",
-        "explanation": "Solución del sistema."
+        "latex": "20(201 - N) + 8N = 2304",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "4020 - 20N + 8N = 2304",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-12N = -1716",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 143",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-030"
+    "id": "math-8-070",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 4)(2 x - 1)",
-    "answer": "10 x^{2} + 3 x - 4",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $40 más $7 por cada kilómetro recorrido. Si un viaje costó un total de $152, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "7x + 40 = 152",
+    "answer": "16",
     "solution": [
       {
-        "latex": "(5x)(2x) + (5x)(-1) + (4)(2x) + (4)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 7x + 40",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "10x^2 + -5x + 8x + -4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "7x + 40 = 152",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "10 x^{2} + 3 x - 4",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "7x = 112",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-031"
+    "id": "math-8-071",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x  -5$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
-    "latex": "y = 3(3)  -5",
-    "answer": "4",
-    "solution": [
-      {
-        "latex": "y = 9  -5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 4",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-032"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x + 2)(3 x - 1)",
-    "answer": "9 x^{2} + 3 x - 2",
-    "solution": [
-      {
-        "latex": "(3x)(3x) + (3x)(-1) + (2)(3x) + (2)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "9x^2 + -3x + 6x + -2",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "9 x^{2} + 3 x - 2",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-033"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x -1y = 2 \\\\ 1x +4y = 1 \\end{cases}",
-    "answer": "(1, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 127 boletos en total. El boleto de adulto cuesta $11 y el de niño $6. Si se recaudaron $1162, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 127 \\quad \\text{y} \\quad 11A + 6N = 1162",
+    "answer": "47",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 127 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 1, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "11(127 - N) + 6N = 1162",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1397 - 11N + 6N = 1162",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-5N = -235",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 47",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-034"
+    "id": "math-8-072",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x - 4)(2 x - 2)",
-    "answer": "4 x^{2} - 12 x + 8",
-    "solution": [
-      {
-        "latex": "(2x)(2x) + (2x)(-2) + (-4)(2x) + (-4)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "4x^2 + -4x + -8x + 8",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "4 x^{2} - 12 x + 8",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-035"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x + 5$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = -3(-1) + 5",
-    "answer": "8",
-    "solution": [
-      {
-        "latex": "y = 3 + 5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 8",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-036"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -1x + 0$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = -1(-1) + 0",
-    "answer": "1",
-    "solution": [
-      {
-        "latex": "y = 1 + 0",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 1",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-037"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x - 2)(4 x - 1)",
-    "answer": "20 x^{2} - 13 x + 2",
-    "solution": [
-      {
-        "latex": "(5x)(4x) + (5x)(-1) + (-2)(4x) + (-2)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "20x^2 + -5x + -8x + 2",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "20 x^{2} - 13 x + 2",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-038"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +1y = 20 \\\\ 1x +3y = 5 \\end{cases}",
-    "answer": "(5, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 114 boletos en total. El boleto de adulto cuesta $11 y el de niño $8. Si se recaudaron $1134, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 114 \\quad \\text{y} \\quad 11A + 8N = 1134",
+    "answer": "40",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 114 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 5, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "11(114 - N) + 8N = 1134",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1254 - 11N + 8N = 1134",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-3N = -120",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 40",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-039"
+    "id": "math-8-073",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x - 4)(x + 3)",
-    "answer": "5 x^{2} + 11 x - 12",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $11 más $8 por cada kilómetro recorrido. Si un viaje costó un total de $299, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "8x + 11 = 299",
+    "answer": "36",
     "solution": [
       {
-        "latex": "(5x)(1x) + (5x)(3) + (-4)(1x) + (-4)(3)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 8x + 11",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "5x^2 + 15x + -4x + -12",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "8x + 11 = 299",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "5 x^{2} + 11 x - 12",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "8x = 288",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 36",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-040"
+    "id": "math-8-074",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 3)(3 x - 2)",
-    "answer": "6 x^{2} + 5 x - 6",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 73)^\\circ$, $(3x + 54)^\\circ$ y $(1x  -2)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 73) + (3x + 54) + (1x + -2) = 180",
+    "answer": "11",
     "solution": [
       {
-        "latex": "(2x)(3x) + (2x)(-2) + (3)(3x) + (3)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(1x + 73) + (3x + 54) + (1x  -2) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "6x^2 + -4x + 9x + -6",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "5x + 125 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "6 x^{2} + 5 x - 6",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "5x = 55",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-041"
+    "id": "math-8-075",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x - 1)(3 x - 4)",
-    "answer": "6 x^{2} - 11 x + 4",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 70)^\\circ$, $(1x + 70)^\\circ$ y $(1x  -4)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 70) + (1x + 70) + (1x + -4) = 180",
+    "answer": "11",
     "solution": [
       {
-        "latex": "(2x)(3x) + (2x)(-4) + (-1)(3x) + (-1)(-4)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(2x + 70) + (1x + 70) + (1x  -4) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "6x^2 + -8x + -3x + 4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "4x + 136 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "6 x^{2} - 11 x + 4",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "4x = 44",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-042"
+    "id": "math-8-076",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(4 x - 3)(4 x + 2)",
-    "answer": "16 x^{2} - 4 x - 6",
-    "solution": [
-      {
-        "latex": "(4x)(4x) + (4x)(2) + (-3)(4x) + (-3)(2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "16x^2 + 8x + -12x + -6",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "16 x^{2} - 4 x - 6",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-043"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 2)(2 x + 3)",
-    "answer": "4 x^{2} + 10 x + 6",
-    "solution": [
-      {
-        "latex": "(2x)(2x) + (2x)(3) + (2)(2x) + (2)(3)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "4x^2 + 6x + 4x + 6",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "4 x^{2} + 10 x + 6",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-044"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x  -4$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = 3(1)  -4",
-    "answer": "-1",
-    "solution": [
-      {
-        "latex": "y = 3  -4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -1",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-045"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(4 x - 1)(x - 1)",
-    "answer": "4 x^{2} - 5 x + 1",
-    "solution": [
-      {
-        "latex": "(4x)(1x) + (4x)(-1) + (-1)(1x) + (-1)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "4x^2 + -4x + -1x + 1",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "4 x^{2} - 5 x + 1",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-046"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x  -1$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = -2(1)  -1",
-    "answer": "-3",
-    "solution": [
-      {
-        "latex": "y = -2  -1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-047"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x -1y = -13 \\\\ 4x +1y = -19 \\end{cases}",
-    "answer": "(-4, -3)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -4, y = -3",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-048"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x +2y = -6 \\\\ 1x +3y = -9 \\end{cases}",
-    "answer": "(0, -3)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 0, y = -3",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-049"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x -3y = 30 \\\\ 1x +3y = -10 \\end{cases}",
-    "answer": "(5, -5)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 5, y = -5",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-050"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x + 2$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
-    "latex": "y = -3(3) + 2",
-    "answer": "-7",
-    "solution": [
-      {
-        "latex": "y = -9 + 2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -7",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-051"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x - 5)(4 x - 2)",
-    "answer": "12 x^{2} - 26 x + 10",
-    "solution": [
-      {
-        "latex": "(3x)(4x) + (3x)(-2) + (-5)(4x) + (-5)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "12x^2 + -6x + -20x + 10",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "12 x^{2} - 26 x + 10",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-052"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x -3y = -13 \\\\ 1x +3y = 7 \\end{cases}",
-    "answer": "(-2, 3)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -2, y = 3",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-053"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x  -2$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = -2(-1)  -2",
-    "answer": "0",
-    "solution": [
-      {
-        "latex": "y = 2  -2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 0",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-054"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 1x  -1$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = 1(-1)  -1",
-    "answer": "-2",
-    "solution": [
-      {
-        "latex": "y = -1  -1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -2",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-055"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 2x + 4$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
-    "latex": "y = 2(-2) + 4",
-    "answer": "0",
-    "solution": [
-      {
-        "latex": "y = -4 + 4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 0",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-056"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(4 x + 1)(2 x - 4)",
-    "answer": "8 x^{2} - 14 x - 4",
-    "solution": [
-      {
-        "latex": "(4x)(2x) + (4x)(-4) + (1)(2x) + (1)(-4)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "8x^2 + -16x + 2x + -4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "8 x^{2} - 14 x - 4",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-057"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x + 4$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
-    "latex": "y = 3(-3) + 4",
-    "answer": "-5",
-    "solution": [
-      {
-        "latex": "y = -9 + 4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -5",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-058"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 1x +3y = -5 \\\\ 1x -1y = 3 \\end{cases}",
-    "answer": "(1, -2)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 1, y = -2",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-059"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x - 4)(5 x + 5)",
-    "answer": "10 x^{2} - 10 x - 20",
-    "solution": [
-      {
-        "latex": "(2x)(5x) + (2x)(5) + (-4)(5x) + (-4)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "10x^2 + 10x + -20x + -20",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "10 x^{2} - 10 x - 20",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-060"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x + 0$. ¿Cuál es el valor de $y$ cuando $x = 3$?",
-    "latex": "y = 3(3) + 0",
-    "answer": "9",
-    "solution": [
-      {
-        "latex": "y = 9 + 0",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 9",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-061"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x + 3$. ¿Cuál es el valor de $y$ cuando $x = -3$?",
-    "latex": "y = -3(-3) + 3",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 59)^\\circ$, $(1x + 4)^\\circ$ y $(1x + 57)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 59) + (1x + 4) + (1x + 57) = 180",
     "answer": "12",
     "solution": [
       {
-        "latex": "y = 9 + 3",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
+        "latex": "(3x + 59) + (1x + 4) + (1x + 57) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "y = 12",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
+        "latex": "5x + 120 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 60",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-062"
+    "id": "math-8-077",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +3y = -6 \\\\ 4x -4y = 8 \\end{cases}",
-    "answer": "(0, -2)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 194 boletos en total. El boleto de adulto cuesta $17 y el de niño $7. Si se recaudaron $2028, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 194 \\quad \\text{y} \\quad 17A + 7N = 2028",
+    "answer": "127",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 194 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 0, y = -2",
-        "explanation": "Solución del sistema."
+        "latex": "17(194 - N) + 7N = 2028",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3298 - 17N + 7N = 2028",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-10N = -1270",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 127",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-063"
+    "id": "math-8-078",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 1x + 1$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
-    "latex": "y = 1(2) + 1",
-    "answer": "3",
-    "solution": [
-      {
-        "latex": "y = 2 + 1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-064"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x - 3)(5 x - 1)",
-    "answer": "25 x^{2} - 20 x + 3",
-    "solution": [
-      {
-        "latex": "(5x)(5x) + (5x)(-1) + (-3)(5x) + (-3)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "25x^2 + -5x + -15x + 3",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "25 x^{2} - 20 x + 3",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-065"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 1)(3 x + 5)",
-    "answer": "15 x^{2} + 28 x + 5",
-    "solution": [
-      {
-        "latex": "(5x)(3x) + (5x)(5) + (1)(3x) + (1)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "15x^2 + 25x + 3x + 5",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "15 x^{2} + 28 x + 5",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-066"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x + 0$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = 3(-1) + 0",
-    "answer": "-3",
-    "solution": [
-      {
-        "latex": "y = -3 + 0",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-067"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +4y = 20 \\\\ 3x +2y = 15 \\end{cases}",
-    "answer": "(5, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 181 boletos en total. El boleto de adulto cuesta $14 y el de niño $9. Si se recaudaron $2039, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 181 \\quad \\text{y} \\quad 14A + 9N = 2039",
+    "answer": "99",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 181 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 5, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "14(181 - N) + 9N = 2039",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2534 - 14N + 9N = 2039",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-5N = -495",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 99",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-068"
+    "id": "math-8-079",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 5)(x + 4)",
-    "answer": "5 x^{2} + 25 x + 20",
-    "solution": [
-      {
-        "latex": "(5x)(1x) + (5x)(4) + (5)(1x) + (5)(4)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "5x^2 + 20x + 5x + 20",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "5 x^{2} + 25 x + 20",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-069"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(3 x - 2)(x + 5)",
-    "answer": "3 x^{2} + 13 x - 10",
-    "solution": [
-      {
-        "latex": "(3x)(1x) + (3x)(5) + (-2)(1x) + (-2)(5)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "3x^2 + 15x + -2x + -10",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "3 x^{2} + 13 x - 10",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-070"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
-    "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 4)(3 x - 1)",
-    "answer": "6 x^{2} + 10 x - 4",
-    "solution": [
-      {
-        "latex": "(2x)(3x) + (2x)(-1) + (4)(3x) + (4)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
-      },
-      {
-        "latex": "6x^2 + -2x + 12x + -4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
-      },
-      {
-        "latex": "6 x^{2} + 10 x - 4",
-        "explanation": "Simplificamos términos semejantes."
-      }
-    ],
-    "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
-    ],
-    "id": "math-8-071"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 1x -2y = -3 \\\\ 2x -2y = -6 \\end{cases}",
-    "answer": "(-3, 0)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 100 boletos en total. El boleto de adulto cuesta $13 y el de niño $8. Si se recaudaron $1035, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 100 \\quad \\text{y} \\quad 13A + 8N = 1035",
+    "answer": "53",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 100 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = -3, y = 0",
-        "explanation": "Solución del sistema."
+        "latex": "13(100 - N) + 8N = 1035",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "1300 - 13N + 8N = 1035",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-5N = -265",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 53",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-072"
+    "id": "math-8-080",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -1x  -2$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = -1(1)  -2",
-    "answer": "-3",
-    "solution": [
-      {
-        "latex": "y = -1  -2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-073"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 3x + 4$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = 3(-1) + 4",
-    "answer": "1",
-    "solution": [
-      {
-        "latex": "y = -3 + 4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 1",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-074"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -1x + 5$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
-    "latex": "y = -1(0) + 5",
-    "answer": "5",
-    "solution": [
-      {
-        "latex": "y = 0 + 5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 5",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-075"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x + 5$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = 4(1) + 5",
-    "answer": "9",
-    "solution": [
-      {
-        "latex": "y = 4 + 5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 9",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-076"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x  -2$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = -2(-1)  -2",
-    "answer": "0",
-    "solution": [
-      {
-        "latex": "y = 2  -2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 0",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-077"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 1x +1y = -1 \\\\ 4x +2y = 6 \\end{cases}",
-    "answer": "(4, -5)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 4, y = -5",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-078"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x + 2$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
-    "latex": "y = -2(-2) + 2",
-    "answer": "6",
-    "solution": [
-      {
-        "latex": "y = 4 + 2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 6",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-079"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x  -2$. ¿Cuál es el valor de $y$ cuando $x = -2$?",
-    "latex": "y = 4(-2)  -2",
-    "answer": "-10",
-    "solution": [
-      {
-        "latex": "y = -8  -2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -10",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-080"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x  -5$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
-    "latex": "y = 4(0)  -5",
-    "answer": "-5",
-    "solution": [
-      {
-        "latex": "y = 0  -5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -5",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-081"
-  },
-  {
-    "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x -3y = 17 \\\\ 4x +4y = -4 \\end{cases}",
-    "answer": "(2, -3)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = 2, y = -3",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-082"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 5)(x + 1)",
-    "answer": "5 x^{2} + 10 x + 5",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $10 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $458, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 10 = 458",
+    "answer": "32",
     "solution": [
       {
-        "latex": "(5x)(1x) + (5x)(1) + (5)(1x) + (5)(1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 14x + 10",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "5x^2 + 5x + 5x + 5",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "14x + 10 = 458",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "5 x^{2} + 10 x + 5",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "14x = 448",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-083"
+    "id": "math-8-081",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x - 1)(x - 4)",
-    "answer": "2 x^{2} - 9 x + 4",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 57)^\\circ$, $(2x + 34)^\\circ$ y $(2x + 17)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 57) + (2x + 34) + (2x + 17) = 180",
+    "answer": "12",
     "solution": [
       {
-        "latex": "(2x)(1x) + (2x)(-4) + (-1)(1x) + (-1)(-4)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(2x + 57) + (2x + 34) + (2x + 17) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "2x^2 + -8x + -1x + 4",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "6x + 108 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "2 x^{2} - 9 x + 4",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "6x = 72",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-084"
+    "id": "math-8-082",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 4)(5 x - 2)",
-    "answer": "10 x^{2} + 16 x - 8",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $34 más $14 por cada kilómetro recorrido. Si un viaje costó un total de $328, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 34 = 328",
+    "answer": "21",
     "solution": [
       {
-        "latex": "(2x)(5x) + (2x)(-2) + (4)(5x) + (4)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 14x + 34",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "10x^2 + -4x + 20x + -8",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "14x + 34 = 328",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "10 x^{2} + 16 x - 8",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "14x = 294",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 21",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-085"
+    "id": "math-8-083",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 2x  -2$. ¿Cuál es el valor de $y$ cuando $x = 0$?",
-    "latex": "y = 2(0)  -2",
-    "answer": "-2",
-    "solution": [
-      {
-        "latex": "y = 0  -2",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = -2",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-086"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(5 x + 2)(3 x - 1)",
-    "answer": "15 x^{2} + x - 2",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $10 más $9 por cada kilómetro recorrido. Si un viaje costó un total de $280, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "9x + 10 = 280",
+    "answer": "30",
     "solution": [
       {
-        "latex": "(5x)(3x) + (5x)(-1) + (2)(3x) + (2)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 9x + 10",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "15x^2 + -5x + 6x + -2",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "9x + 10 = 280",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "15 x^{2} + x - 2",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "9x = 270",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 30",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-087"
+    "id": "math-8-084",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x +3y = -5 \\\\ 1x +1y = -2 \\end{cases}",
-    "answer": "(-1, -1)",
-    "solution": [
-      {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
-      },
-      {
-        "latex": "x = -1, y = -1",
-        "explanation": "Solución del sistema."
-      }
-    ],
-    "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
-    ],
-    "id": "math-8-088"
-  },
-  {
-    "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = 4x  -4$. ¿Cuál es el valor de $y$ cuando $x = 2$?",
-    "latex": "y = 4(2)  -4",
-    "answer": "4",
-    "solution": [
-      {
-        "latex": "y = 8  -4",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 4",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-089"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(x - 3)(2 x - 1)",
-    "answer": "2 x^{2} - 7 x + 3",
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $42 más $10 por cada kilómetro recorrido. Si un viaje costó un total de $182, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "10x + 42 = 182",
+    "answer": "14",
     "solution": [
       {
-        "latex": "(1x)(2x) + (1x)(-1) + (-3)(2x) + (-3)(-1)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "f(x) = 10x + 42",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "2x^2 + -1x + -6x + 3",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "10x + 42 = 182",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "2 x^{2} - 7 x + 3",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "10x = 140",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-090"
+    "id": "math-8-085",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -3x  -1$. ¿Cuál es el valor de $y$ cuando $x = -1$?",
-    "latex": "y = -3(-1)  -1",
-    "answer": "2",
-    "solution": [
-      {
-        "latex": "y = 3  -1",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
-      },
-      {
-        "latex": "y = 2",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
-      }
-    ],
-    "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
-    ],
-    "id": "math-8-091"
-  },
-  {
-    "grade": 8,
-    "category": "Operaciones con Polinomios",
-    "subcategory": "Multiplicación",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
     "difficulty": 2,
-    "title": "Multiplicación de Binomios",
-    "question": "Desarrolla el siguiente producto de binomios:",
-    "latex": "(2 x + 4)(5 x - 2)",
-    "answer": "10 x^{2} + 16 x - 8",
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 54)^\\circ$, $(1x + 20)^\\circ$ y $(3x  -8)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 54) + (1x + 20) + (3x + -8) = 180",
+    "answer": "19",
     "solution": [
       {
-        "latex": "(2x)(5x) + (2x)(-2) + (4)(5x) + (4)(-2)",
-        "explanation": "Aplicamos propiedad distributiva multiplicando cada término."
+        "latex": "(2x + 54) + (1x + 20) + (3x  -8) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "10x^2 + -4x + 20x + -8",
-        "explanation": "Resolvemos las multiplicaciones parciales."
+        "latex": "6x + 66 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
       },
       {
-        "latex": "10 x^{2} + 16 x - 8",
-        "explanation": "Simplificamos términos semejantes."
+        "latex": "6x = 114",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 19",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Multiplica el primer término del primer binomio por ambos del segundo, y luego haz lo mismo con el segundo término."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-092"
+    "id": "math-8-086",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x  -8)^\\circ$, $(2x + 51)^\\circ$ y $(1x + 5)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + -8) + (2x + 51) + (1x + 5) = 180",
+    "answer": "22",
+    "solution": [
+      {
+        "latex": "(3x  -8) + (2x + 51) + (1x + 5) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "6x + 48 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "6x = 132",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-087",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 18)^\\circ$, $(3x + 16)^\\circ$ y $(3x + 55)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 18) + (3x + 16) + (3x + 55) = 180",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "(1x + 18) + (3x + 16) + (3x + 55) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "7x + 89 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "7x = 91",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-088",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 35)^\\circ$, $(3x + 32)^\\circ$ y $(2x + 41)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 35) + (3x + 32) + (2x + 41) = 180",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "(1x + 35) + (3x + 32) + (2x + 41) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "6x + 108 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "6x = 72",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-089",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(2x + 93)^\\circ$, $(1x  -7)^\\circ$ y $(1x + 46)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(2x + 93) + (1x + -7) + (1x + 46) = 180",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "(2x + 93) + (1x  -7) + (1x + 46) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "4x + 132 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "4x = 48",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-090",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $12 más $13 por cada kilómetro recorrido. Si un viaje costó un total de $220, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "13x + 12 = 220",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "f(x) = 13x + 12",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "13x + 12 = 220",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "13x = 208",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-091",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x -2y = -20 \\\\ 3x -4y = -28 \\end{cases}",
-    "answer": "(-4, 4)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 139 boletos en total. El boleto de adulto cuesta $16 y el de niño $9. Si se recaudaron $1720, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 139 \\quad \\text{y} \\quad 16A + 9N = 1720",
+    "answer": "72",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 139 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = -4, y = 4",
-        "explanation": "Solución del sistema."
+        "latex": "16(139 - N) + 9N = 1720",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "2224 - 16N + 9N = 1720",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-7N = -504",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 72",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-093"
+    "id": "math-8-092",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 3x +2y = 17 \\\\ 3x -1y = 5 \\end{cases}",
-    "answer": "(3, 4)",
+    "title": "Problema de Recaudación",
+    "question": "En un cine se vendieron 234 boletos en total. El boleto de adulto cuesta $16 y el de niño $5. Si se recaudaron $2138, ¿cuántos boletos de niño se vendieron?",
+    "latex": "A + N = 234 \\quad \\text{y} \\quad 16A + 5N = 2138",
+    "answer": "146",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "A = 234 - N",
+        "explanation": "Despejamos los adultos (A) en términos de los niños (N)."
       },
       {
-        "latex": "x = 3, y = 4",
-        "explanation": "Solución del sistema."
+        "latex": "16(234 - N) + 5N = 2138",
+        "explanation": "Sustituimos en la ecuación de ingresos."
+      },
+      {
+        "latex": "3744 - 16N + 5N = 2138",
+        "explanation": "Distribuimos."
+      },
+      {
+        "latex": "-11N = -1606",
+        "explanation": "Despejamos N."
+      },
+      {
+        "latex": "N = 146",
+        "explanation": "Resolvemos para el total de boletos de niño."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."
     ],
-    "id": "math-8-094"
+    "id": "math-8-093",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 4x +2y = 22 \\\\ 3x +3y = 18 \\end{cases}",
-    "answer": "(5, 1)",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $27 más $8 por cada kilómetro recorrido. Si un viaje costó un total de $243, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "8x + 27 = 243",
+    "answer": "27",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "f(x) = 8x + 27",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "x = 5, y = 1",
-        "explanation": "Solución del sistema."
+        "latex": "8x + 27 = 243",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "8x = 216",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 27",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-095"
+    "id": "math-8-094",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Sistemas de Ecuaciones",
-    "subcategory": "Ecuaciones 2x2",
-    "difficulty": 3,
-    "title": "Sistema de Ecuaciones Lineales",
-    "question": "Resuelve el sistema para x e y. Escribe la respuesta como par ordenado (x, y):",
-    "latex": "\\begin{cases} 2x -2y = -12 \\\\ 1x +2y = 6 \\end{cases}",
-    "answer": "(-2, 4)",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $48 más $7 por cada kilómetro recorrido. Si un viaje costó un total de $202, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "7x + 48 = 202",
+    "answer": "22",
     "solution": [
       {
-        "latex": "x, y",
-        "explanation": "Usamos reducción o sustitución para resolver el sistema."
+        "latex": "f(x) = 7x + 48",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "x = -2, y = 4",
-        "explanation": "Solución del sistema."
+        "latex": "7x + 48 = 202",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "7x = 154",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Intenta multiplicar una o ambas ecuaciones por un número para que al sumarlas se elimine una variable."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-096"
+    "id": "math-8-095",
+    "type": "numeric"
   },
   {
     "grade": 8,
-    "category": "Funciones Lineales",
-    "subcategory": "Evaluación",
-    "difficulty": 1,
-    "title": "Evaluación de la Función Lineal",
-    "question": "Si $y = -2x + 5$. ¿Cuál es el valor de $y$ cuando $x = 1$?",
-    "latex": "y = -2(1) + 5",
-    "answer": "3",
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(3x + 92)^\\circ$, $(1x + 6)^\\circ$ y $(1x + 27)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(3x + 92) + (1x + 6) + (1x + 27) = 180",
+    "answer": "11",
     "solution": [
       {
-        "latex": "y = -2 + 5",
-        "explanation": "Multiplicamos el valor de x por la pendiente."
+        "latex": "(3x + 92) + (1x + 6) + (1x + 27) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
       },
       {
-        "latex": "y = 3",
-        "explanation": "Sumamos el intercepto para obtener el resultado."
+        "latex": "5x + 125 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 55",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para hallar el valor de x."
       }
     ],
     "hints": [
-      "Sustituye la x por el número indicado y respeta la jerarquía de operaciones."
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
     ],
-    "id": "math-8-097"
+    "id": "math-8-096",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de $22 más $10 por cada kilómetro recorrido. Si un viaje costó un total de $172, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "10x + 22 = 172",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "f(x) = 10x + 22",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+      },
+      {
+        "latex": "10x + 22 = 172",
+        "explanation": "Igualamos la función al costo total pagado."
+      },
+      {
+        "latex": "10x = 150",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
+      }
+    ],
+    "hints": [
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+    ],
+    "id": "math-8-097",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 67)^\\circ$, $(2x + 33)^\\circ$ y $(1x + 0)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 67) + (2x + 33) + (1x + 0) = 180",
+    "answer": "20",
+    "solution": [
+      {
+        "latex": "(1x + 67) + (2x + 33) + (1x + 0) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "4x + 100 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "4x = 80",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-098",
+    "type": "numeric"
+  },
+  {
+    "grade": 8,
+    "category": "Paralelismo",
+    "subcategory": "Ángulos internos de un triángulo",
+    "difficulty": 2,
+    "title": "Ángulos Algebraicos",
+    "question": "Los tres ángulos internos de un triángulo miden $(1x + 61)^\\circ$, $(1x  -1)^\\circ$ y $(3x + 50)^\\circ$. ¿Cuál es el valor de $x$?",
+    "latex": "(1x + 61) + (1x + -1) + (3x + 50) = 180",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "(1x + 61) + (1x  -1) + (3x + 50) = 180",
+        "explanation": "La suma de los ángulos internos de todo triángulo es 180°."
+      },
+      {
+        "latex": "5x + 110 = 180",
+        "explanation": "Sumamos las 'x' y los términos independientes."
+      },
+      {
+        "latex": "5x = 70",
+        "explanation": "Despejamos el término con x."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para hallar el valor de x."
+      }
+    ],
+    "hints": [
+      "Suma las tres expresiones algebraicas e iguala el resultado a 180 grados."
+    ],
+    "id": "math-8-099",
+    "type": "numeric"
   }
 ]

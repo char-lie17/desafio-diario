@@ -2,2537 +2,3165 @@
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 5 y 12. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{5^2 + 12^2}",
-    "answer": "13",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 16 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 8 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 8^2 = (16-x)^2",
+    "answer": "6",
     "solution": [
       {
-        "latex": "c^2 = 5^2 + 12^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 8^2 = (16-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 25 + 144 = 169",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 64 = 256 - 32x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{169} = 13",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "32x = 256 - 64",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-000"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 5)^2",
-    "answer": "16 x^{2} + 40 x + 25",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 40 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-001"
+    "id": "math-9-000",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 9 y 40. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{9^2 + 40^2}",
-    "answer": "41",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 32 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 16 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 16^2 = (32-x)^2",
+    "answer": "12",
     "solution": [
       {
-        "latex": "c^2 = 9^2 + 40^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 16^2 = (32-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 81 + 1600 = 1681",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 256 = 1024 - 64x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{1681} = 41",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "64x = 1024 - 256",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-002"
+    "id": "math-9-001",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 4 x - 5 = 0",
-    "answer": "-1, 5",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 5 metros mayor que su ancho. Si el área total del salón es de 126 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 5) = 126",
+    "answer": "9",
     "solution": [
       {
-        "latex": "(x - 5)(x - -1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 5) = 126",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = 5, x = -1",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 5x - 126 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 9)(x + 14) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-003"
+    "id": "math-9-002",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.8 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 48 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.8}{4} = \\frac{h}{48}",
+    "answer": "21.6",
+    "solution": [
+      {
+        "latex": "\\frac{1.8}{4} = \\frac{h}{48}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.8 \\times 48}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 21.6",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-003",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 2 metros mayor que su ancho. Si el área total del salón es de 63 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 2) = 63",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "x(x + 2) = 63",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 2x - 63 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 7)(x + 9) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 7",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-004",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 12}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-005",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 9 metros mayor que su ancho. Si el área total del salón es de 136 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 9) = 136",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x(x + 9) = 136",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 9x - 136 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 8)(x + 17) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-006",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 20 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{2} = \\frac{h}{20}",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{2} = \\frac{h}{20}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 20}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 16.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-007",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 3 metros mayor que su ancho. Si el área total del salón es de 304 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 3) = 304",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "x(x + 3) = 304",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 3x - 304 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 16)(x + 19) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-008",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 12}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-009",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 5 y 12. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{5^2 + 12^2}",
-    "answer": "13",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 24 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (24-x)^2",
+    "answer": "9",
     "solution": [
       {
-        "latex": "c^2 = 5^2 + 12^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 12^2 = (24-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 25 + 144 = 169",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 144 = 576 - 48x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{169} = 13",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "48x = 576 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-004"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 2)^2",
-    "answer": "9 x^{2} + 12 x + 4",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 12 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-005"
+    "id": "math-9-010",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 16 y 30. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{16^2 + 30^2}",
-    "answer": "34",
-    "solution": [
-      {
-        "latex": "c^2 = 16^2 + 30^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 256 + 900 = 1156",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{1156} = 34",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-006"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 9 x + 20 = 0",
-    "answer": "4, 5",
-    "solution": [
-      {
-        "latex": "(x - 5)(x - 4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 5, x = 4",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-007"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 16 y 30. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{16^2 + 30^2}",
-    "answer": "34",
-    "solution": [
-      {
-        "latex": "c^2 = 16^2 + 30^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 256 + 900 = 1156",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{1156} = 34",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-008"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 4 x - 5 = 0",
-    "answer": "-5, 1",
-    "solution": [
-      {
-        "latex": "(x - -5)(x - 1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -5, x = 1",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-009"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 2 x = 0",
-    "answer": "-2, 0",
-    "solution": [
-      {
-        "latex": "(x - 0)(x - -2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 0, x = -2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-010"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 5)^2",
-    "answer": "4 x^{2} + 20 x + 25",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 20 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-011"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 2)^2",
-    "answer": "x^{2} + 4 x + 4",
-    "solution": [
-      {
-        "latex": "(1x)^2 + 2(1x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "x^{2} + 4 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-012"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{3^2 + 4^2}",
-    "answer": "5",
-    "solution": [
-      {
-        "latex": "c^2 = 3^2 + 4^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 9 + 16 = 25",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{25} = 5",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-013"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 7 y 24. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{7^2 + 24^2}",
-    "answer": "25",
-    "solution": [
-      {
-        "latex": "c^2 = 7^2 + 24^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 49 + 576 = 625",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{625} = 25",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-014"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 7 y 24. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{7^2 + 24^2}",
-    "answer": "25",
-    "solution": [
-      {
-        "latex": "c^2 = 7^2 + 24^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 49 + 576 = 625",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{625} = 25",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-015"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 2)^2",
-    "answer": "4 x^{2} + 8 x + 4",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 8 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-016"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 3)^2",
-    "answer": "16 x^{2} + 24 x + 9",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 24 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-017"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - x - 2 = 0",
-    "answer": "-1, 2",
-    "solution": [
-      {
-        "latex": "(x - 2)(x - -1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 2, x = -1",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-018"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 21 y 20. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{21^2 + 20^2}",
-    "answer": "29",
-    "solution": [
-      {
-        "latex": "c^2 = 21^2 + 20^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 441 + 400 = 841",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{841} = 29",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-019"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 15 y 8. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{15^2 + 8^2}",
-    "answer": "17",
-    "solution": [
-      {
-        "latex": "c^2 = 15^2 + 8^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 225 + 64 = 289",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{289} = 17",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-020"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 4 = 0",
-    "answer": "-2, 2",
-    "solution": [
-      {
-        "latex": "(x - -2)(x - 2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -2, x = 2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-021"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 3 x - 4 = 0",
-    "answer": "-1, 4",
-    "solution": [
-      {
-        "latex": "(x - 4)(x - -1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 4, x = -1",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-022"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 4)^2",
-    "answer": "16 x^{2} + 32 x + 16",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(4) + (4)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 32 x + 16",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-023"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 5)^2",
-    "answer": "x^{2} + 10 x + 25",
-    "solution": [
-      {
-        "latex": "(1x)^2 + 2(1x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "x^{2} + 10 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-024"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 9 = 0",
-    "answer": "-3, 3",
-    "solution": [
-      {
-        "latex": "(x - 3)(x - -3) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 3, x = -3",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-025"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 4 x - 5 = 0",
-    "answer": "-5, 1",
-    "solution": [
-      {
-        "latex": "(x - -5)(x - 1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -5, x = 1",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-026"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 3)^2",
-    "answer": "9 x^{2} + 18 x + 9",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 18 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-027"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - x - 6 = 0",
-    "answer": "-2, 3",
-    "solution": [
-      {
-        "latex": "(x - 3)(x - -2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 3, x = -2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-028"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 6)^2",
-    "answer": "16 x^{2} + 48 x + 36",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 48 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-029"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 8 y 6. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{8^2 + 6^2}",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 36 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 24 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 24^2 = (36-x)^2",
     "answer": "10",
     "solution": [
       {
-        "latex": "c^2 = 8^2 + 6^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 24^2 = (36-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 64 + 36 = 100",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 576 = 1296 - 72x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{100} = 10",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "72x = 1296 - 576",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-030"
+    "id": "math-9-011",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 6)^2",
-    "answer": "x^{2} + 12 x + 36",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 27 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{3} = \\frac{h}{27}",
+    "answer": "14.4",
     "solution": [
       {
-        "latex": "(1x)^2 + 2(1x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.6}{3} = \\frac{h}{27}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "x^{2} + 12 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.6 \\times 27}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 14.4",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-031"
+    "id": "math-9-012",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 8 y 6. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{8^2 + 6^2}",
-    "answer": "10",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 50 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 30 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 30^2 = (50-x)^2",
+    "answer": "16",
     "solution": [
       {
-        "latex": "c^2 = 8^2 + 6^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 30^2 = (50-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 64 + 36 = 100",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 900 = 2500 - 100x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{100} = 10",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "100x = 2500 - 900",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-032"
+    "id": "math-9-013",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.8 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 48 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.8}{4} = \\frac{h}{48}",
+    "answer": "21.6",
+    "solution": [
+      {
+        "latex": "\\frac{1.8}{4} = \\frac{h}{48}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.8 \\times 48}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 21.6",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-014",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 6 x + 5 = 0",
-    "answer": "-5, -1",
-    "solution": [
-      {
-        "latex": "(x - -5)(x - -1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -5, x = -1",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-033"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 2)^2",
-    "answer": "9 x^{2} + 12 x + 4",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 12 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-034"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 15 y 8. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{15^2 + 8^2}",
-    "answer": "17",
-    "solution": [
-      {
-        "latex": "c^2 = 15^2 + 8^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 225 + 64 = 289",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{289} = 17",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-035"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 9 y 40. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{9^2 + 40^2}",
-    "answer": "41",
-    "solution": [
-      {
-        "latex": "c^2 = 9^2 + 40^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 81 + 1600 = 1681",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{1681} = 41",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-036"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 5 y 12. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{5^2 + 12^2}",
-    "answer": "13",
-    "solution": [
-      {
-        "latex": "c^2 = 5^2 + 12^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 25 + 144 = 169",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{169} = 13",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-037"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 3 x - 10 = 0",
-    "answer": "-2, 5",
-    "solution": [
-      {
-        "latex": "(x - -2)(x - 5) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -2, x = 5",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-038"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{3^2 + 4^2}",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 10 metros mayor que su ancho. Si el área total del salón es de 75 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 10) = 75",
     "answer": "5",
     "solution": [
       {
-        "latex": "c^2 = 3^2 + 4^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 10) = 75",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 9 + 16 = 25",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 10x - 75 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{25} = 5",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 5)(x + 15) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 5",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-039"
+    "id": "math-9-015",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 5 y 12. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{5^2 + 12^2}",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 96 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 72 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 72^2 = (96-x)^2",
+    "answer": "21",
+    "solution": [
+      {
+        "latex": "x^2 + 72^2 = (96-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 5184 = 9216 - 192x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "192x = 9216 - 5184",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 21",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-016",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 216 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 180 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 180^2 = (216-x)^2",
+    "answer": "33",
+    "solution": [
+      {
+        "latex": "x^2 + 180^2 = (216-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 32400 = 46656 - 432x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "432x = 46656 - 32400",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 33",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-017",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 12 metros mayor que su ancho. Si el área total del salón es de 364 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 12) = 364",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x(x + 12) = 364",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 12x - 364 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 14)(x + 26) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-018",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. Si el área total del salón es de 312 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 11) = 312",
     "answer": "13",
     "solution": [
       {
-        "latex": "c^2 = 5^2 + 12^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 11) = 312",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 25 + 144 = 169",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 11x - 312 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{169} = 13",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 13)(x + 24) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-040"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 4)^2",
-    "answer": "9 x^{2} + 24 x + 16",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(4) + (4)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 24 x + 16",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-041"
+    "id": "math-9-019",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + x = 0",
-    "answer": "-1, 0",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 9 metros mayor que su ancho. Si el área total del salón es de 400 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 9) = 400",
+    "answer": "16",
     "solution": [
       {
-        "latex": "(x - -1)(x - 0) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 9) = 400",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = -1, x = 0",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 9x - 400 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 16)(x + 25) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-042"
+    "id": "math-9-020",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 5 x + 4 = 0",
-    "answer": "1, 4",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{1} = \\frac{h}{8}",
+    "answer": "12.8",
     "solution": [
       {
-        "latex": "(x - 4)(x - 1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "\\frac{1.6}{1} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "x = 4, x = 1",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "h = \\frac{1.6 \\times 8}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 12.8",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-043"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 6)^2",
-    "answer": "4 x^{2} + 24 x + 36",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 24 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-044"
+    "id": "math-9-021",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 21 y 20. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{21^2 + 20^2}",
-    "answer": "29",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 24 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (24-x)^2",
+    "answer": "9",
     "solution": [
       {
-        "latex": "c^2 = 21^2 + 20^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 12^2 = (24-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 441 + 400 = 841",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 144 = 576 - 48x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{841} = 29",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "48x = 576 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-045"
+    "id": "math-9-022",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 16 y 30. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{16^2 + 30^2}",
-    "answer": "34",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 144 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 120 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 120^2 = (144-x)^2",
+    "answer": "22",
     "solution": [
       {
-        "latex": "c^2 = 16^2 + 30^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 120^2 = (144-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 256 + 900 = 1156",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 14400 = 20736 - 288x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{1156} = 34",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "288x = 20736 - 14400",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 22",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-046"
+    "id": "math-9-023",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 24 y 10. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{24^2 + 10^2}",
-    "answer": "26",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 50 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 10 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 10^2 = (50-x)^2",
+    "answer": "24",
     "solution": [
       {
-        "latex": "c^2 = 24^2 + 10^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 10^2 = (50-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 576 + 100 = 676",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 100 = 2500 - 100x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{676} = 26",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "100x = 2500 - 100",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 24",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-047"
+    "id": "math-9-024",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 16 = 0",
-    "answer": "-4, 4",
-    "solution": [
-      {
-        "latex": "(x - 4)(x - -4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 4, x = -4",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-048"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 3)^2",
-    "answer": "9 x^{2} + 18 x + 9",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 18 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-049"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 2)^2",
-    "answer": "x^{2} + 4 x + 4",
-    "solution": [
-      {
-        "latex": "(1x)^2 + 2(1x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "x^{2} + 4 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-050"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 5)^2",
-    "answer": "9 x^{2} + 30 x + 25",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 30 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-051"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 2 x - 15 = 0",
-    "answer": "-3, 5",
-    "solution": [
-      {
-        "latex": "(x - -3)(x - 5) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -3, x = 5",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-052"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 3 x - 4 = 0",
-    "answer": "-1, 4",
-    "solution": [
-      {
-        "latex": "(x - -1)(x - 4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -1, x = 4",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-053"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 6 x + 5 = 0",
-    "answer": "1, 5",
-    "solution": [
-      {
-        "latex": "(x - 1)(x - 5) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 1, x = 5",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-054"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 5 y 12. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{5^2 + 12^2}",
-    "answer": "13",
-    "solution": [
-      {
-        "latex": "c^2 = 5^2 + 12^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
-      },
-      {
-        "latex": "c^2 = 25 + 144 = 169",
-        "explanation": "Calculamos los cuadrados y sumamos."
-      },
-      {
-        "latex": "c = \\sqrt{169} = 13",
-        "explanation": "Extraemos la raíz cuadrada."
-      }
-    ],
-    "hints": [
-      "Recuerda que c² = a² + b²"
-    ],
-    "id": "math-9-055"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 3 x + 2 = 0",
-    "answer": "1, 2",
-    "solution": [
-      {
-        "latex": "(x - 1)(x - 2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 1, x = 2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-056"
-  },
-  {
-    "grade": 9,
-    "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{3^2 + 4^2}",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. Si el área total del salón es de 80 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 11) = 80",
     "answer": "5",
     "solution": [
       {
-        "latex": "c^2 = 3^2 + 4^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 11) = 80",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 9 + 16 = 25",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 11x - 80 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{25} = 5",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 5)(x + 16) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 5",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-057"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 2 x - 8 = 0",
-    "answer": "-2, 4",
-    "solution": [
-      {
-        "latex": "(x - -2)(x - 4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -2, x = 4",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-058"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 3)^2",
-    "answer": "4 x^{2} + 12 x + 9",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 12 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-059"
+    "id": "math-9-025",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 8 y 6. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{8^2 + 6^2}",
-    "answer": "10",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 64 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 48 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 48^2 = (64-x)^2",
+    "answer": "14",
     "solution": [
       {
-        "latex": "c^2 = 8^2 + 6^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 48^2 = (64-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 64 + 36 = 100",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 2304 = 4096 - 128x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{100} = 10",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "128x = 4096 - 2304",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-060"
+    "id": "math-9-026",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 5)^2",
-    "answer": "16 x^{2} + 40 x + 25",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 4 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{1} = \\frac{h}{4}",
+    "answer": "6.8",
     "solution": [
       {
-        "latex": "(4x)^2 + 2(4x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.7}{1} = \\frac{h}{4}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "16 x^{2} + 40 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.7 \\times 4}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.8",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-061"
+    "id": "math-9-027",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 3)^2",
-    "answer": "9 x^{2} + 18 x + 9",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 48 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{4} = \\frac{h}{48}",
+    "answer": "19.2",
     "solution": [
       {
-        "latex": "(3x)^2 + 2(3x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.6}{4} = \\frac{h}{48}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "9 x^{2} + 18 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.6 \\times 48}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 19.200000000000003",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-062"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 6)^2",
-    "answer": "4 x^{2} + 24 x + 36",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 24 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-063"
+    "id": "math-9-028",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 3 x - 4 = 0",
-    "answer": "-1, 4",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. Si el área total del salón es de 312 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 11) = 312",
+    "answer": "13",
     "solution": [
       {
-        "latex": "(x - -1)(x - 4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 11) = 312",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = -1, x = 4",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 11x - 312 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 13)(x + 24) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-064"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 6)^2",
-    "answer": "4 x^{2} + 24 x + 36",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 24 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-065"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 9 x + 20 = 0",
-    "answer": "-5, -4",
-    "solution": [
-      {
-        "latex": "(x - -5)(x - -4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -5, x = -4",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-066"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 3)^2",
-    "answer": "4 x^{2} + 12 x + 9",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 12 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-067"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 7 x + 10 = 0",
-    "answer": "-5, -2",
-    "solution": [
-      {
-        "latex": "(x - -5)(x - -2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -5, x = -2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-068"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 5)^2",
-    "answer": "x^{2} + 10 x + 25",
-    "solution": [
-      {
-        "latex": "(1x)^2 + 2(1x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "x^{2} + 10 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-069"
+    "id": "math-9-029",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 7 y 24. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{7^2 + 24^2}",
-    "answer": "25",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 72 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 24 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 24^2 = (72-x)^2",
+    "answer": "32",
     "solution": [
       {
-        "latex": "c^2 = 7^2 + 24^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 24^2 = (72-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 49 + 576 = 625",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 576 = 5184 - 144x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{625} = 25",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "144x = 5184 - 576",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-070"
+    "id": "math-9-030",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 2 x - 3 = 0",
-    "answer": "-3, 1",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 48 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{4} = \\frac{h}{48}",
+    "answer": "24",
     "solution": [
       {
-        "latex": "(x - -3)(x - 1) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "\\frac{2.0}{4} = \\frac{h}{48}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "x = -3, x = 1",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "h = \\frac{2.0 \\times 48}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 24.0",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-071"
+    "id": "math-9-031",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 2)^2",
-    "answer": "16 x^{2} + 16 x + 4",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.9 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.9}{3} = \\frac{h}{12}",
+    "answer": "7.6",
     "solution": [
       {
-        "latex": "(4x)^2 + 2(4x)(2) + (2)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.9}{3} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "16 x^{2} + 16 x + 4",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.9 \\times 12}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 7.6",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-072"
+    "id": "math-9-032",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 7 y 24. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{7^2 + 24^2}",
-    "answer": "25",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 24 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (24-x)^2",
+    "answer": "9",
     "solution": [
       {
-        "latex": "c^2 = 7^2 + 24^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 12^2 = (24-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 49 + 576 = 625",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 144 = 576 - 48x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{625} = 25",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "48x = 576 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-073"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(2x + 3)^2",
-    "answer": "4 x^{2} + 12 x + 9",
-    "solution": [
-      {
-        "latex": "(2x)^2 + 2(2x)(3) + (3)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "4 x^{2} + 12 x + 9",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-074"
+    "id": "math-9-033",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 2 x - 8 = 0",
-    "answer": "-4, 2",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 4 metros mayor que su ancho. Si el área total del salón es de 396 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 4) = 396",
+    "answer": "18",
     "solution": [
       {
-        "latex": "(x - -4)(x - 2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 4) = 396",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = -4, x = 2",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 4x - 396 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 18)(x + 22) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-075"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 5 x + 6 = 0",
-    "answer": "-3, -2",
-    "solution": [
-      {
-        "latex": "(x - -3)(x - -2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -3, x = -2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-076"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - x - 12 = 0",
-    "answer": "-3, 4",
-    "solution": [
-      {
-        "latex": "(x - 4)(x - -3) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 4, x = -3",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-077"
+    "id": "math-9-034",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 9 y 40. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{9^2 + 40^2}",
-    "answer": "41",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 24 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (24-x)^2",
+    "answer": "9",
     "solution": [
       {
-        "latex": "c^2 = 9^2 + 40^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 12^2 = (24-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 81 + 1600 = 1681",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 144 = 576 - 48x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{1681} = 41",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "48x = 576 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-078"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 1)^2",
-    "answer": "16 x^{2} + 8 x + 1",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(1) + (1)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 8 x + 1",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-079"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 5 x + 6 = 0",
-    "answer": "-3, -2",
-    "solution": [
-      {
-        "latex": "(x - -2)(x - -3) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -2, x = -3",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-080"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 1)^2",
-    "answer": "x^{2} + 2 x + 1",
-    "solution": [
-      {
-        "latex": "(1x)^2 + 2(1x)(1) + (1)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "x^{2} + 2 x + 1",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-081"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + x - 2 = 0",
-    "answer": "-2, 1",
-    "solution": [
-      {
-        "latex": "(x - 1)(x - -2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 1, x = -2",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-082"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + 5 x + 6 = 0",
-    "answer": "-3, -2",
-    "solution": [
-      {
-        "latex": "(x - -2)(x - -3) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = -2, x = -3",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-083"
+    "id": "math-9-035",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 12 y 16. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{12^2 + 16^2}",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 18 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (18-x)^2",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "x^2 + 12^2 = (18-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 144 = 324 - 36x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "36x = 324 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 5",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-036",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 100 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 60 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 60^2 = (100-x)^2",
+    "answer": "32",
+    "solution": [
+      {
+        "latex": "x^2 + 60^2 = (100-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 3600 = 10000 - 200x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "200x = 10000 - 3600",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-037",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 2 metros mayor que su ancho. Si el área total del salón es de 195 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 2) = 195",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "x(x + 2) = 195",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 2x - 195 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 13)(x + 15) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-038",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 18 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{3} = \\frac{h}{18}",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{3} = \\frac{h}{18}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 18}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 12.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-039",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 2 metros mayor que su ancho. Si el área total del salón es de 399 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 2) = 399",
+    "answer": "19",
+    "solution": [
+      {
+        "latex": "x(x + 2) = 399",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 2x - 399 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 19)(x + 21) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 19",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-040",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 3 metros mayor que su ancho. Si el área total del salón es de 180 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 3) = 180",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "x(x + 3) = 180",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 3x - 180 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 12)(x + 15) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-041",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 8 metros mayor que su ancho. Si el área total del salón es de 128 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 8) = 128",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x(x + 8) = 128",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 8x - 128 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 8)(x + 16) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-042",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 10 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{2} = \\frac{h}{10}",
+    "answer": "8.5",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{2} = \\frac{h}{10}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 10}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.5",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-043",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 50 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 40 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 40^2 = (50-x)^2",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "x^2 + 40^2 = (50-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 1600 = 2500 - 100x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "100x = 2500 - 1600",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-044",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+    "answer": "6.4",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 8}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.4",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-045",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. Si el área total del salón es de 620 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 11) = 620",
     "answer": "20",
     "solution": [
       {
-        "latex": "c^2 = 12^2 + 16^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 11) = 620",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 144 + 256 = 400",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 11x - 620 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{400} = 20",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 20)(x + 31) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-084"
+    "id": "math-9-046",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(1x + 4)^2",
-    "answer": "x^{2} + 8 x + 16",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.9 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 36 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.9}{4} = \\frac{h}{36}",
+    "answer": "17.1",
     "solution": [
       {
-        "latex": "(1x)^2 + 2(1x)(4) + (4)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.9}{4} = \\frac{h}{36}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "x^{2} + 8 x + 16",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.9 \\times 36}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 17.099999999999998",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-085"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 6)^2",
-    "answer": "16 x^{2} + 48 x + 36",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 48 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-086"
+    "id": "math-9-047",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 15 y 8. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{15^2 + 8^2}",
-    "answer": "17",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 96 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 72 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 72^2 = (96-x)^2",
+    "answer": "21",
     "solution": [
       {
-        "latex": "c^2 = 15^2 + 8^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 72^2 = (96-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 225 + 64 = 289",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 5184 = 9216 - 192x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{289} = 17",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "192x = 9216 - 5184",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 21",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-087"
+    "id": "math-9-048",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 8 y 6. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{8^2 + 6^2}",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 50 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 20 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 20^2 = (50-x)^2",
+    "answer": "21",
+    "solution": [
+      {
+        "latex": "x^2 + 20^2 = (50-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 400 = 2500 - 100x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "100x = 2500 - 400",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 21",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-049",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 10 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{1} = \\frac{h}{10}",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{1} = \\frac{h}{10}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 10}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 16.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-050",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{1} = \\frac{h}{8}",
+    "answer": "13.6",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{1} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 8}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 13.6",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-051",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 4 metros mayor que su ancho. Si el área total del salón es de 60 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 4) = 60",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "x(x + 4) = 60",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 4x - 60 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 6)(x + 10) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-052",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 10 metros mayor que su ancho. Si el área total del salón es de 416 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 10) = 416",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "x(x + 10) = 416",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 10x - 416 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 16)(x + 26) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-053",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 16 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 8 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 8^2 = (16-x)^2",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "x^2 + 8^2 = (16-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 64 = 256 - 32x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "32x = 256 - 64",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-054",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 8 metros mayor que su ancho. Si el área total del salón es de 209 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 8) = 209",
+    "answer": "11",
+    "solution": [
+      {
+        "latex": "x(x + 8) = 209",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 8x - 209 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 11)(x + 19) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-055",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 20 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{4} = \\frac{h}{20}",
+    "answer": "8.5",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{4} = \\frac{h}{20}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 20}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.5",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-056",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{3} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 12}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-057",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{2} = \\frac{h}{12}",
+    "answer": "9.6",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{2} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 12}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 9.600000000000001",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-058",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 2 metros mayor que su ancho. Si el área total del salón es de 99 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 2) = 99",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "x(x + 2) = 99",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 2x - 99 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 9)(x + 11) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-059",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{1} = \\frac{h}{12}",
+    "answer": "19.2",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{1} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 12}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 19.200000000000003",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-060",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 4 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{1} = \\frac{h}{4}",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{1} = \\frac{h}{4}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 4}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 8.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-061",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 6 metros mayor que su ancho. Si el área total del salón es de 160 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 6) = 160",
     "answer": "10",
     "solution": [
       {
-        "latex": "c^2 = 8^2 + 6^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 6) = 160",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 64 + 36 = 100",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 6x - 160 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{100} = 10",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 10)(x + 16) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-088"
+    "id": "math-9-062",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 21 y 20. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{21^2 + 20^2}",
-    "answer": "29",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 18 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 6 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 6^2 = (18-x)^2",
+    "answer": "8",
     "solution": [
       {
-        "latex": "c^2 = 21^2 + 20^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 6^2 = (18-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 441 + 400 = 841",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 36 = 324 - 36x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{841} = 29",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "36x = 324 - 36",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-089"
+    "id": "math-9-063",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 32 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 24 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 24^2 = (32-x)^2",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "x^2 + 24^2 = (32-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 576 = 1024 - 64x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "64x = 1024 - 576",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 7",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-064",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 4 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{1} = \\frac{h}{4}",
+    "answer": "6.4",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{1} = \\frac{h}{4}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 4}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.4",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-065",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - x - 20 = 0",
-    "answer": "-4, 5",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 12 metros mayor que su ancho. Si el área total del salón es de 108 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 12) = 108",
+    "answer": "6",
     "solution": [
       {
-        "latex": "(x - 5)(x - -4) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 12) = 108",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = 5, x = -4",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 12x - 108 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 6)(x + 18) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-090"
+    "id": "math-9-066",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 4 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 28 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{4} = \\frac{h}{28}",
+    "answer": "11.2",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{4} = \\frac{h}{28}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 28}{4}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 11.200000000000001",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-067",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{3^2 + 4^2}",
-    "answer": "5",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 8 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 4 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 4^2 = (8-x)^2",
+    "answer": "3",
     "solution": [
       {
-        "latex": "c^2 = 3^2 + 4^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 4^2 = (8-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 9 + 16 = 25",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 16 = 64 - 16x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{25} = 5",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "16x = 64 - 16",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 3",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-091"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 5)^2",
-    "answer": "16 x^{2} + 40 x + 25",
-    "solution": [
-      {
-        "latex": "(4x)^2 + 2(4x)(5) + (5)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "16 x^{2} + 40 x + 25",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-092"
-  },
-  {
-    "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
-    "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(3x + 6)^2",
-    "answer": "9 x^{2} + 36 x + 36",
-    "solution": [
-      {
-        "latex": "(3x)^2 + 2(3x)(6) + (6)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
-      },
-      {
-        "latex": "9 x^{2} + 36 x + 36",
-        "explanation": "Realizamos las multiplicaciones indicadas."
-      }
-    ],
-    "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
-    ],
-    "id": "math-9-093"
+    "id": "math-9-068",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 15 y 8. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{15^2 + 8^2}",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 54 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 18 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 18^2 = (54-x)^2",
+    "answer": "24",
+    "solution": [
+      {
+        "latex": "x^2 + 18^2 = (54-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 324 = 2916 - 108x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "108x = 2916 - 324",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 24",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-069",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 18 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 6 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 6^2 = (18-x)^2",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x^2 + 6^2 = (18-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 36 = 324 - 36x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "36x = 324 - 36",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-070",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 9 metros mayor que su ancho. Si el área total del salón es de 162 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 9) = 162",
+    "answer": "9",
+    "solution": [
+      {
+        "latex": "x(x + 9) = 162",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 9x - 162 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 9)(x + 18) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-071",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 3 metros mayor que su ancho. Si el área total del salón es de 418 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 3) = 418",
+    "answer": "19",
+    "solution": [
+      {
+        "latex": "x(x + 3) = 418",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 3x - 418 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 19)(x + 22) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 19",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-072",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 18 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 6 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 6^2 = (18-x)^2",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x^2 + 6^2 = (18-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 36 = 324 - 36x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "36x = 324 - 36",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-073",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 32 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 24 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 24^2 = (32-x)^2",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "x^2 + 24^2 = (32-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 576 = 1024 - 64x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "64x = 1024 - 576",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 7",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-074",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 12 metros mayor que su ancho. Si el área total del salón es de 108 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 12) = 108",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "x(x + 12) = 108",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 12x - 108 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 6)(x + 18) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-075",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 9 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{1} = \\frac{h}{9}",
+    "answer": "14.4",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{1} = \\frac{h}{9}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 9}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 14.4",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-076",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 9 metros mayor que su ancho. Si el área total del salón es de 220 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 9) = 220",
+    "answer": "11",
+    "solution": [
+      {
+        "latex": "x(x + 9) = 220",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 9x - 220 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 11)(x + 20) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-077",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.9 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 24 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.9}{3} = \\frac{h}{24}",
+    "answer": "15.2",
+    "solution": [
+      {
+        "latex": "\\frac{1.9}{3} = \\frac{h}{24}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.9 \\times 24}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 15.2",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-078",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 100 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 20 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 20^2 = (100-x)^2",
+    "answer": "48",
+    "solution": [
+      {
+        "latex": "x^2 + 20^2 = (100-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 400 = 10000 - 200x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "200x = 10000 - 400",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 48",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-079",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+    "answer": "6.4",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 8}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.4",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-080",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 8 metros mayor que su ancho. Si el área total del salón es de 468 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 8) = 468",
+    "answer": "18",
+    "solution": [
+      {
+        "latex": "x(x + 8) = 468",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 8x - 468 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 18)(x + 26) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-081",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.8 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.8}{2} = \\frac{h}{12}",
+    "answer": "10.8",
+    "solution": [
+      {
+        "latex": "\\frac{1.8}{2} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.8 \\times 12}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 10.8",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-082",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 7 metros mayor que su ancho. Si el área total del salón es de 260 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 7) = 260",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "x(x + 7) = 260",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 7x - 260 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 13)(x + 20) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-083",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{2} = \\frac{h}{8}",
+    "answer": "6.8",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{2} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 8}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.8",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-084",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.6 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 8 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+    "answer": "6.4",
+    "solution": [
+      {
+        "latex": "\\frac{1.6}{2} = \\frac{h}{8}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.6 \\times 8}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 6.4",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-085",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 5 metros mayor que su ancho. Si el área total del salón es de 150 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 5) = 150",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "x(x + 5) = 150",
+        "explanation": "El área de un rectángulo es base por altura."
+      },
+      {
+        "latex": "x^2 + 5x - 150 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 10)(x + 15) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
+      }
+    ],
+    "hints": [
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
+    ],
+    "id": "math-9-086",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 64 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 48 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 48^2 = (64-x)^2",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x^2 + 48^2 = (64-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 2304 = 4096 - 128x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "128x = 4096 - 2304",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-087",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 100 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 60 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 60^2 = (100-x)^2",
+    "answer": "32",
+    "solution": [
+      {
+        "latex": "x^2 + 60^2 = (100-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 3600 = 10000 - 200x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "200x = 10000 - 3600",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 32",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-088",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 2.0 metros de altura proyecta una sombra de 3 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 15 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{2.0}{3} = \\frac{h}{15}",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "\\frac{2.0}{3} = \\frac{h}{15}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{2.0 \\times 15}{3}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 10.0",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-089",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 32 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 8 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 8^2 = (32-x)^2",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "x^2 + 8^2 = (32-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 64 = 1024 - 64x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "64x = 1024 - 64",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-090",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 2 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 12 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{2} = \\frac{h}{12}",
+    "answer": "10.2",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{2} = \\frac{h}{12}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 12}{2}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 10.2",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-091",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 100 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 80 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 80^2 = (100-x)^2",
+    "answer": "18",
+    "solution": [
+      {
+        "latex": "x^2 + 80^2 = (100-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 6400 = 10000 - 200x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "200x = 10000 - 6400",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-092",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Ecuaciones de Segundo Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 7 metros mayor que su ancho. Si el área total del salón es de 408 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 7) = 408",
     "answer": "17",
     "solution": [
       {
-        "latex": "c^2 = 15^2 + 8^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x(x + 7) = 408",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "c^2 = 225 + 64 = 289",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 7x - 408 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
       },
       {
-        "latex": "c = \\sqrt{289} = 17",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "(x - 17)(x + 24) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 17",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-094"
+    "id": "math-9-093",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{3^2 + 4^2}",
-    "answer": "5",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 32 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 8 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 8^2 = (32-x)^2",
+    "answer": "15",
     "solution": [
       {
-        "latex": "c^2 = 3^2 + 4^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 8^2 = (32-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 9 + 16 = 25",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 64 = 1024 - 64x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{25} = 5",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "64x = 1024 - 64",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-095"
-  },
-  {
-    "grade": 9,
-    "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} - 7 x + 12 = 0",
-    "answer": "3, 4",
-    "solution": [
-      {
-        "latex": "(x - 4)(x - 3) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
-      },
-      {
-        "latex": "x = 4, x = 3",
-        "explanation": "Igualamos cada factor a cero."
-      }
-    ],
-    "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
-    ],
-    "id": "math-9-096"
+    "id": "math-9-094",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Teorema de Pitágoras",
-    "subcategory": "Cálculo de hipotenusa",
-    "difficulty": 1,
-    "title": "Hipotenusa de Triángulo Rectángulo",
-    "question": "En un triángulo rectángulo, los catetos miden 7 y 24. ¿Cuánto mide la hipotenusa?",
-    "latex": "c = \\sqrt{7^2 + 24^2}",
-    "answer": "25",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 24 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 12 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 12^2 = (24-x)^2",
+    "answer": "9",
     "solution": [
       {
-        "latex": "c^2 = 7^2 + 24^2",
-        "explanation": "Aplicamos el Teorema de Pitágoras: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+        "latex": "x^2 + 12^2 = (24-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
       },
       {
-        "latex": "c^2 = 49 + 576 = 625",
-        "explanation": "Calculamos los cuadrados y sumamos."
+        "latex": "x^2 + 144 = 576 - 48x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
       },
       {
-        "latex": "c = \\sqrt{625} = 25",
-        "explanation": "Extraemos la raíz cuadrada."
+        "latex": "48x = 576 - 144",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 9",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
       }
     ],
     "hints": [
-      "Recuerda que c² = a² + b²"
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
     ],
-    "id": "math-9-097"
+    "id": "math-9-095",
+    "type": "numeric"
   },
   {
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Raíces",
-    "difficulty": 2,
-    "title": "Raíces de Ecuación Cuadrática",
-    "question": "Encuentra las soluciones (raíces) de la ecuación, separadas por coma (menor a mayor):",
-    "latex": "x^{2} + x - 6 = 0",
-    "answer": "-3, 2",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 7 metros mayor que su ancho. Si el área total del salón es de 294 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 7) = 294",
+    "answer": "14",
     "solution": [
       {
-        "latex": "(x - -3)(x - 2) = 0",
-        "explanation": "Factorizamos el polinomio (buscamos números que sumen b y multipliquen c)."
+        "latex": "x(x + 7) = 294",
+        "explanation": "El área de un rectángulo es base por altura."
       },
       {
-        "latex": "x = -3, x = 2",
-        "explanation": "Igualamos cada factor a cero."
+        "latex": "x^2 + 7x - 294 = 0",
+        "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."
+      },
+      {
+        "latex": "(x - 14)(x + 21) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Factoriza el trinomio o utiliza la fórmula general cuadrática."
+      "Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."
     ],
-    "id": "math-9-098"
+    "id": "math-9-096",
+    "type": "numeric"
   },
   {
     "grade": 9,
-    "category": "Productos Notables",
-    "subcategory": "Cuadrado de un binomio",
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
     "difficulty": 2,
-    "title": "Cuadrado Perfecto",
-    "question": "Desarrolla el siguiente producto notable:",
-    "latex": "(4x + 1)^2",
-    "answer": "16 x^{2} + 8 x + 1",
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.8 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 10 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.8}{1} = \\frac{h}{10}",
+    "answer": "18",
     "solution": [
       {
-        "latex": "(4x)^2 + 2(4x)(1) + (1)^2",
-        "explanation": "La regla es: el cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo."
+        "latex": "\\frac{1.8}{1} = \\frac{h}{10}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
       },
       {
-        "latex": "16 x^{2} + 8 x + 1",
-        "explanation": "Realizamos las multiplicaciones indicadas."
+        "latex": "h = \\frac{1.8 \\times 10}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 18.0",
+        "explanation": "Calculamos el resultado final."
       }
     ],
     "hints": [
-      "Aplica la fórmula: (a+b)² = a² + 2ab + b²"
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
     ],
-    "id": "math-9-099"
+    "id": "math-9-097",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Semejanza",
+    "subcategory": "Semejanza de triángulos rectángulos",
+    "difficulty": 2,
+    "title": "Semejanza y Sombras",
+    "question": "Un estudiante que mide 1.7 metros de altura proyecta una sombra de 1 metros. En ese mismo instante, un edificio cercano proyecta una sombra de 11 metros. Usando semejanza de triángulos, ¿cuál es la altura del edificio en metros?",
+    "latex": "\\frac{1.7}{1} = \\frac{h}{11}",
+    "answer": "18.7",
+    "solution": [
+      {
+        "latex": "\\frac{1.7}{1} = \\frac{h}{11}",
+        "explanation": "Los rayos del sol caen paralelos, formando triángulos rectángulos semejantes."
+      },
+      {
+        "latex": "h = \\frac{1.7 \\times 11}{1}",
+        "explanation": "Despejamos la altura del edificio multiplicando en cruz."
+      },
+      {
+        "latex": "h = 18.7",
+        "explanation": "Calculamos el resultado final."
+      }
+    ],
+    "hints": [
+      "Plantea una proporción: Altura_Persona / Sombra_Persona = Altura_Edificio / Sombra_Edificio."
+    ],
+    "id": "math-9-098",
+    "type": "numeric"
+  },
+  {
+    "grade": 9,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Aplicaciones en geometría",
+    "difficulty": 4,
+    "title": "El Poste Quebrado",
+    "question": "Un poste vertical de 54 metros de altura se quiebra por el viento. La punta del poste cae y toca el suelo a 18 metros de su base, formando un triángulo rectángulo. ¿A qué altura desde el suelo (en metros) se quebró el poste?",
+    "latex": "x^2 + 18^2 = (54-x)^2",
+    "answer": "24",
+    "solution": [
+      {
+        "latex": "x^2 + 18^2 = (54-x)^2",
+        "explanation": "Si el poste se quiebra a una altura x, la hipotenusa (la parte caída) mide el resto del poste: H - x."
+      },
+      {
+        "latex": "x^2 + 324 = 2916 - 108x + x^2",
+        "explanation": "Desarrollamos el binomio al cuadrado en la hipotenusa."
+      },
+      {
+        "latex": "108x = 2916 - 324",
+        "explanation": "Cancelamos las x² de ambos lados y despejamos x."
+      },
+      {
+        "latex": "x = 24",
+        "explanation": "Realizamos la división para encontrar la altura del quiebre."
+      }
+    ],
+    "hints": [
+      "Dibuja un triángulo rectángulo. El cateto vertical es 'x', la base es la distancia al poste, y la hipotenusa es el resto del poste (Total - x)."
+    ],
+    "id": "math-9-099",
+    "type": "numeric"
   }
 ]
