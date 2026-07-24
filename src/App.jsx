@@ -22,12 +22,15 @@ import {
   getStreak,
   LAUNCH_DATE
 } from './features/daily/dailySelector';
+import StatsModal from './components/StatsModal';
 
 export default function App() {
   const [selectedGrade, setSelectedGrade] = useState(() => getSavedGrade());
   const [currentDateStr, setCurrentDateStr] = useState(() => getTodayDateString());
   const [completedStatus, setCompletedStatus] = useState({ math: false });
   const [streak, setStreak] = useState(1);
+
+  const [isStatsOpen, setIsStatsOpen] = useState(false);
 
   // Current problem
   const [mathProblem, setMathProblem] = useState(null);
@@ -50,6 +53,8 @@ export default function App() {
     const updated = markChallengeCompleted('math', currentDateStr, selectedGrade);
     setCompletedStatus({ ...updated });
     setStreak(getStreak());
+    // Auto-open stats modal on success to share
+    setTimeout(() => setIsStatsOpen(true), 1500);
   };
 
   const handlePrevDay = () => {
@@ -104,10 +109,14 @@ export default function App() {
           {/* Date Control & Discrete Streak */}
           <div className="flex items-center gap-3">
             {/* Streak Counter */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-xs font-bold text-amber-400 shadow-inner">
+            <button 
+              onClick={() => setIsStatsOpen(true)}
+              title="Ver mis estadísticas"
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 transition-colors border border-slate-800 rounded-xl text-xs font-bold text-amber-400 shadow-inner cursor-pointer"
+            >
               <Flame className="w-4 h-4 text-amber-500 fill-amber-500 animate-pulse" />
               <span>Racha: {streak} {streak === 1 ? 'día' : 'días'}</span>
-            </div>
+            </button>
 
             {/* Date Navigator */}
             <div className="flex items-center bg-slate-900 border border-slate-800 rounded-xl p-1 shadow-sm">
@@ -242,6 +251,13 @@ export default function App() {
           </p>
         </footer>
       </div>
+
+      <StatsModal 
+        isOpen={isStatsOpen} 
+        onClose={() => setIsStatsOpen(false)} 
+        streak={streak} 
+        problem={mathProblem} 
+      />
     </div>
   );
 }
