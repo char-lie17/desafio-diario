@@ -1,206 +1,45 @@
 [
   {
     "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 118 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 118",
-    "answer": "24",
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 2 obreros tarda 28 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 28 = 7 \\times x",
+    "answer": "8",
     "solution": [
       {
-        "latex": "2x + 2(x + 11) = 118",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+        "latex": "2 \\times 28 = 56",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "4x + 22 = 118",
-        "explanation": "Desarrollamos la ecuación."
+        "latex": "x = \\frac{56}{7}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "4x = 96",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 24",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
+        "latex": "x = 8",
+        "explanation": "Resultado en días."
       }
     ],
     "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
     "id": "math-7-000",
     "type": "numeric"
   },
   {
     "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 104 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 14) = 104",
-    "answer": "19",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 14) = 104",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 28 = 104",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 76",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 19",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-001",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 7 metros mayor que su ancho. Si el perímetro total es de 130 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 7) = 130",
-    "answer": "29",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 7) = 130",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 14 = 130",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 116",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 29",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-002",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
     "category": "Proporcionalidad",
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 27 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 27 = 9 \\times x",
-    "answer": "9",
-    "solution": [
-      {
-        "latex": "3 \\times 27 = 81",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{81}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 9",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-003",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 60 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 6) = 60",
-    "answer": "12",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 6) = 60",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 12 = 60",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 48",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 12",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-004",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 6 obreros tarda 27 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "6 \\times 27 = 9 \\times x",
-    "answer": "18",
-    "solution": [
-      {
-        "latex": "6 \\times 27 = 162",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{162}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 18",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-005",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 10 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 10 = 5 \\times x",
+    "question": "Un equipo de 2 obreros tarda 20 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 20 = 5 \\times x",
     "answer": "8",
     "solution": [
       {
-        "latex": "4 \\times 10 = 40",
+        "latex": "2 \\times 20 = 40",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
@@ -215,7 +54,7 @@
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-006",
+    "id": "math-7-001",
     "type": "numeric"
   },
   {
@@ -224,27 +63,27 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 30 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 30 = 6 \\times x",
-    "answer": "15",
+    "question": "Un equipo de 4 obreros tarda 16 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "4 \\times 16 = 8 \\times x",
+    "answer": "8",
     "solution": [
       {
-        "latex": "3 \\times 30 = 90",
+        "latex": "4 \\times 16 = 64",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{90}{6}",
+        "latex": "x = \\frac{64}{8}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 15",
+        "latex": "x = 8",
         "explanation": "Resultado en días."
       }
     ],
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-007",
+    "id": "math-7-002",
     "type": "numeric"
   },
   {
@@ -253,16 +92,16 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 7 metros mayor que su ancho. Si el perímetro total es de 126 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 7) = 126",
+    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 124 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 6) = 124",
     "answer": "28",
     "solution": [
       {
-        "latex": "2x + 2(x + 7) = 126",
+        "latex": "2x + 2(x + 6) = 124",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 14 = 126",
+        "latex": "4x + 12 = 124",
         "explanation": "Desarrollamos la ecuación."
       },
       {
@@ -277,123 +116,7 @@
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
-    "id": "math-7-008",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 71. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 16 = 71",
-    "answer": "11",
-    "solution": [
-      {
-        "latex": "x + 4x + 16 = 71",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 8 años tendrán x+8 y 4x+8 respectivamente."
-      },
-      {
-        "latex": "5x = 71 - 16",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 11",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-009",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 74. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 14 = 74",
-    "answer": "12",
-    "solution": [
-      {
-        "latex": "x + 4x + 14 = 74",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 7 años tendrán x+7 y 4x+7 respectivamente."
-      },
-      {
-        "latex": "5x = 74 - 14",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 12",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-010",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 44. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 8 = 44",
-    "answer": "9",
-    "solution": [
-      {
-        "latex": "x + 3x + 8 = 44",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
-      },
-      {
-        "latex": "4x = 44 - 8",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 9",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-011",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 60. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 20 = 60",
-    "answer": "8",
-    "solution": [
-      {
-        "latex": "x + 4x + 20 = 60",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 10 años tendrán x+10 y 4x+10 respectivamente."
-      },
-      {
-        "latex": "5x = 60 - 20",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 8",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-012",
+    "id": "math-7-003",
     "type": "numeric"
   },
   {
@@ -402,16 +125,16 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 45 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 45 = 9 \\times x",
+    "question": "Un equipo de 5 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 8 = 4 \\times x",
     "answer": "10",
     "solution": [
       {
-        "latex": "2 \\times 45 = 90",
+        "latex": "5 \\times 8 = 40",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{90}{9}",
+        "latex": "x = \\frac{40}{4}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
@@ -422,185 +145,7 @@
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-013",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 21 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 21 = 7 \\times x",
-    "answer": "12",
-    "solution": [
-      {
-        "latex": "4 \\times 21 = 84",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{84}{7}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 12",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-014",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 3 años, la suma de sus edades será 76. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 6 = 76",
-    "answer": "14",
-    "solution": [
-      {
-        "latex": "x + 4x + 6 = 76",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 3 años tendrán x+3 y 4x+3 respectivamente."
-      },
-      {
-        "latex": "5x = 76 - 6",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 14",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-015",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 42. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 12 = 42",
-    "answer": "6",
-    "solution": [
-      {
-        "latex": "x + 4x + 12 = 42",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 6 años tendrán x+6 y 4x+6 respectivamente."
-      },
-      {
-        "latex": "5x = 42 - 12",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 6",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-016",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 66. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 14 = 66",
-    "answer": "13",
-    "solution": [
-      {
-        "latex": "x + 3x + 14 = 66",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 7 años tendrán x+7 y 3x+7 respectivamente."
-      },
-      {
-        "latex": "4x = 66 - 14",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 13",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-017",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 92 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 6) = 92",
-    "answer": "20",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 6) = 92",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 12 = 92",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 80",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 20",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-018",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 40 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 40 = 8 \\times x",
-    "answer": "20",
-    "solution": [
-      {
-        "latex": "4 \\times 40 = 160",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{160}{8}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 20",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-019",
+    "id": "math-7-004",
     "type": "numeric"
   },
   {
@@ -629,65 +174,7 @@
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-020",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 20 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 20 = 4 \\times x",
-    "answer": "10",
-    "solution": [
-      {
-        "latex": "2 \\times 20 = 40",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{40}{4}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 10",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-021",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 8 = 4 \\times x",
-    "answer": "4",
-    "solution": [
-      {
-        "latex": "2 \\times 8 = 16",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{16}{4}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 4",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-022",
+    "id": "math-7-005",
     "type": "numeric"
   },
   {
@@ -696,27 +183,27 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 3 años, la suma de sus edades será 46. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 6 = 46",
-    "answer": "10",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 53. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 20 = 53",
+    "answer": "11",
     "solution": [
       {
-        "latex": "x + 3x + 6 = 46",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 3 años tendrán x+3 y 3x+3 respectivamente."
+        "latex": "x + 2x + 20 = 53",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 10 años tendrán x+10 y 2x+10 respectivamente."
       },
       {
-        "latex": "4x = 46 - 6",
+        "latex": "3x = 53 - 20",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 10",
+        "latex": "x = 11",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-023",
+    "id": "math-7-006",
     "type": "numeric"
   },
   {
@@ -725,27 +212,27 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 18 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 18 = 6 \\times x",
-    "answer": "9",
+    "question": "Un equipo de 6 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 12 = 3 \\times x",
+    "answer": "24",
     "solution": [
       {
-        "latex": "3 \\times 18 = 54",
+        "latex": "6 \\times 12 = 72",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{54}{6}",
+        "latex": "x = \\frac{72}{3}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 9",
+        "latex": "x = 24",
         "explanation": "Resultado en días."
       }
     ],
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-024",
+    "id": "math-7-007",
     "type": "numeric"
   },
   {
@@ -754,213 +241,27 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 14 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 14 = 7 \\times x",
-    "answer": "6",
-    "solution": [
-      {
-        "latex": "3 \\times 14 = 42",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{42}{7}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 6",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-025",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 13 metros mayor que su ancho. Si el perímetro total es de 114 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 13) = 114",
-    "answer": "22",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 13) = 114",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 26 = 114",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 88",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 22",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-026",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 48. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 12 = 48",
+    "question": "Un equipo de 6 obreros tarda 10 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 10 = 5 \\times x",
     "answer": "12",
     "solution": [
       {
-        "latex": "x + 2x + 12 = 48",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 6 años tendrán x+6 y 2x+6 respectivamente."
+        "latex": "6 \\times 10 = 60",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "3x = 48 - 12",
-        "explanation": "Agrupamos las x y pasamos los años restando."
+        "latex": "x = \\frac{60}{5}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
         "latex": "x = 12",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-027",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 7 metros mayor que su ancho. Si el perímetro total es de 134 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 7) = 134",
-    "answer": "30",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 7) = 134",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 14 = 134",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 120",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 30",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-028",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. Si el perímetro total es de 108 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 12) = 108",
-    "answer": "21",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 12) = 108",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 24 = 108",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 84",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 21",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-029",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 5 obreros tarda 24 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "5 \\times 24 = 8 \\times x",
-    "answer": "15",
-    "solution": [
-      {
-        "latex": "5 \\times 24 = 120",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{120}{8}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 15",
         "explanation": "Resultado en días."
       }
     ],
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-030",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 35 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 35 = 7 \\times x",
-    "answer": "20",
-    "solution": [
-      {
-        "latex": "4 \\times 35 = 140",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{140}{7}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 20",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-031",
+    "id": "math-7-008",
     "type": "numeric"
   },
   {
@@ -969,27 +270,27 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 32. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 12 = 32",
-    "answer": "5",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 44. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 20 = 44",
+    "answer": "8",
     "solution": [
       {
-        "latex": "x + 3x + 12 = 32",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 6 años tendrán x+6 y 3x+6 respectivamente."
+        "latex": "x + 2x + 20 = 44",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 10 años tendrán x+10 y 2x+10 respectivamente."
       },
       {
-        "latex": "4x = 32 - 12",
+        "latex": "3x = 44 - 20",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 5",
+        "latex": "x = 8",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-032",
+    "id": "math-7-009",
     "type": "numeric"
   },
   {
@@ -998,16 +299,45 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 48. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 8 = 48",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 5 años, la suma de sus edades será 52. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 10 = 52",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x + 2x + 10 = 52",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 5 años tendrán x+5 y 2x+5 respectivamente."
+      },
+      {
+        "latex": "3x = 52 - 10",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-010",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 46. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 16 = 46",
     "answer": "10",
     "solution": [
       {
-        "latex": "x + 3x + 8 = 48",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
+        "latex": "x + 2x + 16 = 46",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 8 años tendrán x+8 y 2x+8 respectivamente."
       },
       {
-        "latex": "4x = 48 - 8",
+        "latex": "3x = 46 - 16",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
@@ -1018,40 +348,94 @@
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-033",
+    "id": "math-7-011",
     "type": "numeric"
   },
   {
     "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 92 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 14) = 92",
-    "answer": "16",
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 3 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 2 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 8 = 2 \\times x",
+    "answer": "12",
     "solution": [
       {
-        "latex": "2x + 2(x + 14) = 92",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+        "latex": "3 \\times 8 = 24",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "4x + 28 = 92",
-        "explanation": "Desarrollamos la ecuación."
+        "latex": "x = \\frac{24}{2}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "4x = 64",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 16",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
       }
     ],
     "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-034",
+    "id": "math-7-012",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 33. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 12 = 33",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "x + 2x + 12 = 33",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 6 años tendrán x+6 y 2x+6 respectivamente."
+      },
+      {
+        "latex": "3x = 33 - 12",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 7",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-013",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 6 obreros tarda 21 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 21 = 7 \\times x",
+    "answer": "18",
+    "solution": [
+      {
+        "latex": "6 \\times 21 = 126",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{126}{7}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 18",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-014",
     "type": "numeric"
   },
   {
@@ -1080,7 +464,75 @@
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-035",
+    "id": "math-7-015",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "x + (x + 12) = 80",
+      "2x + 2(x + 12) = 80",
+      "2x + x + 12 = 80",
+      "x(x + 12) = 80"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. El perímetro total es de 80 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 12) = 80",
+    "answer": "2x + 2(x + 12) = 80",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 12",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 80",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 12) = 80",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-016"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 3 obreros tarda 24 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 24 = 6 \\times x",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "3 \\times 24 = 72",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{72}{6}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-017",
     "type": "numeric"
   },
   {
@@ -1089,16 +541,78 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 68. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 8 = 68",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 62. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 12 = 62",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "x + 4x + 12 = 62",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 6 años tendrán x+6 y 4x+6 respectivamente."
+      },
+      {
+        "latex": "5x = 62 - 12",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-018",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. Si el perímetro total es de 88 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 12) = 88",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 12) = 88",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 24 = 88",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 64",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-019",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 91. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 16 = 91",
     "answer": "15",
     "solution": [
       {
-        "latex": "x + 3x + 8 = 68",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
+        "latex": "x + 4x + 16 = 91",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 8 años tendrán x+8 y 4x+8 respectivamente."
       },
       {
-        "latex": "4x = 68 - 8",
+        "latex": "5x = 91 - 16",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
@@ -1109,7 +623,7 @@
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-036",
+    "id": "math-7-020",
     "type": "numeric"
   },
   {
@@ -1118,27 +632,27 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 24 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 24 = 8 \\times x",
-    "answer": "9",
+    "question": "Un equipo de 2 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 8 = 4 \\times x",
+    "answer": "4",
     "solution": [
       {
-        "latex": "3 \\times 24 = 72",
+        "latex": "2 \\times 8 = 16",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{72}{8}",
+        "latex": "x = \\frac{16}{4}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 9",
+        "latex": "x = 4",
         "explanation": "Resultado en días."
       }
     ],
     "hints": [
       "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
-    "id": "math-7-037",
+    "id": "math-7-021",
     "type": "numeric"
   },
   {
@@ -1147,27 +661,27 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 5 años, la suma de sus edades será 85. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 10 = 85",
-    "answer": "15",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 35. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 20 = 35",
+    "answer": "5",
     "solution": [
       {
-        "latex": "x + 4x + 10 = 85",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 5 años tendrán x+5 y 4x+5 respectivamente."
+        "latex": "x + 2x + 20 = 35",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 10 años tendrán x+10 y 2x+10 respectivamente."
       },
       {
-        "latex": "5x = 85 - 10",
+        "latex": "3x = 35 - 20",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 15",
+        "latex": "x = 5",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
     "hints": [
       "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
-    "id": "math-7-038",
+    "id": "math-7-022",
     "type": "numeric"
   },
   {
@@ -1176,31 +690,31 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 74 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 74",
-    "answer": "13",
+    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 108 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 14) = 108",
+    "answer": "20",
     "solution": [
       {
-        "latex": "2x + 2(x + 11) = 74",
+        "latex": "2x + 2(x + 14) = 108",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 22 = 74",
+        "latex": "4x + 28 = 108",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 52",
+        "latex": "4x = 80",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 13",
+        "latex": "x = 20",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
-    "id": "math-7-039",
+    "id": "math-7-023",
     "type": "numeric"
   },
   {
@@ -1209,16 +723,78 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 9 metros mayor que su ancho. Si el perímetro total es de 86 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 9) = 86",
-    "answer": "17",
+    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 124 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 4) = 124",
+    "answer": "29",
     "solution": [
       {
-        "latex": "2x + 2(x + 9) = 86",
+        "latex": "2x + 2(x + 4) = 124",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 18 = 86",
+        "latex": "4x + 8 = 124",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 116",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 29",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-024",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 38. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 8 = 38",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "x + 2x + 8 = 38",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 4 años tendrán x+4 y 2x+4 respectivamente."
+      },
+      {
+        "latex": "3x = 38 - 8",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-025",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 80 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 6) = 80",
+    "answer": "17",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 6) = 80",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 12 = 80",
         "explanation": "Desarrollamos la ecuación."
       },
       {
@@ -1233,7 +809,340 @@
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
-    "id": "math-7-040",
+    "id": "math-7-026",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 54. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 12 = 54",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x + 2x + 12 = 54",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 6 años tendrán x+6 y 2x+6 respectivamente."
+      },
+      {
+        "latex": "3x = 54 - 12",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-027",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 3 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 2 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 8 = 2 \\times x",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "3 \\times 8 = 24",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{24}{2}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-028",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "x + (x + 10) = 136",
+      "x(x + 10) = 136",
+      "2x + x + 10 = 136",
+      "2x + 2(x + 10) = 136"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 10 metros mayor que su ancho. El perímetro total es de 136 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 10) = 136",
+    "answer": "2x + 2(x + 10) = 136",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 10",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 136",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 10) = 136",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-029"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. Si el perímetro total es de 84 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 12) = 84",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 12) = 84",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 24 = 84",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 60",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-030",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 51. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 18 = 51",
+    "answer": "11",
+    "solution": [
+      {
+        "latex": "x + 2x + 18 = 51",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 9 años tendrán x+9 y 2x+9 respectivamente."
+      },
+      {
+        "latex": "3x = 51 - 18",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-031",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 30 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 30 = 6 \\times x",
+    "answer": "25",
+    "solution": [
+      {
+        "latex": "5 \\times 30 = 150",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{150}{6}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 25",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-032",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 2 obreros tarda 40 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 40 = 8 \\times x",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "2 \\times 40 = 80",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{80}{8}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-033",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 2 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 12 = 4 \\times x",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "2 \\times 12 = 24",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{24}{4}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-034",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 3 obreros tarda 32 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 32 = 8 \\times x",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "3 \\times 32 = 96",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{96}{8}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-035",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 3 años, la suma de sus edades será 45. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 6 = 45",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "x + 2x + 6 = 45",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 3 años tendrán x+3 y 2x+3 respectivamente."
+      },
+      {
+        "latex": "3x = 45 - 6",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-036",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 72. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 20 = 72",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "x + 3x + 20 = 72",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 10 años tendrán x+10 y 3x+10 respectivamente."
+      },
+      {
+        "latex": "4x = 72 - 20",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-037",
     "type": "numeric"
   },
   {
@@ -1242,29 +1151,126 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 112 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 4) = 112",
-    "answer": "26",
+    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 112 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 8) = 112",
+    "answer": "24",
     "solution": [
       {
-        "latex": "2x + 2(x + 4) = 112",
+        "latex": "2x + 2(x + 8) = 112",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 8 = 112",
+        "latex": "4x + 16 = 112",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 104",
+        "latex": "4x = 96",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 26",
+        "latex": "x = 24",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-038",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "2x + x + 12 = 80",
+      "2x + 2(x + 12) = 80",
+      "x + (x + 12) = 80",
+      "x(x + 12) = 80"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. El perímetro total es de 80 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 12) = 80",
+    "answer": "2x + 2(x + 12) = 80",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 12",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 80",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 12) = 80",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-039"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 3 obreros tarda 16 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 16 = 8 \\times x",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "3 \\times 16 = 48",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{48}{8}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-040",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 40. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 8 = 40",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x + 3x + 8 = 40",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
+      },
+      {
+        "latex": "4x = 40 - 8",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
     "id": "math-7-041",
     "type": "numeric"
@@ -1275,20 +1281,20 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 12 = 3 \\times x",
-    "answer": "16",
+    "question": "Un equipo de 6 obreros tarda 35 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 35 = 7 \\times x",
+    "answer": "30",
     "solution": [
       {
-        "latex": "4 \\times 12 = 48",
+        "latex": "6 \\times 35 = 210",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{48}{3}",
+        "latex": "x = \\frac{210}{7}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 16",
+        "latex": "x = 30",
         "explanation": "Resultado en días."
       }
     ],
@@ -1304,20 +1310,20 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 45. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 12 = 45",
-    "answer": "11",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 68. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 20 = 68",
+    "answer": "12",
     "solution": [
       {
-        "latex": "x + 2x + 12 = 45",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 6 años tendrán x+6 y 2x+6 respectivamente."
+        "latex": "x + 3x + 20 = 68",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 10 años tendrán x+10 y 3x+10 respectivamente."
       },
       {
-        "latex": "3x = 45 - 12",
+        "latex": "4x = 68 - 20",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 11",
+        "latex": "x = 12",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
@@ -1333,24 +1339,24 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 15 metros mayor que su ancho. Si el perímetro total es de 102 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 15) = 102",
-    "answer": "18",
+    "question": "El largo de un terreno rectangular es 5 metros mayor que su ancho. Si el perímetro total es de 114 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 5) = 114",
+    "answer": "26",
     "solution": [
       {
-        "latex": "2x + 2(x + 15) = 102",
+        "latex": "2x + 2(x + 5) = 114",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 30 = 102",
+        "latex": "4x + 10 = 114",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 72",
+        "latex": "4x = 104",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 18",
+        "latex": "x = 26",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
@@ -1362,643 +1368,31 @@
   },
   {
     "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 25 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 25 = 5 \\times x",
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 74. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 14 = 74",
     "answer": "15",
     "solution": [
       {
-        "latex": "3 \\times 25 = 75",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+        "latex": "x + 3x + 14 = 74",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 7 años tendrán x+7 y 3x+7 respectivamente."
       },
       {
-        "latex": "x = \\frac{75}{5}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+        "latex": "4x = 74 - 14",
+        "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
         "latex": "x = 15",
-        "explanation": "Resultado en días."
+        "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
     "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
     "id": "math-7-045",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 3 años, la suma de sus edades será 31. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 6 = 31",
-    "answer": "5",
-    "solution": [
-      {
-        "latex": "x + 4x + 6 = 31",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 3 años tendrán x+3 y 4x+3 respectivamente."
-      },
-      {
-        "latex": "5x = 31 - 6",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 5",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-046",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 100 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 14) = 100",
-    "answer": "18",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 14) = 100",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 28 = 100",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 72",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 18",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-047",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 142 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 142",
-    "answer": "30",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 11) = 142",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 22 = 142",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 120",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 30",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-048",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 13 metros mayor que su ancho. Si el perímetro total es de 126 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 13) = 126",
-    "answer": "25",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 13) = 126",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 26 = 126",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 100",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 25",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-049",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 45 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 45 = 9 \\times x",
-    "answer": "15",
-    "solution": [
-      {
-        "latex": "3 \\times 45 = 135",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{135}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 15",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-050",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 30 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 30 = 6 \\times x",
-    "answer": "10",
-    "solution": [
-      {
-        "latex": "2 \\times 30 = 60",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{60}{6}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 10",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-051",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 13 metros mayor que su ancho. Si el perímetro total es de 94 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 13) = 94",
-    "answer": "17",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 13) = 94",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 26 = 94",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 68",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 17",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-052",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 5 años, la suma de sus edades será 38. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 10 = 38",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "x + 3x + 10 = 38",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 5 años tendrán x+5 y 3x+5 respectivamente."
-      },
-      {
-        "latex": "4x = 38 - 10",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 7",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-053",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 84. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 14 = 84",
-    "answer": "14",
-    "solution": [
-      {
-        "latex": "x + 4x + 14 = 84",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 7 años tendrán x+7 y 4x+7 respectivamente."
-      },
-      {
-        "latex": "5x = 84 - 14",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 14",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-054",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 53. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 18 = 53",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "x + 4x + 18 = 53",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 9 años tendrán x+9 y 4x+9 respectivamente."
-      },
-      {
-        "latex": "5x = 53 - 18",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 7",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-055",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 5 metros mayor que su ancho. Si el perímetro total es de 106 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 5) = 106",
-    "answer": "24",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 5) = 106",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 10 = 106",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 96",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 24",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-056",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 120 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 6) = 120",
-    "answer": "27",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 6) = 120",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 12 = 120",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 108",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 27",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-057",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 10 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 10 = 5 \\times x",
-    "answer": "6",
-    "solution": [
-      {
-        "latex": "3 \\times 10 = 30",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{30}{5}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 6",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-058",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 52. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 16 = 52",
-    "answer": "12",
-    "solution": [
-      {
-        "latex": "x + 2x + 16 = 52",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 8 años tendrán x+8 y 2x+8 respectivamente."
-      },
-      {
-        "latex": "3x = 52 - 16",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 12",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-059",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 43. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 16 = 43",
-    "answer": "9",
-    "solution": [
-      {
-        "latex": "x + 2x + 16 = 43",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 8 años tendrán x+8 y 2x+8 respectivamente."
-      },
-      {
-        "latex": "3x = 43 - 16",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 9",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-060",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 40. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 20 = 40",
-    "answer": "5",
-    "solution": [
-      {
-        "latex": "x + 3x + 20 = 40",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 10 años tendrán x+10 y 3x+10 respectivamente."
-      },
-      {
-        "latex": "4x = 40 - 20",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 5",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-061",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 7 metros mayor que su ancho. Si el perímetro total es de 70 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 7) = 70",
-    "answer": "14",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 7) = 70",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 14 = 70",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 56",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 14",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-062",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 5 obreros tarda 45 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "5 \\times 45 = 9 \\times x",
-    "answer": "25",
-    "solution": [
-      {
-        "latex": "5 \\times 45 = 225",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{225}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 25",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-063",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 60. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 20 = 60",
-    "answer": "8",
-    "solution": [
-      {
-        "latex": "x + 4x + 20 = 60",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 10 años tendrán x+10 y 4x+10 respectivamente."
-      },
-      {
-        "latex": "5x = 60 - 20",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 8",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-064",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 96 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 4) = 96",
-    "answer": "22",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 4) = 96",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 8 = 96",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 88",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 22",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-065",
     "type": "numeric"
   },
   {
@@ -2031,6 +1425,630 @@
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
+    "id": "math-7-046",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 60. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 12 = 60",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "x + 3x + 12 = 60",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 6 años tendrán x+6 y 3x+6 respectivamente."
+      },
+      {
+        "latex": "4x = 60 - 12",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-047",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 5 años, la suma de sus edades será 58. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 10 = 58",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "x + 3x + 10 = 58",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 5 años tendrán x+5 y 3x+5 respectivamente."
+      },
+      {
+        "latex": "4x = 58 - 10",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-048",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 18 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 18 = 6 \\times x",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "5 \\times 18 = 90",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{90}{6}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-049",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 108 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 6) = 108",
+    "answer": "24",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 6) = 108",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 12 = 108",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 96",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 24",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-050",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 89. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 14 = 89",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "x + 4x + 14 = 89",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 7 años tendrán x+7 y 4x+7 respectivamente."
+      },
+      {
+        "latex": "5x = 89 - 14",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-051",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 2 obreros tarda 16 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 16 = 8 \\times x",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "2 \\times 16 = 32",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{32}{8}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 4",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-052",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. Si el perímetro total es de 80 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 12) = 80",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 12) = 80",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 24 = 80",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 56",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-053",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 86. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 16 = 86",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x + 4x + 16 = 86",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 8 años tendrán x+8 y 4x+8 respectivamente."
+      },
+      {
+        "latex": "5x = 86 - 16",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-054",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 28 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 28 = 7 \\times x",
+    "answer": "20",
+    "solution": [
+      {
+        "latex": "5 \\times 28 = 140",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{140}{7}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-055",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 6 obreros tarda 35 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 35 = 7 \\times x",
+    "answer": "30",
+    "solution": [
+      {
+        "latex": "6 \\times 35 = 210",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{210}{7}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 30",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-056",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 112 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 4) = 112",
+    "answer": "26",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 4) = 112",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 8 = 112",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 104",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 26",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-057",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "x(x + 14) = 96",
+      "2x + x + 14 = 96",
+      "x + (x + 14) = 96",
+      "2x + 2(x + 14) = 96"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. El perímetro total es de 96 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 14) = 96",
+    "answer": "2x + 2(x + 14) = 96",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 14",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 96",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 14) = 96",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-058"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 15 metros mayor que su ancho. Si el perímetro total es de 98 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 15) = 98",
+    "answer": "17",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 15) = 98",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 30 = 98",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 68",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 17",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-059",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 45 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 45 = 9 \\times x",
+    "answer": "25",
+    "solution": [
+      {
+        "latex": "5 \\times 45 = 225",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{225}{9}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 25",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-060",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 78. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 18 = 78",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "x + 3x + 18 = 78",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 9 años tendrán x+9 y 3x+9 respectivamente."
+      },
+      {
+        "latex": "4x = 78 - 18",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-061",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 148 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 14) = 148",
+    "answer": "30",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 14) = 148",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 28 = 148",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 120",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 30",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-062",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "x(x + 11) = 90",
+      "2x + x + 11 = 90",
+      "x + (x + 11) = 90",
+      "2x + 2(x + 11) = 90"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. El perímetro total es de 90 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 11) = 90",
+    "answer": "2x + 2(x + 11) = 90",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 11",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 90",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 11) = 90",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-063"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 48. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 18 = 48",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "x + 2x + 18 = 48",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 9 años tendrán x+9 y 2x+9 respectivamente."
+      },
+      {
+        "latex": "3x = 48 - 18",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-064",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 26. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 8 = 26",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "x + 2x + 8 = 26",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 4 años tendrán x+4 y 2x+4 respectivamente."
+      },
+      {
+        "latex": "3x = 26 - 8",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 6",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-065",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 14 metros mayor que su ancho. Si el perímetro total es de 120 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 14) = 120",
+    "answer": "23",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 14) = 120",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 28 = 120",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 92",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 23",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
     "id": "math-7-066",
     "type": "numeric"
   },
@@ -2040,20 +2058,20 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 63. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 18 = 63",
-    "answer": "9",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 42. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 12 = 42",
+    "answer": "6",
     "solution": [
       {
-        "latex": "x + 4x + 18 = 63",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 9 años tendrán x+9 y 4x+9 respectivamente."
+        "latex": "x + 4x + 12 = 42",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 6 años tendrán x+6 y 4x+6 respectivamente."
       },
       {
-        "latex": "5x = 63 - 18",
+        "latex": "5x = 42 - 12",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 9",
+        "latex": "x = 6",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
@@ -2065,29 +2083,29 @@
   },
   {
     "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 68. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 18 = 68",
-    "answer": "10",
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 6 obreros tarda 6 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 2 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 6 = 2 \\times x",
+    "answer": "18",
     "solution": [
       {
-        "latex": "x + 4x + 18 = 68",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 9 años tendrán x+9 y 4x+9 respectivamente."
+        "latex": "6 \\times 6 = 36",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "5x = 68 - 18",
-        "explanation": "Agrupamos las x y pasamos los años restando."
+        "latex": "x = \\frac{36}{2}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 10",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
+        "latex": "x = 18",
+        "explanation": "Resultado en días."
       }
     ],
     "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
     "id": "math-7-068",
     "type": "numeric"
@@ -2098,20 +2116,20 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 33. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 8 = 33",
-    "answer": "5",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 5 años, la suma de sus edades será 45. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 10 = 45",
+    "answer": "7",
     "solution": [
       {
-        "latex": "x + 4x + 8 = 33",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 4 años tendrán x+4 y 4x+4 respectivamente."
+        "latex": "x + 4x + 10 = 45",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 5 años tendrán x+5 y 4x+5 respectivamente."
       },
       {
-        "latex": "5x = 33 - 8",
+        "latex": "5x = 45 - 10",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 5",
+        "latex": "x = 7",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
@@ -2127,20 +2145,20 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 21 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 21 = 7 \\times x",
-    "answer": "9",
+    "question": "Un equipo de 6 obreros tarda 32 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 32 = 8 \\times x",
+    "answer": "24",
     "solution": [
       {
-        "latex": "3 \\times 21 = 63",
+        "latex": "6 \\times 32 = 192",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{63}{7}",
+        "latex": "x = \\frac{192}{8}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 9",
+        "latex": "x = 24",
         "explanation": "Resultado en días."
       }
     ],
@@ -2152,64 +2170,190 @@
   },
   {
     "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 12 = 3 \\times x",
-    "answer": "16",
-    "solution": [
-      {
-        "latex": "4 \\times 12 = 48",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{48}{3}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 16",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-071",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
     "category": "Medidas de Figuras Geométricas",
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 88 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 6) = 88",
-    "answer": "19",
+    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 76 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 6) = 76",
+    "answer": "16",
     "solution": [
       {
-        "latex": "2x + 2(x + 6) = 88",
+        "latex": "2x + 2(x + 6) = 76",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 12 = 88",
+        "latex": "4x + 12 = 76",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 76",
+        "latex": "4x = 64",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 19",
+        "latex": "x = 16",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
+    "id": "math-7-071",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 59. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 20 = 59",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "x + 2x + 20 = 59",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 10 años tendrán x+10 y 2x+10 respectivamente."
+      },
+      {
+        "latex": "3x = 59 - 20",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
     "id": "math-7-072",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 29. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 14 = 29",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "x + 2x + 14 = 29",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 7 años tendrán x+7 y 2x+7 respectivamente."
+      },
+      {
+        "latex": "3x = 29 - 14",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 5",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-073",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 6 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 2 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 6 = 2 \\times x",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "5 \\times 6 = 30",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{30}{2}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-074",
+    "type": "numeric"
+  },
+  {
+    "type": "multiple_choice",
+    "options": [
+      "x(x + 4) = 56",
+      "x + (x + 4) = 56",
+      "2x + x + 4 = 56",
+      "2x + 2(x + 4) = 56"
+    ],
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 2,
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. El perímetro total es de 56 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 4) = 56",
+    "answer": "2x + 2(x + 4) = 56",
+    "solution": [
+      {
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
+      },
+      {
+        "latex": "Largo = x + 4",
+        "explanation": "El largo es mayor que el ancho."
+      },
+      {
+        "latex": "2(Ancho) + 2(Largo) = 56",
+        "explanation": "Fórmula del perímetro."
+      },
+      {
+        "latex": "2x + 2(x + 4) = 56",
+        "explanation": "Sustituimos y obtenemos la ecuación."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados de un rectángulo."
+    ],
+    "id": "math-7-075"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 42. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 2x + 18 = 42",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "x + 2x + 18 = 42",
+        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 9 años tendrán x+9 y 2x+9 respectivamente."
+      },
+      {
+        "latex": "3x = 42 - 18",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 8",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-076",
     "type": "numeric"
   },
   {
@@ -2218,16 +2362,235 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 62 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 62",
-    "answer": "10",
+    "question": "El largo de un terreno rectangular es 13 metros mayor que su ancho. Si el perímetro total es de 86 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 13) = 86",
+    "answer": "15",
     "solution": [
       {
-        "latex": "2x + 2(x + 11) = 62",
+        "latex": "2x + 2(x + 13) = 86",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 22 = 62",
+        "latex": "4x + 26 = 86",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 60",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-077",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 5 metros mayor que su ancho. Si el perímetro total es de 126 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 5) = 126",
+    "answer": "29",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 5) = 126",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 10 = 126",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 116",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 29",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-078",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 10 años, la suma de sus edades será 64. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 20 = 64",
+    "answer": "11",
+    "solution": [
+      {
+        "latex": "x + 3x + 20 = 64",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 10 años tendrán x+10 y 3x+10 respectivamente."
+      },
+      {
+        "latex": "4x = 64 - 20",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 11",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-079",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 64 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 8) = 64",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 8) = 64",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 16 = 64",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 48",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-080",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 91. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 16 = 91",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "x + 4x + 16 = 91",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 8 años tendrán x+8 y 4x+8 respectivamente."
+      },
+      {
+        "latex": "5x = 91 - 16",
+        "explanation": "Agrupamos las x y pasamos los años restando."
+      },
+      {
+        "latex": "x = 15",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
+      }
+    ],
+    "hints": [
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+    ],
+    "id": "math-7-081",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 80 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 8) = 80",
+    "answer": "16",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 8) = 80",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 16 = 80",
+        "explanation": "Desarrollamos la ecuación."
+      },
+      {
+        "latex": "4x = 64",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 16",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
+      }
+    ],
+    "hints": [
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+    ],
+    "id": "math-7-082",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 36 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 36 = 9 \\times x",
+    "answer": "20",
+    "solution": [
+      {
+        "latex": "5 \\times 36 = 180",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{180}{9}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 20",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-083",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 13 metros mayor que su ancho. Si el perímetro total es de 66 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 13) = 66",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "2x + 2(x + 13) = 66",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+      },
+      {
+        "latex": "4x + 26 = 66",
         "explanation": "Desarrollamos la ecuación."
       },
       {
@@ -2242,7 +2605,36 @@
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
-    "id": "math-7-073",
+    "id": "math-7-084",
+    "type": "numeric"
+  },
+  {
+    "grade": 7,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 4 obreros tarda 9 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "4 \\times 9 = 3 \\times x",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "4 \\times 9 = 36",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+      },
+      {
+        "latex": "x = \\frac{36}{3}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+      },
+      {
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
+      }
+    ],
+    "hints": [
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+    ],
+    "id": "math-7-085",
     "type": "numeric"
   },
   {
@@ -2251,281 +2643,16 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 96 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 4) = 96",
-    "answer": "22",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 4) = 96",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 8 = 96",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 88",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 22",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-074",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 6 obreros tarda 21 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "6 \\times 21 = 7 \\times x",
-    "answer": "18",
-    "solution": [
-      {
-        "latex": "6 \\times 21 = 126",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{126}{7}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 18",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-075",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 88. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 18 = 88",
-    "answer": "14",
-    "solution": [
-      {
-        "latex": "x + 4x + 18 = 88",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 9 años tendrán x+9 y 4x+9 respectivamente."
-      },
-      {
-        "latex": "5x = 88 - 18",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 14",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-076",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 20 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 20 = 4 \\times x",
-    "answer": "15",
-    "solution": [
-      {
-        "latex": "3 \\times 20 = 60",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{60}{4}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 15",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-077",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 6 obreros tarda 9 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "6 \\times 9 = 3 \\times x",
-    "answer": "18",
-    "solution": [
-      {
-        "latex": "6 \\times 9 = 54",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{54}{3}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 18",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-078",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 7 años, la suma de sus edades será 35. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 14 = 35",
-    "answer": "7",
-    "solution": [
-      {
-        "latex": "x + 2x + 14 = 35",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 7 años tendrán x+7 y 2x+7 respectivamente."
-      },
-      {
-        "latex": "3x = 35 - 14",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 7",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-079",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 5 obreros tarda 32 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "5 \\times 32 = 8 \\times x",
-    "answer": "20",
-    "solution": [
-      {
-        "latex": "5 \\times 32 = 160",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{160}{8}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 20",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-080",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 36 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 36 = 9 \\times x",
-    "answer": "8",
-    "solution": [
-      {
-        "latex": "2 \\times 36 = 72",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{72}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 8",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-081",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 18 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 9 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 18 = 9 \\times x",
-    "answer": "8",
-    "solution": [
-      {
-        "latex": "4 \\times 18 = 72",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
-      },
-      {
-        "latex": "x = \\frac{72}{9}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
-      },
-      {
-        "latex": "x = 8",
-        "explanation": "Resultado en días."
-      }
-    ],
-    "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
-    ],
-    "id": "math-7-082",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 120 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 4) = 120",
+    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 134 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 11) = 134",
     "answer": "28",
     "solution": [
       {
-        "latex": "2x + 2(x + 4) = 120",
+        "latex": "2x + 2(x + 11) = 134",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 8 = 120",
+        "latex": "4x + 22 = 134",
         "explanation": "Desarrollamos la ecuación."
       },
       {
@@ -2540,97 +2667,6 @@
     "hints": [
       "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
-    "id": "math-7-083",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 68. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 12 = 68",
-    "answer": "14",
-    "solution": [
-      {
-        "latex": "x + 3x + 12 = 68",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 6 años tendrán x+6 y 3x+6 respectivamente."
-      },
-      {
-        "latex": "4x = 68 - 12",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 14",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
-    "id": "math-7-084",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 126 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 126",
-    "answer": "26",
-    "solution": [
-      {
-        "latex": "2x + 2(x + 11) = 126",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
-      },
-      {
-        "latex": "4x + 22 = 126",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 104",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 26",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
-      }
-    ],
-    "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
-    ],
-    "id": "math-7-085",
-    "type": "numeric"
-  },
-  {
-    "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 60. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 8 = 60",
-    "answer": "13",
-    "solution": [
-      {
-        "latex": "x + 3x + 8 = 60",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
-      },
-      {
-        "latex": "4x = 60 - 8",
-        "explanation": "Agrupamos las x y pasamos los años restando."
-      },
-      {
-        "latex": "x = 13",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
-      }
-    ],
-    "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
-    ],
     "id": "math-7-086",
     "type": "numeric"
   },
@@ -2640,20 +2676,20 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 4 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "4 \\times 12 = 6 \\times x",
-    "answer": "8",
+    "question": "Un equipo de 3 obreros tarda 14 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "3 \\times 14 = 7 \\times x",
+    "answer": "6",
     "solution": [
       {
-        "latex": "4 \\times 12 = 48",
+        "latex": "3 \\times 14 = 42",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{48}{6}",
+        "latex": "x = \\frac{42}{7}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 8",
+        "latex": "x = 6",
         "explanation": "Resultado en días."
       }
     ],
@@ -2665,33 +2701,29 @@
   },
   {
     "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 92 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 8) = 92",
-    "answer": "19",
+    "category": "Ecuaciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 3,
+    "title": "Problema de Edades",
+    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 3 años, la suma de sus edades será 26. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 3x + 6 = 26",
+    "answer": "5",
     "solution": [
       {
-        "latex": "2x + 2(x + 8) = 92",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+        "latex": "x + 3x + 6 = 26",
+        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 3 años tendrán x+3 y 3x+3 respectivamente."
       },
       {
-        "latex": "4x + 16 = 92",
-        "explanation": "Desarrollamos la ecuación."
+        "latex": "4x = 26 - 6",
+        "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "4x = 76",
-        "explanation": "Restamos los metros extra."
-      },
-      {
-        "latex": "x = 19",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
+        "latex": "x = 5",
+        "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
     "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
     ],
     "id": "math-7-088",
     "type": "numeric"
@@ -2702,24 +2734,24 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 11 metros mayor que su ancho. Si el perímetro total es de 122 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 11) = 122",
-    "answer": "25",
+    "question": "El largo de un terreno rectangular es 10 metros mayor que su ancho. Si el perímetro total es de 88 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 10) = 88",
+    "answer": "17",
     "solution": [
       {
-        "latex": "2x + 2(x + 11) = 122",
+        "latex": "2x + 2(x + 10) = 88",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 22 = 122",
+        "latex": "4x + 20 = 88",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 100",
+        "latex": "4x = 68",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 25",
+        "latex": "x = 17",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
@@ -2735,20 +2767,20 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 2 obreros tarda 20 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 5 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "2 \\times 20 = 5 \\times x",
-    "answer": "8",
+    "question": "Un equipo de 5 obreros tarda 12 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 12 = 3 \\times x",
+    "answer": "20",
     "solution": [
       {
-        "latex": "2 \\times 20 = 40",
+        "latex": "5 \\times 12 = 60",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{40}{5}",
+        "latex": "x = \\frac{60}{3}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 8",
+        "latex": "x = 20",
         "explanation": "Resultado en días."
       }
     ],
@@ -2760,58 +2792,62 @@
   },
   {
     "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 2 veces la edad de Juan. Dentro de 8 años, la suma de sus edades será 58. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 2x + 16 = 58",
-    "answer": "14",
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 6 obreros tarda 8 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 4 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "6 \\times 8 = 4 \\times x",
+    "answer": "12",
     "solution": [
       {
-        "latex": "x + 2x + 16 = 58",
-        "explanation": "Si Juan tiene x años, Ana tiene 2x. En 8 años tendrán x+8 y 2x+8 respectivamente."
+        "latex": "6 \\times 8 = 48",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "3x = 58 - 16",
-        "explanation": "Agrupamos las x y pasamos los años restando."
+        "latex": "x = \\frac{48}{4}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 14",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
+        "latex": "x = 12",
+        "explanation": "Resultado en días."
       }
     ],
     "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
     "id": "math-7-091",
     "type": "numeric"
   },
   {
     "grade": 7,
-    "category": "Proporcionalidad",
-    "subcategory": "Proporcionalidad inversa",
-    "difficulty": 3,
-    "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 3 obreros tarda 30 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 6 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "3 \\times 30 = 6 \\times x",
-    "answer": "15",
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 56 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 8) = 56",
+    "answer": "10",
     "solution": [
       {
-        "latex": "3 \\times 30 = 90",
-        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
+        "latex": "2x + 2(x + 8) = 56",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "x = \\frac{90}{6}",
-        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
+        "latex": "4x + 16 = 56",
+        "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "x = 15",
-        "explanation": "Resultado en días."
+        "latex": "4x = 40",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 10",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
     "hints": [
-      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
     "id": "math-7-092",
     "type": "numeric"
@@ -2822,20 +2858,20 @@
     "subcategory": "Proporcionalidad inversa",
     "difficulty": 3,
     "title": "Proporcionalidad Inversa",
-    "question": "Un equipo de 5 obreros tarda 6 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 3 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
-    "latex": "5 \\times 6 = 3 \\times x",
-    "answer": "10",
+    "question": "Un equipo de 2 obreros tarda 24 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 8 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "2 \\times 24 = 8 \\times x",
+    "answer": "6",
     "solution": [
       {
-        "latex": "5 \\times 6 = 30",
+        "latex": "2 \\times 24 = 48",
         "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "x = \\frac{30}{3}",
+        "latex": "x = \\frac{48}{8}",
         "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
-        "latex": "x = 10",
+        "latex": "x = 6",
         "explanation": "Resultado en días."
       }
     ],
@@ -2847,95 +2883,101 @@
   },
   {
     "grade": 7,
-    "category": "Ecuaciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 3,
-    "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 52. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 12 = 52",
-    "answer": "10",
+    "category": "Medidas de Figuras Geométricas",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 2,
+    "title": "Perímetro y Álgebra",
+    "question": "El largo de un terreno rectangular es 8 metros mayor que su ancho. Si el perímetro total es de 68 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 8) = 68",
+    "answer": "13",
     "solution": [
       {
-        "latex": "x + 3x + 12 = 52",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 6 años tendrán x+6 y 3x+6 respectivamente."
+        "latex": "2x + 2(x + 8) = 68",
+        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x = 52 - 12",
-        "explanation": "Agrupamos las x y pasamos los años restando."
+        "latex": "4x + 16 = 68",
+        "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "x = 10",
-        "explanation": "Dividimos para obtener la edad actual de Juan."
+        "latex": "4x = 52",
+        "explanation": "Restamos los metros extra."
+      },
+      {
+        "latex": "x = 13",
+        "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],
     "hints": [
-      "Plantea una ecuación donde la edad de Juan sea 'x'. No olvides sumar los años que pasan a ambas edades."
+      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
     ],
     "id": "math-7-094",
     "type": "numeric"
   },
   {
+    "type": "multiple_choice",
+    "options": [
+      "2x + x + 4 = 80",
+      "x + (x + 4) = 80",
+      "x(x + 4) = 80",
+      "2x + 2(x + 4) = 80"
+    ],
     "grade": 7,
     "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
+    "subcategory": "Modelado Algebraico",
     "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 6 metros mayor que su ancho. Si el perímetro total es de 88 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 6) = 88",
-    "answer": "19",
+    "title": "Plantear Ecuación (Perímetro)",
+    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. El perímetro total es de 80 metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+    "latex": "2x + 2(x + 4) = 80",
+    "answer": "2x + 2(x + 4) = 80",
     "solution": [
       {
-        "latex": "2x + 2(x + 6) = 88",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable x para el ancho."
       },
       {
-        "latex": "4x + 12 = 88",
-        "explanation": "Desarrollamos la ecuación."
+        "latex": "Largo = x + 4",
+        "explanation": "El largo es mayor que el ancho."
       },
       {
-        "latex": "4x = 76",
-        "explanation": "Restamos los metros extra."
+        "latex": "2(Ancho) + 2(Largo) = 80",
+        "explanation": "Fórmula del perímetro."
       },
       {
-        "latex": "x = 19",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
+        "latex": "2x + 2(x + 4) = 80",
+        "explanation": "Sustituimos y obtenemos la ecuación."
       }
     ],
     "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+      "El perímetro es la suma de los 4 lados de un rectángulo."
     ],
-    "id": "math-7-095",
-    "type": "numeric"
+    "id": "math-7-095"
   },
   {
     "grade": 7,
-    "category": "Medidas de Figuras Geométricas",
-    "subcategory": "Perímetro de polígonos",
-    "difficulty": 2,
-    "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 15 metros mayor que su ancho. Si el perímetro total es de 90 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 15) = 90",
+    "category": "Proporcionalidad",
+    "subcategory": "Proporcionalidad inversa",
+    "difficulty": 3,
+    "title": "Proporcionalidad Inversa",
+    "question": "Un equipo de 5 obreros tarda 21 días en construir un muro. Si se quiere hacer el mismo trabajo con un equipo de 7 obreros trabajando al mismo ritmo, ¿cuántos días tardarán?",
+    "latex": "5 \\times 21 = 7 \\times x",
     "answer": "15",
     "solution": [
       {
-        "latex": "2x + 2(x + 15) = 90",
-        "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
+        "latex": "5 \\times 21 = 105",
+        "explanation": "Calculamos el total de 'días-obrero' necesarios (esfuerzo total)."
       },
       {
-        "latex": "4x + 30 = 90",
-        "explanation": "Desarrollamos la ecuación."
-      },
-      {
-        "latex": "4x = 60",
-        "explanation": "Restamos los metros extra."
+        "latex": "x = \\frac{105}{7}",
+        "explanation": "Dividimos el esfuerzo total entre la nueva cantidad de obreros."
       },
       {
         "latex": "x = 15",
-        "explanation": "Dividimos entre 4 para encontrar el ancho."
+        "explanation": "Resultado en días."
       }
     ],
     "hints": [
-      "Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."
+      "A más obreros, menos días (es una proporción inversa). Multiplica los obreros iniciales por sus días."
     ],
     "id": "math-7-096",
     "type": "numeric"
@@ -2946,20 +2988,20 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 3 veces la edad de Juan. Dentro de 4 años, la suma de sus edades será 52. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 3x + 8 = 52",
-    "answer": "11",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 52. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 12 = 52",
+    "answer": "8",
     "solution": [
       {
-        "latex": "x + 3x + 8 = 52",
-        "explanation": "Si Juan tiene x años, Ana tiene 3x. En 4 años tendrán x+4 y 3x+4 respectivamente."
+        "latex": "x + 4x + 12 = 52",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 6 años tendrán x+6 y 4x+6 respectivamente."
       },
       {
-        "latex": "4x = 52 - 8",
+        "latex": "5x = 52 - 12",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 11",
+        "latex": "x = 8",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
@@ -2975,20 +3017,20 @@
     "subcategory": "Aplicaciones",
     "difficulty": 3,
     "title": "Problema de Edades",
-    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 6 años, la suma de sus edades será 37. ¿Cuál es la edad actual de Juan?",
-    "latex": "x + 4x + 12 = 37",
-    "answer": "5",
+    "question": "Ana tiene 4 veces la edad de Juan. Dentro de 9 años, la suma de sus edades será 93. ¿Cuál es la edad actual de Juan?",
+    "latex": "x + 4x + 18 = 93",
+    "answer": "15",
     "solution": [
       {
-        "latex": "x + 4x + 12 = 37",
-        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 6 años tendrán x+6 y 4x+6 respectivamente."
+        "latex": "x + 4x + 18 = 93",
+        "explanation": "Si Juan tiene x años, Ana tiene 4x. En 9 años tendrán x+9 y 4x+9 respectivamente."
       },
       {
-        "latex": "5x = 37 - 12",
+        "latex": "5x = 93 - 18",
         "explanation": "Agrupamos las x y pasamos los años restando."
       },
       {
-        "latex": "x = 5",
+        "latex": "x = 15",
         "explanation": "Dividimos para obtener la edad actual de Juan."
       }
     ],
@@ -3004,24 +3046,24 @@
     "subcategory": "Perímetro de polígonos",
     "difficulty": 2,
     "title": "Perímetro y Álgebra",
-    "question": "El largo de un terreno rectangular es 12 metros mayor que su ancho. Si el perímetro total es de 76 metros, ¿cuánto mide el ancho del terreno (en metros)?",
-    "latex": "2x + 2(x + 12) = 76",
-    "answer": "13",
+    "question": "El largo de un terreno rectangular es 4 metros mayor que su ancho. Si el perímetro total es de 80 metros, ¿cuánto mide el ancho del terreno (en metros)?",
+    "latex": "2x + 2(x + 4) = 80",
+    "answer": "18",
     "solution": [
       {
-        "latex": "2x + 2(x + 12) = 76",
+        "latex": "2x + 2(x + 4) = 80",
         "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."
       },
       {
-        "latex": "4x + 24 = 76",
+        "latex": "4x + 8 = 80",
         "explanation": "Desarrollamos la ecuación."
       },
       {
-        "latex": "4x = 52",
+        "latex": "4x = 72",
         "explanation": "Restamos los metros extra."
       },
       {
-        "latex": "x = 13",
+        "latex": "x = 18",
         "explanation": "Dividimos entre 4 para encontrar el ancho."
       }
     ],

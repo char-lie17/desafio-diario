@@ -59,23 +59,52 @@ def generate_7th():
         c = random.randint(3, 15)
         L = W + c
         P = 2*L + 2*W
-        p = {
-            "grade": 7,
-            "category": "Medidas de Figuras Geométricas",
-            "subcategory": "Perímetro de polígonos",
-            "difficulty": 2,
-            "title": "Perímetro y Álgebra",
-            "question": f"El largo de un terreno rectangular es {c} metros mayor que su ancho. Si el perímetro total es de {P} metros, ¿cuánto mide el ancho del terreno (en metros)?",
-            "latex": f"2x + 2(x + {c}) = {P}",
-            "answer": str(W),
-            "solution": [
-                {"latex": f"2x + 2(x + {c}) = {P}", "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."},
-                {"latex": f"4x + {2*c} = {P}", "explanation": "Desarrollamos la ecuación."},
-                {"latex": f"4x = {P - 2*c}", "explanation": "Restamos los metros extra."},
-                {"latex": f"x = {W}", "explanation": "Dividimos entre 4 para encontrar el ancho."}
-            ],
-            "hints": ["Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."]
-        }
+        is_mc = random.random() < 0.3
+        if is_mc:
+            correct_eq = f"2x + 2(x + {c}) = {P}"
+            d1 = f"x + (x + {c}) = {P}"
+            d2 = f"2x + x + {c} = {P}"
+            d3 = f"x(x + {c}) = {P}"
+            opts = [correct_eq, d1, d2, d3]
+            random.shuffle(opts)
+            
+            p = {
+                "type": "multiple_choice",
+                "options": opts,
+                "grade": 7,
+                "category": "Medidas de Figuras Geométricas",
+                "subcategory": "Modelado Algebraico",
+                "difficulty": 2,
+                "title": "Plantear Ecuación (Perímetro)",
+                "question": f"El largo de un terreno rectangular es {c} metros mayor que su ancho. El perímetro total es de {P} metros. Si 'x' representa el ancho del terreno, ¿cuál de las siguientes ecuaciones modela correctamente el problema?",
+                "latex": correct_eq,
+                "answer": correct_eq,
+                "solution": [
+                    {"latex": "Ancho = x", "explanation": "Definimos la variable x para el ancho."},
+                    {"latex": f"Largo = x + {c}", "explanation": "El largo es mayor que el ancho."},
+                    {"latex": f"2(Ancho) + 2(Largo) = {P}", "explanation": "Fórmula del perímetro."},
+                    {"latex": correct_eq, "explanation": "Sustituimos y obtenemos la ecuación."}
+                ],
+                "hints": ["El perímetro es la suma de los 4 lados de un rectángulo."]
+            }
+        else:
+            p = {
+                "grade": 7,
+                "category": "Medidas de Figuras Geométricas",
+                "subcategory": "Perímetro de polígonos",
+                "difficulty": 2,
+                "title": "Perímetro y Álgebra",
+                "question": f"El largo de un terreno rectangular es {c} metros mayor que su ancho. Si el perímetro total es de {P} metros, ¿cuánto mide el ancho del terreno (en metros)?",
+                "latex": f"2x + 2(x + {c}) = {P}",
+                "answer": str(W),
+                "solution": [
+                    {"latex": f"2x + 2(x + {c}) = {P}", "explanation": "El perímetro es la suma de 2 veces el ancho (x) y 2 veces el largo (x+c)."},
+                    {"latex": f"4x + {2*c} = {P}", "explanation": "Desarrollamos la ecuación."},
+                    {"latex": f"4x = {P - 2*c}", "explanation": "Restamos los metros extra."},
+                    {"latex": f"x = {W}", "explanation": "Dividimos entre 4 para encontrar el ancho."}
+                ],
+                "hints": ["Usa 'x' para el ancho y 'x + algo' para el largo. El perímetro es la suma de los 4 lados."]
+            }
         problems.append(p)
 
     # Unit 5: Proporcionalidad Inversa (Trabajo)
@@ -118,24 +147,52 @@ def generate_8th():
         kid_t = random.randint(30, 150)
         total_tickets = adult_t + kid_t
         total_revenue = adult_p * adult_t + kid_p * kid_t
-        p = {
-            "grade": 8,
-            "category": "Sistema de Ecuaciones de Primer Grado",
-            "subcategory": "Aplicaciones",
-            "difficulty": 3,
-            "title": "Problema de Recaudación",
-            "question": f"En un cine se vendieron {total_tickets} boletos en total. El boleto de adulto cuesta {adult_p} córdobas y el de niño {kid_p} córdobas. Si se recaudaron {total_revenue} córdobas, ¿cuántos boletos de niño se vendieron?",
-            "latex": f"A + N = {total_tickets} \\quad \\text{{y}} \\quad {adult_p}A + {kid_p}N = {total_revenue}",
-            "answer": str(kid_t),
-            "solution": [
-                {"latex": f"A = {total_tickets} - N", "explanation": "Despejamos los adultos (A) en términos de los niños (N)."},
-                {"latex": f"{adult_p}({total_tickets} - N) + {kid_p}N = {total_revenue}", "explanation": "Sustituimos en la ecuación de ingresos."},
-                {"latex": f"{adult_p * total_tickets} - {adult_p}N + {kid_p}N = {total_revenue}", "explanation": "Distribuimos."},
-                {"latex": f"{-adult_p + kid_p}N = {total_revenue - adult_p * total_tickets}", "explanation": "Despejamos N."},
-                {"latex": f"N = {kid_t}", "explanation": "Resolvemos para el total de boletos de niño."}
-            ],
-            "hints": ["Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."]
-        }
+        is_mc = random.random() < 0.3
+        if is_mc:
+            correct_eq = f"A + N = {total_tickets} \\text{{ y }} {adult_p}A + {kid_p}N = {total_revenue}"
+            d1 = f"A + N = {total_revenue} \\text{{ y }} {adult_p}A + {kid_p}N = {total_tickets}"
+            d2 = f"A - N = {total_tickets} \\text{{ y }} {kid_p}A + {adult_p}N = {total_revenue}"
+            d3 = f"A + N = {total_tickets} \\text{{ y }} {adult_p}A - {kid_p}N = {total_revenue}"
+            opts = [correct_eq, d1, d2, d3]
+            random.shuffle(opts)
+            
+            p = {
+                "type": "multiple_choice",
+                "options": opts,
+                "grade": 8,
+                "category": "Sistema de Ecuaciones de Primer Grado",
+                "subcategory": "Modelado Algebraico",
+                "difficulty": 3,
+                "title": "Plantear Sistema (Boletos)",
+                "question": f"En un cine se vendieron {total_tickets} boletos en total. El boleto de adulto cuesta {adult_p} córdobas y el de niño {kid_p} córdobas. Se recaudaron {total_revenue} córdobas. Si 'A' son los boletos de adulto y 'N' los de niño, ¿qué sistema de ecuaciones modela correctamente el problema?",
+                "latex": correct_eq,
+                "answer": correct_eq,
+                "solution": [
+                    {"latex": "A + N = " + str(total_tickets), "explanation": "La suma de la cantidad de boletos es el total vendido."},
+                    {"latex": f"{adult_p}A + {kid_p}N = {total_revenue}", "explanation": "El precio por la cantidad nos da los ingresos totales."},
+                    {"latex": correct_eq, "explanation": "El sistema se forma uniendo ambas ecuaciones."}
+                ],
+                "hints": ["Una ecuación debe sumar la cantidad física de boletos. La otra debe sumar el dinero recaudado."]
+            }
+        else:
+            p = {
+                "grade": 8,
+                "category": "Sistema de Ecuaciones de Primer Grado",
+                "subcategory": "Aplicaciones",
+                "difficulty": 3,
+                "title": "Problema de Recaudación",
+                "question": f"En un cine se vendieron {total_tickets} boletos en total. El boleto de adulto cuesta {adult_p} córdobas y el de niño {kid_p} córdobas. Si se recaudaron {total_revenue} córdobas, ¿cuántos boletos de niño se vendieron?",
+                "latex": f"A + N = {total_tickets} \\quad \\text{{y}} \\quad {adult_p}A + {kid_p}N = {total_revenue}",
+                "answer": str(kid_t),
+                "solution": [
+                    {"latex": f"A = {total_tickets} - N", "explanation": "Despejamos los adultos (A) en términos de los niños (N)."},
+                    {"latex": f"{adult_p}({total_tickets} - N) + {kid_p}N = {total_revenue}", "explanation": "Sustituimos en la ecuación de ingresos."},
+                    {"latex": f"{adult_p * total_tickets} - {adult_p}N + {kid_p}N = {total_revenue}", "explanation": "Distribuimos."},
+                    {"latex": f"{-adult_p + kid_p}N = {total_revenue - adult_p * total_tickets}", "explanation": "Despejamos N."},
+                    {"latex": f"N = {kid_t}", "explanation": "Resolvemos para el total de boletos de niño."}
+                ],
+                "hints": ["Plantea dos ecuaciones: una para la cantidad de boletos (A + N) y otra para el dinero (PrecioA*A + PrecioN*N)."]
+            }
         problems.append(p)
 
     # Unit 5: Paralelismo / Triángulos (Ángulos con expresiones algebraicas)
@@ -246,23 +303,52 @@ def generate_9th():
         x = random.randint(5, 20)
         c = random.randint(2, 12)
         A = x * (x + c)
-        p = {
-            "grade": 9,
-            "category": "Ecuaciones de Segundo Grado",
-            "subcategory": "Aplicaciones",
-            "difficulty": 3,
-            "title": "Área de un Rectángulo",
-            "question": f"El largo de un salón rectangular es {c} metros mayor que su ancho. Si el área total del salón es de {A} metros cuadrados, ¿cuántos metros mide el ancho?",
-            "latex": f"x(x + {c}) = {A}",
-            "answer": str(x),
-            "solution": [
-                {"latex": f"x(x + {c}) = {A}", "explanation": "El área de un rectángulo es base por altura."},
-                {"latex": f"x^2 + {c}x - {A} = 0", "explanation": "Multiplicamos y formamos una ecuación cuadrática igualada a cero."},
-                {"latex": f"(x - {x})(x + {x+c}) = 0", "explanation": "Factorizamos buscando dos números que multiplicados den el área y restados den la diferencia de lados."},
-                {"latex": f"x = {x}", "explanation": "Tomamos la solución positiva, ya que una distancia no puede ser negativa."}
-            ],
-            "hints": ["Plantea la ecuación Área = x * (x + diferencia). Obtendrás una ecuación cuadrática que debes igualar a cero y factorizar."]
-        }
+        is_mc = random.random() < 0.3
+        if is_mc:
+            correct_eq = f"x(x + {c}) = {A}"
+            d1 = f"2x + 2(x + {c}) = {A}"
+            d2 = f"x + (x + {c}) = {A}"
+            d3 = f"x(x - {c}) = {A}"
+            opts = [correct_eq, d1, d2, d3]
+            random.shuffle(opts)
+            
+            p = {
+                "type": "multiple_choice",
+                "options": opts,
+                "grade": 9,
+                "category": "Ecuaciones de Segundo Grado",
+                "subcategory": "Modelado Algebraico",
+                "difficulty": 3,
+                "title": "Plantear Ecuación (Área)",
+                "question": f"El largo de un salón rectangular es {c} metros mayor que su ancho. El área total del salón es de {A} metros cuadrados. Si 'x' representa el ancho del salón, ¿qué ecuación modela correctamente la situación?",
+                "latex": correct_eq,
+                "answer": correct_eq,
+                "solution": [
+                    {"latex": "Ancho = x", "explanation": "Definimos la variable para el ancho."},
+                    {"latex": f"Largo = x + {c}", "explanation": "El largo es mayor que el ancho."},
+                    {"latex": f"Área = (Ancho) \\times (Largo)", "explanation": "La fórmula del área de un rectángulo."},
+                    {"latex": correct_eq, "explanation": "Sustituimos para obtener la ecuación cuadrática final."}
+                ],
+                "hints": ["Recuerda que el área de un rectángulo es base multiplicada por altura, no la suma de los lados."]
+            }
+        else:
+            p = {
+                "grade": 9,
+                "category": "Ecuaciones de Segundo Grado",
+                "subcategory": "Aplicaciones",
+                "difficulty": 3,
+                "title": "Área de un Rectángulo",
+                "question": f"El largo de un salón rectangular es {c} metros mayor que su ancho. Si el área total del salón es de {A} metros cuadrados, ¿cuántos metros mide el ancho?",
+                "latex": f"x(x + {c}) = {A}",
+                "answer": str(x),
+                "solution": [
+                    {"latex": f"x(x + {c}) = {A}", "explanation": "El área es base por altura."},
+                    {"latex": f"x^2 + {c}x - {A} = 0", "explanation": "Desarrollamos y pasamos todo a la izquierda para tener forma estándar."},
+                    {"latex": f"(x - {x})(x + {x+c}) = 0", "explanation": "Factorizamos buscando dos números que multiplicados den -A y sumados den c."},
+                    {"latex": f"x = {x}", "explanation": "Tomamos la solución positiva ya que una distancia no puede ser negativa."}
+                ],
+                "hints": ["El área es base por altura. Plantea la ecuación cuadrática y resuélvela por factorización o fórmula general."]
+            }
         problems.append(p)
         
     # Unit 5: Semejanza (Sombras / Espejos)
