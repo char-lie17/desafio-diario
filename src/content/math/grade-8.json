@@ -33,37 +33,39 @@
     "type": "numeric"
   },
   {
+    "type": "multiple_choice",
+    "options": [
+      "A - N = 179 \\text{ y } 5A + 16N = 1445",
+      "A + N = 1445 \\text{ y } 16A + 5N = 179",
+      "A + N = 179 \\text{ y } 16A - 5N = 1445",
+      "A + N = 179 \\text{ y } 16A + 5N = 1445"
+    ],
     "grade": 8,
-    "category": "Funciones de Primer Grado",
-    "subcategory": "Aplicaciones",
-    "difficulty": 2,
-    "title": "Modelado Lineal",
-    "question": "Una compañía de taxis cobra una tarifa base de 16 córdobas más 14 córdobas por cada kilómetro recorrido. Si un viaje costó un total de 562 córdobas, ¿cuántos kilómetros recorrió el taxi?",
-    "latex": "14x + 16 = 562",
-    "answer": "39",
+    "category": "Sistema de Ecuaciones de Primer Grado",
+    "subcategory": "Modelado Algebraico",
+    "difficulty": 3,
+    "title": "Plantear Sistema (Boletos)",
+    "question": "En un cine se vendieron 179 boletos en total. El boleto de adulto cuesta 16 córdobas y el de niño 5 córdobas. Se recaudaron 1445 córdobas. Si 'A' son los boletos de adulto y 'N' los de niño, ¿qué sistema de ecuaciones modela correctamente el problema?",
+    "latex": "A + N = 179 \\text{ y } 16A + 5N = 1445",
+    "answer": "A + N = 179 \\text{ y } 16A + 5N = 1445",
     "solution": [
       {
-        "latex": "f(x) = 14x + 16",
-        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
+        "latex": "A + N = 179",
+        "explanation": "La suma de la cantidad de boletos es el total vendido."
       },
       {
-        "latex": "14x + 16 = 562",
-        "explanation": "Igualamos la función al costo total pagado."
+        "latex": "16A + 5N = 1445",
+        "explanation": "El precio por la cantidad nos da los ingresos totales."
       },
       {
-        "latex": "14x = 546",
-        "explanation": "Restamos la tarifa base."
-      },
-      {
-        "latex": "x = 39",
-        "explanation": "Dividimos para obtener los kilómetros recorridos."
+        "latex": "A + N = 179 \\text{ y } 16A + 5N = 1445",
+        "explanation": "El sistema se forma uniendo ambas ecuaciones."
       }
     ],
     "hints": [
-      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
+      "Una ecuación debe sumar la cantidad física de boletos. La otra debe sumar el dinero recaudado."
     ],
-    "id": "math-8-001",
-    "type": "numeric"
+    "id": "math-8-024"
   },
   {
     "grade": 8,
@@ -816,39 +818,37 @@
     "type": "numeric"
   },
   {
-    "type": "multiple_choice",
-    "options": [
-      "A - N = 179 \\text{ y } 5A + 16N = 1445",
-      "A + N = 1445 \\text{ y } 16A + 5N = 179",
-      "A + N = 179 \\text{ y } 16A - 5N = 1445",
-      "A + N = 179 \\text{ y } 16A + 5N = 1445"
-    ],
     "grade": 8,
-    "category": "Sistema de Ecuaciones de Primer Grado",
-    "subcategory": "Modelado Algebraico",
-    "difficulty": 3,
-    "title": "Plantear Sistema (Boletos)",
-    "question": "En un cine se vendieron 179 boletos en total. El boleto de adulto cuesta 16 córdobas y el de niño 5 córdobas. Se recaudaron 1445 córdobas. Si 'A' son los boletos de adulto y 'N' los de niño, ¿qué sistema de ecuaciones modela correctamente el problema?",
-    "latex": "A + N = 179 \\text{ y } 16A + 5N = 1445",
-    "answer": "A + N = 179 \\text{ y } 16A + 5N = 1445",
+    "category": "Funciones de Primer Grado",
+    "subcategory": "Aplicaciones",
+    "difficulty": 2,
+    "title": "Modelado Lineal",
+    "question": "Una compañía de taxis cobra una tarifa base de 16 córdobas más 14 córdobas por cada kilómetro recorrido. Si un viaje costó un total de 562 córdobas, ¿cuántos kilómetros recorrió el taxi?",
+    "latex": "14x + 16 = 562",
+    "answer": "39",
     "solution": [
       {
-        "latex": "A + N = 179",
-        "explanation": "La suma de la cantidad de boletos es el total vendido."
+        "latex": "f(x) = 14x + 16",
+        "explanation": "Modelamos el costo del viaje como una función lineal donde x son los kilómetros."
       },
       {
-        "latex": "16A + 5N = 1445",
-        "explanation": "El precio por la cantidad nos da los ingresos totales."
+        "latex": "14x + 16 = 562",
+        "explanation": "Igualamos la función al costo total pagado."
       },
       {
-        "latex": "A + N = 179 \\text{ y } 16A + 5N = 1445",
-        "explanation": "El sistema se forma uniendo ambas ecuaciones."
+        "latex": "14x = 546",
+        "explanation": "Restamos la tarifa base."
+      },
+      {
+        "latex": "x = 39",
+        "explanation": "Dividimos para obtener los kilómetros recorridos."
       }
     ],
     "hints": [
-      "Una ecuación debe sumar la cantidad física de boletos. La otra debe sumar el dinero recaudado."
+      "A lo que pagaste en total, réstale la tarifa base. El resto divídelo entre el costo por kilómetro."
     ],
-    "id": "math-8-024"
+    "id": "math-8-001",
+    "type": "numeric"
   },
   {
     "type": "multiple_choice",

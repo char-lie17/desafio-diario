@@ -33,37 +33,43 @@
     "type": "numeric"
   },
   {
+    "type": "multiple_choice",
+    "options": [
+      "x + (x + 11) = 276",
+      "2x + 2(x + 11) = 276",
+      "x(x - 11) = 276",
+      "x(x + 11) = 276"
+    ],
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Aplicaciones",
+    "subcategory": "Modelado Algebraico",
     "difficulty": 3,
-    "title": "Área de un Rectángulo",
-    "question": "El largo de un salón rectangular es 7 metros mayor que su ancho. Si el área total del salón es de 228 metros cuadrados, ¿cuántos metros mide el ancho?",
-    "latex": "x(x + 7) = 228",
-    "answer": "12",
+    "title": "Plantear Ecuación (Área)",
+    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. El área total del salón es de 276 metros cuadrados. Si 'x' representa el ancho del salón, ¿qué ecuación modela correctamente la situación?",
+    "latex": "x(x + 11) = 276",
+    "answer": "x(x + 11) = 276",
     "solution": [
       {
-        "latex": "x(x + 7) = 228",
-        "explanation": "El área es base por altura."
+        "latex": "Ancho = x",
+        "explanation": "Definimos la variable para el ancho."
       },
       {
-        "latex": "x^2 + 7x - 228 = 0",
-        "explanation": "Desarrollamos y pasamos todo a la izquierda para tener forma estándar."
+        "latex": "Largo = x + 11",
+        "explanation": "El largo es mayor que el ancho."
       },
       {
-        "latex": "(x - 12)(x + 19) = 0",
-        "explanation": "Factorizamos buscando dos números que multiplicados den -A y sumados den c."
+        "latex": "Área = (Ancho) \\times (Largo)",
+        "explanation": "La fórmula del área de un rectángulo."
       },
       {
-        "latex": "x = 12",
-        "explanation": "Tomamos la solución positiva ya que una distancia no puede ser negativa."
+        "latex": "x(x + 11) = 276",
+        "explanation": "Sustituimos para obtener la ecuación cuadrática final."
       }
     ],
     "hints": [
-      "El área es base por altura. Plantea la ecuación cuadrática y resuélvela por factorización o fórmula general."
+      "Recuerda que el área de un rectángulo es base multiplicada por altura, no la suma de los lados."
     ],
-    "id": "math-9-001",
-    "type": "numeric"
+    "id": "math-9-004"
   },
   {
     "grade": 9,
@@ -132,43 +138,37 @@
     "type": "numeric"
   },
   {
-    "type": "multiple_choice",
-    "options": [
-      "x + (x + 11) = 276",
-      "2x + 2(x + 11) = 276",
-      "x(x - 11) = 276",
-      "x(x + 11) = 276"
-    ],
     "grade": 9,
     "category": "Ecuaciones de Segundo Grado",
-    "subcategory": "Modelado Algebraico",
+    "subcategory": "Aplicaciones",
     "difficulty": 3,
-    "title": "Plantear Ecuación (Área)",
-    "question": "El largo de un salón rectangular es 11 metros mayor que su ancho. El área total del salón es de 276 metros cuadrados. Si 'x' representa el ancho del salón, ¿qué ecuación modela correctamente la situación?",
-    "latex": "x(x + 11) = 276",
-    "answer": "x(x + 11) = 276",
+    "title": "Área de un Rectángulo",
+    "question": "El largo de un salón rectangular es 7 metros mayor que su ancho. Si el área total del salón es de 228 metros cuadrados, ¿cuántos metros mide el ancho?",
+    "latex": "x(x + 7) = 228",
+    "answer": "12",
     "solution": [
       {
-        "latex": "Ancho = x",
-        "explanation": "Definimos la variable para el ancho."
+        "latex": "x(x + 7) = 228",
+        "explanation": "El área es base por altura."
       },
       {
-        "latex": "Largo = x + 11",
-        "explanation": "El largo es mayor que el ancho."
+        "latex": "x^2 + 7x - 228 = 0",
+        "explanation": "Desarrollamos y pasamos todo a la izquierda para tener forma estándar."
       },
       {
-        "latex": "Área = (Ancho) \\times (Largo)",
-        "explanation": "La fórmula del área de un rectángulo."
+        "latex": "(x - 12)(x + 19) = 0",
+        "explanation": "Factorizamos buscando dos números que multiplicados den -A y sumados den c."
       },
       {
-        "latex": "x(x + 11) = 276",
-        "explanation": "Sustituimos para obtener la ecuación cuadrática final."
+        "latex": "x = 12",
+        "explanation": "Tomamos la solución positiva ya que una distancia no puede ser negativa."
       }
     ],
     "hints": [
-      "Recuerda que el área de un rectángulo es base multiplicada por altura, no la suma de los lados."
+      "El área es base por altura. Plantea la ecuación cuadrática y resuélvela por factorización o fórmula general."
     ],
-    "id": "math-9-004"
+    "id": "math-9-001",
+    "type": "numeric"
   },
   {
     "grade": 9,
