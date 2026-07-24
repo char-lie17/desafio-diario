@@ -13,6 +13,13 @@ function formatUserAnswerToLatex(str) {
   res = res.replace(/sqrt\(([^()]+)\)/g, '\\sqrt{$1}');
   // Convert ^2 to ^2, ^(N) to ^{N}
   res = res.replace(/\^\(([^()]+)\)/g, '^{$1}');
+  // Convert trig & log
+  res = res.replace(/sen\(([^()]+)\)/g, '\\sin($1)');
+  res = res.replace(/cos\(([^()]+)\)/g, '\\cos($1)');
+  res = res.replace(/tan\(([^()]+)\)/g, '\\tan($1)');
+  res = res.replace(/log\(([^()]+)\)/g, '\\log($1)');
+  res = res.replace(/ln\(([^()]+)\)/g, '\\ln($1)');
+  res = res.replace(/pi/g, '\\pi');
   // Convert inf to \infty
   res = res.replace(/inf/g, '\\infty');
   // Convert U to \cup
