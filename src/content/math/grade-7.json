@@ -1,0 +1,564 @@
+[
+  {
+    "id": "math-7-001",
+    "grade": 7,
+    "category": "Aritmética",
+    "subcategory": "Operaciones combinadas",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Jerarquía de Operaciones Básicas",
+    "question": "Calcula el resultado de la siguiente expresión respetando la jerarquía de operaciones:",
+    "latex": "15 + 4 \\times (8 - 3)",
+    "answer": "35",
+    "solution": [
+      {
+        "latex": "15 + 4 \\times (8 - 3)",
+        "explanation": "Expresión inicial."
+      },
+      {
+        "latex": "15 + 4 \\times 5",
+        "explanation": "Resolvemos el paréntesis: 8 - 3 = 5."
+      },
+      {
+        "latex": "15 + 20",
+        "explanation": "Efectuamos la multiplicación: 4 × 5 = 20."
+      },
+      {
+        "latex": "35",
+        "explanation": "Sumamos: 15 + 20 = 35."
+      }
+    ],
+    "hints": [
+      "Recuerda resolver primero los paréntesis y luego las multiplicaciones."
+    ]
+  },
+  {
+    "id": "math-7-002",
+    "grade": 7,
+    "category": "Fracciones",
+    "subcategory": "Suma de fracciones",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Suma de Fracciones con Distinto Denominador",
+    "question": "Simplifica la suma de las siguientes dos fracciones:",
+    "latex": "\\frac{3}{4} + \\frac{2}{5}",
+    "answer": "23/20",
+    "options": [
+      "23/20",
+      "5/9",
+      "11/20",
+      "6/20"
+    ],
+    "solution": [
+      {
+        "latex": "\\frac{3}{4} + \\frac{2}{5}",
+        "explanation": "Buscamos el mínimo común múltiplo de 4 y 5, que es 20."
+      },
+      {
+        "latex": "\\frac{3 \\times 5}{20} + \\frac{2 \\times 4}{20} = \\frac{15}{20} + \\frac{8}{20}",
+        "explanation": "Convertimos las fracciones a denominador común 20."
+      },
+      {
+        "latex": "\\frac{15 + 8}{20} = \\frac{23}{20}",
+        "explanation": "Sumamos los numeradores."
+      }
+    ],
+    "hints": [
+      "El denominador común para 4 y 5 es 20."
+    ]
+  },
+  {
+    "id": "math-7-003",
+    "grade": 7,
+    "category": "Porcentajes",
+    "subcategory": "Cálculo de porcentaje",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Descuento en una Compra",
+    "question": "Una camisa cuesta $80 y tiene un descuento del 15%. ¿Cuánto dinero se descuenta?",
+    "latex": "15\\% \\text{ de } 80",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "\\frac{15}{100} \\times 80",
+        "explanation": "Expresamos el 15% como fracción decimal."
+      },
+      {
+        "latex": "0.15 \\times 80 = 12",
+        "explanation": "Multiplicamos 0.15 por 80."
+      }
+    ],
+    "hints": [
+      "Multiplica 80 por 0.15."
+    ]
+  },
+  {
+    "id": "math-7-004",
+    "grade": 7,
+    "category": "Regla de Tres",
+    "subcategory": "Proporcionalidad directa",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Receta de Cocina Proporcional",
+    "question": "Si 4 paquetes de galletas cuestan $6, ¿cuánto costarán 10 paquetes del mismo tipo?",
+    "latex": "\\frac{4}{6} = \\frac{10}{x}",
+    "answer": "15",
+    "solution": [
+      {
+        "latex": "4x = 6 \\times 10",
+        "explanation": "Aplicamos la regla de tres simple directa (productos cruzados)."
+      },
+      {
+        "latex": "4x = 60",
+        "explanation": "Multiplicamos 6 por 10."
+      },
+      {
+        "latex": "x = \\frac{60}{4} = 15",
+        "explanation": "Dividimos entre 4."
+      }
+    ],
+    "hints": [
+      "Establece una proporción directa: 4 es a 6 como 10 es a x."
+    ]
+  },
+  {
+    "id": "math-7-005",
+    "grade": 7,
+    "category": "Números Enteros",
+    "subcategory": "Leyes de los signos",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Operaciones con Números Negativos",
+    "question": "Calcula el valor numérico de la siguiente resta de enteros:",
+    "latex": "-12 - (-18)",
+    "answer": "6",
+    "solution": [
+      {
+        "latex": "-12 - (-18)",
+        "explanation": "Expresión dada."
+      },
+      {
+        "latex": "-12 + 18",
+        "explanation": "Restar un número negativo equivale a sumar su opuesto positivo."
+      },
+      {
+        "latex": "6",
+        "explanation": "Sumamos -12 + 18 = 6."
+      }
+    ],
+    "hints": [
+      "Restar un número negativo cambia el signo a positivo: -(-18) = +18."
+    ]
+  },
+  {
+    "id": "math-7-006",
+    "grade": 7,
+    "category": "Geometría básica",
+    "subcategory": "Perímetro de polígonos",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Perímetro de un Rectángulo",
+    "question": "Un terreno rectangular mide 12 metros de largo y 7 metros de ancho. ¿Cuál es su perímetro en metros?",
+    "latex": "P = 2 \\times (largo + ancho)",
+    "answer": "38",
+    "solution": [
+      {
+        "latex": "P = 2 \\times (12 + 7)",
+        "explanation": "Sustituimos los valores en la fórmula del perímetro del rectángulo."
+      },
+      {
+        "latex": "P = 2 \\times 19 = 38",
+        "explanation": "Sumamos el largo y el ancho (19) y multiplicamos por 2."
+      }
+    ],
+    "hints": [
+      "El perímetro es la suma de los 4 lados del rectángulo."
+    ]
+  },
+  {
+    "id": "math-7-007",
+    "grade": 7,
+    "category": "Geometría básica",
+    "subcategory": "Área de triángulos",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Área de un Triángulo",
+    "question": "Un triángulo tiene una base de 14 cm y una altura de 9 cm. Calcula su área en \\text{cm}^2:",
+    "latex": "A = \\frac{base \\times altura}{2}",
+    "answer": "63",
+    "solution": [
+      {
+        "latex": "A = \\frac{14 \\times 9}{2}",
+        "explanation": "Aplicamos la fórmula del área del triángulo."
+      },
+      {
+        "latex": "A = \\frac{126}{2} = 63",
+        "explanation": "Multiplicamos 14 × 9 = 126 y dividimos entre 2."
+      }
+    ],
+    "hints": [
+      "Divide el producto de la base y la altura entre 2."
+    ]
+  },
+  {
+    "id": "math-7-008",
+    "grade": 7,
+    "category": "Potencias básicas",
+    "subcategory": "Propiedades de exponentes",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Multiplicación de Potencias de Igual Base",
+    "question": "Simplifica a un único número entero el valor de:",
+    "latex": "2^3 \\times 2^2",
+    "answer": "32",
+    "solution": [
+      {
+        "latex": "2^3 \\times 2^2 = 2^{3+2} = 2^5",
+        "explanation": "Sumamos los exponentes al multiplicar potencias de la misma base."
+      },
+      {
+        "latex": "2^5 = 32",
+        "explanation": "Calculamos 2 × 2 × 2 × 2 × 2 = 32."
+      }
+    ],
+    "hints": [
+      "Al multiplicar potencias de igual base, se conservan la base y se suman los exponentes."
+    ]
+  },
+  {
+    "id": "math-7-009",
+    "grade": 7,
+    "category": "Decimales",
+    "subcategory": "Multiplicación de decimales",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Multiplicación con Números Decimales",
+    "question": "Calcula el resultado exacto de:",
+    "latex": "3.5 \\times 2.4",
+    "answer": "8.4",
+    "solution": [
+      {
+        "latex": "3.5 \\times 2.4",
+        "explanation": "Multiplicamos como enteros: 35 × 24 = 840."
+      },
+      {
+        "latex": "8.40 = 8.4",
+        "explanation": "Colocamos la coma decimal sumando los 2 decimales en total."
+      }
+    ],
+    "hints": [
+      "Calcula 35 × 24 y recorre el punto decimal dos posiciones a la izquierda."
+    ]
+  },
+  {
+    "id": "math-7-010",
+    "grade": 7,
+    "category": "Introducción al álgebra",
+    "subcategory": "Ecuaciones simples",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Encontrar el Valor de una Incógnita",
+    "question": "Resuelve para x en la siguiente ecuación de primer grado:",
+    "latex": "x + 9 = 23",
+    "answer": "14",
+    "solution": [
+      {
+        "latex": "x + 9 = 23",
+        "explanation": "Ecuación dada."
+      },
+      {
+        "latex": "x = 23 - 9",
+        "explanation": "Restamos 9 en ambos lados de la igualdad."
+      },
+      {
+        "latex": "x = 14",
+        "explanation": "Obtenemos el resultado."
+      }
+    ],
+    "hints": [
+      "Resta 9 a 23."
+    ]
+  },
+  {
+    "id": "math-7-011",
+    "grade": 7,
+    "category": "Lógica",
+    "subcategory": "Patrones numéricos",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Siguiente Término en una Sucesión",
+    "question": "Determina el número que falta en la secuencia: 3, 7, 11, 15, __",
+    "latex": "a_n = 4n - 1",
+    "answer": "19",
+    "solution": [
+      {
+        "latex": "7 - 3 = 4, \\quad 11 - 7 = 4, \\quad 15 - 11 = 4",
+        "explanation": "Observamos que la regla de la secuencia es sumar 4 en cada paso."
+      },
+      {
+        "latex": "15 + 4 = 19",
+        "explanation": "Sumamos 4 al último término conocido."
+      }
+    ],
+    "hints": [
+      "Observa de cuánto en cuánto aumentan los números."
+    ]
+  },
+  {
+    "id": "math-7-012",
+    "grade": 7,
+    "category": "Razones y proporciones",
+    "subcategory": "Simplificación de razones",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Razón Simplificada",
+    "question": "En un aula hay 12 niños y 18 niñas. ¿Cuál es la razón simplificada de niños a niñas?",
+    "latex": "\\frac{12}{18}",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "3/2",
+      "3/4",
+      "1/2"
+    ],
+    "solution": [
+      {
+        "latex": "\\frac{12}{18}",
+        "explanation": "Escribimos la razón como una fracción."
+      },
+      {
+        "latex": "\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}",
+        "explanation": "Dividimos numerador y denominador entre su máximo común divisor (6)."
+      }
+    ],
+    "hints": [
+      "Divide 12 y 18 entre su máximo común divisor, que es 6."
+    ]
+  },
+  {
+    "id": "math-7-013",
+    "grade": 7,
+    "category": "Aritmética",
+    "subcategory": "Mínimo común múltiplo",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Mínimo Común Múltiplo (MCM)",
+    "question": "Encuentra el mínimo común múltiplo entre 6 y 8:",
+    "latex": "\\text{mcm}(6, 8)",
+    "answer": "24",
+    "solution": [
+      {
+        "latex": "Múltiplos de 6: 6, 12, 18, 24, 30...",
+        "explanation": "Listamos los primeros múltiplos de 6."
+      },
+      {
+        "latex": "Múltiplos de 8: 8, 16, 24, 32...",
+        "explanation": "Listamos los primeros múltiplos de 8."
+      },
+      {
+        "latex": "\\text{mcm}(6, 8) = 24",
+        "explanation": "El menor múltiplo común en ambas listas es 24."
+      }
+    ],
+    "hints": [
+      "Busca el menor número positivo que sea múltiplo tanto de 6 como de 8."
+    ]
+  },
+  {
+    "id": "math-7-014",
+    "grade": 7,
+    "category": "Aritmética",
+    "subcategory": "Máximo común divisor",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Máximo Común Divisor (MCD)",
+    "question": "Encuentra el mayor divisor común de 36 y 48:",
+    "latex": "\\text{mcd}(36, 48)",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "36 = 2^2 \\times 3^2",
+        "explanation": "Descomposición prima de 36."
+      },
+      {
+        "latex": "48 = 2^4 \\times 3^1",
+        "explanation": "Descomposición prima de 48."
+      },
+      {
+        "latex": "\\text{mcd} = 2^2 \\times 3 = 12",
+        "explanation": "Tomamos los factores comunes con su menor exponente."
+      }
+    ],
+    "hints": [
+      "Encuentra el número más grande que divide exactamente a 36 y a 48."
+    ]
+  },
+  {
+    "id": "math-7-015",
+    "grade": 7,
+    "category": "Verdadero o Falso",
+    "subcategory": "Criterios de divisibilidad",
+    "difficulty": 1,
+    "type": "true_false",
+    "title": "Divisibilidad entre 3",
+    "question": "¿Es verdadero o falso que el número 4,125 es divisible exactamente entre 3?",
+    "latex": "4 + 1 + 2 + 5 = 12",
+    "answer": "Verdadero",
+    "solution": [
+      {
+        "latex": "4 + 1 + 2 + 5 = 12",
+        "explanation": "Sumamos los dígitos de 4,125."
+      },
+      {
+        "latex": "12 \\div 3 = 4",
+        "explanation": "Como la suma de sus dígitos (12) es múltiplo de 3, el número 4,125 es divisible entre 3."
+      }
+    ],
+    "hints": [
+      "Un número es divisible entre 3 si la suma de sus dígitos es divisible entre 3."
+    ]
+  },
+  {
+    "id": "math-7-016",
+    "grade": 7,
+    "category": "Geometría básica",
+    "subcategory": "Ángulos complementarios",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Ángulo Complementario",
+    "question": "Dos ángulos son complementarios si su suma es 90°. Si uno de los ángulos mide 37°, ¿cuánto mide su complemento?",
+    "latex": "\\alpha + 37^\\circ = 90^\\circ",
+    "answer": "53",
+    "solution": [
+      {
+        "latex": "\\alpha = 90^\\circ - 37^\\circ",
+        "explanation": "Restamos 37° de 90°."
+      },
+      {
+        "latex": "\\alpha = 53^\\circ",
+        "explanation": "El ángulo complementario es 53°."
+      }
+    ],
+    "hints": [
+      "Resta 37° a 90°."
+    ]
+  },
+  {
+    "id": "math-7-017",
+    "grade": 7,
+    "category": "Fracciones",
+    "subcategory": "Multiplicación de fracciones",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Producto de Fracciones",
+    "question": "Multiplica y simplifica la siguiente expresión:",
+    "latex": "\\frac{5}{6} \\times \\frac{3}{10}",
+    "answer": "1/4",
+    "options": [
+      "1/4",
+      "15/60",
+      "1/2",
+      "8/16"
+    ],
+    "solution": [
+      {
+        "latex": "\\frac{5 \\times 3}{6 \\times 10} = \\frac{15}{60}",
+        "explanation": "Multiplicamos numeradores entre sí y denominadores entre sí."
+      },
+      {
+        "latex": "\\frac{15 \\div 15}{60 \\div 15} = \\frac{1}{4}",
+        "explanation": "Simplificamos dividiendo numerador y denominador entre 15."
+      }
+    ],
+    "hints": [
+      "Multiplica directo numerador por numerador y denominador por denominador, luego simplifica."
+    ]
+  },
+  {
+    "id": "math-7-018",
+    "grade": 7,
+    "category": "Introducción al álgebra",
+    "subcategory": "Valor numérico",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Evaluación de una Expresión Algebraica",
+    "question": "Evalúa el valor de la expresión 3x - 5 para x = 6:",
+    "latex": "3(6) - 5",
+    "answer": "13",
+    "solution": [
+      {
+        "latex": "3(6) - 5",
+        "explanation": "Sustituimos x por 6."
+      },
+      {
+        "latex": "18 - 5 = 13",
+        "explanation": "Multiplicamos 3 × 6 = 18 y restamos 5."
+      }
+    ],
+    "hints": [
+      "Sustituye x por 6 en la expresión."
+    ]
+  },
+  {
+    "id": "math-7-019",
+    "grade": 7,
+    "category": "Compara Cantidades",
+    "subcategory": "Comparación de fracciones",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "title": "Comparación de Fracciones",
+    "question": "¿Cuál de las siguientes fracciones es la MAYOR?",
+    "latex": "\\frac{2}{3}, \\quad \\frac{3}{5}, \\quad \\frac{7}{10}",
+    "answer": "7/10",
+    "options": [
+      "7/10",
+      "2/3",
+      "3/5",
+      "Todas son iguales"
+    ],
+    "solution": [
+      {
+        "latex": "\\frac{2}{3} \\approx 0.666..., \\quad \\frac{3}{5} = 0.60, \\quad \\frac{7}{10} = 0.70",
+        "explanation": "Convertimos las fracciones a valores decimales para comparar."
+      },
+      {
+        "latex": "0.70 > 0.666... > 0.60",
+        "explanation": "Por lo tanto, 7/10 es la fracción mayor."
+      }
+    ],
+    "hints": [
+      "Convierte cada fracción a decimal dividiendo el numerador entre el denominador."
+    ]
+  },
+  {
+    "id": "math-7-020",
+    "grade": 7,
+    "category": "Encontrar el Error",
+    "subcategory": "Jerarquía operacional",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "title": "Detectar el Error en un Cálculo",
+    "question": "Un estudiante resolvió: 10 - 2 × 3 = 8 × 3 = 24. ¿Cuál fue su error?",
+    "latex": "10 - 2 \\times 3",
+    "answer": "Restó 10 - 2 antes de multiplicar",
+    "options": [
+      "Restó 10 - 2 antes de multiplicar",
+      "Multiplicó mal 2 × 3",
+      "El resultado correcto es 24",
+      "Olvidó sumar 3"
+    ],
+    "solution": [
+      {
+        "latex": "10 - (2 \\times 3) = 10 - 6 = 4",
+        "explanation": "Por jerarquía, primero se hace la multiplicación 2 × 3 = 6, luego 10 - 6 = 4."
+      },
+      {
+        "latex": "\\text{Error: } 10 - 2 = 8",
+        "explanation": "El estudiante cometió el error de restar antes de multiplicar."
+      }
+    ],
+    "hints": [
+      "Recuerda que la multiplicación tiene mayor prioridad que la resta."
+    ]
+  }
+]

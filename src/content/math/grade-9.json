@@ -1,0 +1,558 @@
+[
+  {
+    "id": "math-9-001",
+    "grade": 9,
+    "category": "Ecuaciones cuadráticas",
+    "subcategory": "Factorización de trinomios",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Solución Positiva de Ecuación Cuadrática",
+    "question": "Encuentra la solución POSITIVA de la siguiente ecuación cuadrática:",
+    "latex": "x^2 - 5x + 6 = 0",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "x^2 - 5x + 6 = 0",
+        "explanation": "Ecuación original."
+      },
+      {
+        "latex": "(x - 2)(x - 3) = 0",
+        "explanation": "Factorizamos en dos binomios buscando dos números que multiplicados den 6 y sumados -5."
+      },
+      {
+        "latex": "x = 2 \\quad \\text{o} \\quad x = 3",
+        "explanation": "Las dos raíces son 2 y 3."
+      },
+      {
+        "latex": "x_{\\text{mayor}} = 3",
+        "explanation": "Seleccionamos la solución indicada."
+      }
+    ],
+    "hints": [
+      "Factoriza como (x - 2)(x - 3) = 0."
+    ]
+  },
+  {
+    "id": "math-9-002",
+    "grade": 9,
+    "category": "Factorización",
+    "subcategory": "Diferencia de cuadrados",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Diferencia de Cuadrados Perfectos",
+    "question": "Factoriza completamente la expresión algebraica:",
+    "latex": "9x^2 - 25",
+    "answer": "(3x - 5)(3x + 5)",
+    "options": [
+      "(3x - 5)(3x + 5)",
+      "(3x - 5)^2",
+      "(9x - 5)(x + 5)",
+      "(3x + 25)(3x - 1)"
+    ],
+    "solution": [
+      {
+        "latex": "a^2 - b^2 = (a - b)(a + b)",
+        "explanation": "Identificamos a = \\sqrt{9x^2} = 3x y b = \\sqrt{25} = 5."
+      },
+      {
+        "latex": "(3x - 5)(3x + 5)",
+        "explanation": "Aplicamos la regla de diferencia de cuadrados."
+      }
+    ],
+    "hints": [
+      "La fórmula es a^2 - b^2 = (a - b)(a + b). La raíz de 9x^2 es 3x y la de 25 es 5."
+    ]
+  },
+  {
+    "id": "math-9-003",
+    "grade": 9,
+    "category": "Sistemas de ecuaciones",
+    "subcategory": "Método de sustitución",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Sistema de Ecuaciones Lineales 2x2",
+    "question": "Resuelve el sistema y calcula el valor del producto de sus soluciones x * y:",
+    "latex": "\\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases}",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "(2x + y) + (x - y) = 7 + 2 \\implies 3x = 9 \\implies x = 3",
+        "explanation": "Sumamos ambas ecuaciones para obtener x = 3."
+      },
+      {
+        "latex": "3 - y = 2 \\implies y = 1",
+        "explanation": "Sustituimos x = 3 en la segunda ecuación para hallar y = 1."
+      },
+      {
+        "latex": "x \\times y = 3 \\times 1 = 3",
+        "explanation": "Calculamos el producto x * y = 3."
+      }
+    ],
+    "hints": [
+      "Encuentra primero x e y (x=3, y=1) y luego multiplícalos."
+    ]
+  },
+  {
+    "id": "math-9-004",
+    "grade": 9,
+    "category": "Funciones básicas",
+    "subcategory": "Vértice de una parábola",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Coordenada X del Vértice de una Parábola",
+    "question": "Dada la función cuadrática f(x) = x^2 - 6x + 8, encuentra la coordenada 'x' de su vértice:",
+    "latex": "x_v = -\\frac{b}{2a}",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "a = 1, \\quad b = -6, \\quad c = 8",
+        "explanation": "Identificamos los coeficientes de la función cuadrática."
+      },
+      {
+        "latex": "x_v = -\\frac{-6}{2(1)} = \\frac{6}{2} = 3",
+        "explanation": "Aplicamos la fórmula del abscisa del vértice."
+      }
+    ],
+    "hints": [
+      "Utiliza la fórmula x = -b / (2a) con a = 1 y b = -6."
+    ]
+  },
+  {
+    "id": "math-9-005",
+    "grade": 9,
+    "category": "Geometría",
+    "subcategory": "Teorema de Tales y Semejanza",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Triángulos Semejantes",
+    "question": "Dos triángulos son semejantes. El primero tiene lados de 3 cm, 4 cm y 5 cm. Si el lado correspondiente a 3 cm en el segundo triángulo mide 9 cm, ¿cuánto mide el perímetro del segundo triángulo en cm?",
+    "latex": "k = \\frac{9}{3} = 3",
+    "answer": "36",
+    "solution": [
+      {
+        "latex": "k = \\frac{9}{3} = 3",
+        "explanation": "Calculamos la razón de semejanza k."
+      },
+      {
+        "latex": "P_1 = 3 + 4 + 5 = 12 \\text{ cm}",
+        "explanation": "Perímetro del primer triángulo."
+      },
+      {
+        "latex": "P_2 = P_1 \\times k = 12 \\times 3 = 36 \\text{ cm}",
+        "explanation": "El perímetro se multiplica por la misma razón k = 3."
+      }
+    ],
+    "hints": [
+      "La razón de escala entre los lados es 9/3 = 3. Multiplica el perímetro original por 3."
+    ]
+  },
+  {
+    "id": "math-9-006",
+    "grade": 9,
+    "category": "Polinomios",
+    "subcategory": "Operaciones con polinomios",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Multiplicación de Polinomios",
+    "question": "Multiplica los siguientes dos polinomios:",
+    "latex": "(2x + 3)(x - 4)",
+    "answer": "2x^2 - 5x - 12",
+    "options": [
+      "2x^2 - 5x - 12",
+      "2x^2 + 5x - 12",
+      "2x^2 - 12",
+      "2x^2 - 11x - 12"
+    ],
+    "solution": [
+      {
+        "latex": "2x(x) + 2x(-4) + 3(x) + 3(-4)",
+        "explanation": "Aplicamos la propiedad distributiva."
+      },
+      {
+        "latex": "2x^2 - 8x + 3x - 12",
+        "explanation": "Multiplicamos término a término."
+      },
+      {
+        "latex": "2x^2 - 5x - 12",
+        "explanation": "Reducimos términos semejantes."
+      }
+    ],
+    "hints": [
+      "Usa el método distributivo (FOIL): primero, exterior, interior, último."
+    ]
+  },
+  {
+    "id": "math-9-007",
+    "grade": 9,
+    "category": "Probabilidad",
+    "subcategory": "Eventos independientes",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "title": "Probabilidad de Lanzamiento de Monedas",
+    "question": "Si se lanzan dos monedas al aire al mismo tiempo, ¿cuál es la probabilidad de obtener al menos un 'Cara'?",
+    "latex": "P(\\text{al menos una cara})",
+    "answer": "3/4",
+    "options": [
+      "3/4",
+      "1/2",
+      "1/4",
+      "2/3"
+    ],
+    "solution": [
+      {
+        "latex": "\\text{Espacio muestral} = \\{(C,C), (C,X), (X,C), (X,X)\\} \\implies 4",
+        "explanation": "Los 4 resultados posibles."
+      },
+      {
+        "latex": "\\text{Casos favorables} = \\{(C,C), (C,X), (X,C)\\} \\implies 3",
+        "explanation": "3 de los 4 resultados tienen al menos una Cara."
+      },
+      {
+        "latex": "P = \\frac{3}{4}",
+        "explanation": "Probabilidad del 75%."
+      }
+    ],
+    "hints": [
+      "El único caso desfavorable es obtener Cruz en ambas (1/4). Por lo tanto 1 - 1/4 = 3/4."
+    ]
+  },
+  {
+    "id": "math-9-008",
+    "grade": 9,
+    "category": "Ecuaciones cuadráticas",
+    "subcategory": "Discriminante",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Cálculo del Discriminante",
+    "question": "Calcula el valor del discriminante \\Delta de la ecuación cuadrática 2x^2 - 4x + 3 = 0:",
+    "latex": "\\Delta = b^2 - 4ac",
+    "answer": "-8",
+    "solution": [
+      {
+        "latex": "a = 2, \\quad b = -4, \\quad c = 3",
+        "explanation": "Identificamos coeficientes."
+      },
+      {
+        "latex": "\\Delta = (-4)^2 - 4(2)(3)",
+        "explanation": "Sustituimos en la fórmula del discriminante."
+      },
+      {
+        "latex": "\\Delta = 16 - 24 = -8",
+        "explanation": "Como el discriminante es negativo, la ecuación no tiene soluciones reales."
+      }
+    ],
+    "hints": [
+      "Sustituye a=2, b=-4, c=3 en b^2 - 4ac."
+    ]
+  },
+  {
+    "id": "math-9-009",
+    "grade": 9,
+    "category": "Estadística",
+    "subcategory": "Varianza y Desviación",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Rango Estadístico",
+    "question": "Calcula el rango del siguiente conjunto de datos: 14, 22, 9, 35, 18, 41, 27",
+    "latex": "\\text{Rango} = X_{\\max} - X_{\\min}",
+    "answer": "32",
+    "solution": [
+      {
+        "latex": "X_{\\max} = 41, \\quad X_{\\min} = 9",
+        "explanation": "Identificamos el dato máximo y el dato mínimo."
+      },
+      {
+        "latex": "\\text{Rango} = 41 - 9 = 32",
+        "explanation": "Restamos el menor del mayor."
+      }
+    ],
+    "hints": [
+      "El rango es simplemente el dato mayor menos el dato menor."
+    ]
+  },
+  {
+    "id": "math-9-010",
+    "grade": 9,
+    "category": "Razonamiento matemático",
+    "subcategory": "Problemas de edades",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Problema de Edades Relativas",
+    "question": "Un padre tiene 30 años más que su hijo. En 5 años, la edad del padre será el triple de la edad del hijo. ¿Qué edad tiene el hijo HOY?",
+    "latex": "P = H + 30, \\quad (P + 5) = 3(H + 5)",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "(H + 30 + 5) = 3H + 15",
+        "explanation": "Sustituimos P en la segunda ecuación."
+      },
+      {
+        "latex": "H + 35 = 3H + 15",
+        "explanation": "Simplificamos."
+      },
+      {
+        "latex": "20 = 2H \\implies H = 10",
+        "explanation": "Restamos H y 15 en ambos lados para obtener H = 10."
+      }
+    ],
+    "hints": [
+      "Si H es la edad del hijo, plantea la ecuación H + 35 = 3(H + 5)."
+    ]
+  },
+  {
+    "id": "math-9-011",
+    "grade": 9,
+    "category": "Ecuaciones lineales",
+    "subcategory": "Pendiente de una recta",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Pendiente entre Dos Puntos",
+    "question": "Calcula la pendiente m de la recta que pasa por los puntos A(1, 2) y B(4, 11):",
+    "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+    "answer": "3",
+    "solution": [
+      {
+        "latex": "m = \\frac{11 - 2}{4 - 1}",
+        "explanation": "Sustituimos las coordenadas en la fórmula de la pendiente."
+      },
+      {
+        "latex": "m = \\frac{9}{3} = 3",
+        "explanation": "Dividimos la diferencia de ordenadas entre la diferencia de abscisas."
+      }
+    ],
+    "hints": [
+      "Divide (11 - 2) entre (4 - 1)."
+    ]
+  },
+  {
+    "id": "math-9-012",
+    "grade": 9,
+    "category": "Geometría",
+    "subcategory": "Teorema de Pitágoras",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Cateto Faltante en Triángulo Rectángulo",
+    "question": "Un triángulo rectángulo tiene una hipotenusa c = 13 cm y un cateto a = 5 cm. ¿Cuánto mide el cateto b?",
+    "latex": "b = \\sqrt{c^2 - a^2}",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "b^2 = 13^2 - 5^2",
+        "explanation": "Despejamos el cateto b en la fórmula de Pitágoras."
+      },
+      {
+        "latex": "b^2 = 169 - 25 = 144",
+        "explanation": "Restamos 25 a 169."
+      },
+      {
+        "latex": "b = \\sqrt{144} = 12",
+        "explanation": "La raíz cuadrada de 144 es 12."
+      }
+    ],
+    "hints": [
+      "Resta 5^2 (25) a 13^2 (169) y calcula la raíz cuadrada."
+    ]
+  },
+  {
+    "id": "math-9-013",
+    "grade": 9,
+    "category": "Factorización",
+    "subcategory": "Trinomio cuadrado perfecto",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "title": "Reconocimiento de Trinomio Cuadrado Perfecto",
+    "question": "Factoriza la expresión f(x) = x^2 + 10x + 25:",
+    "latex": "x^2 + 10x + 25",
+    "answer": "(x + 5)^2",
+    "options": [
+      "(x + 5)^2",
+      "(x - 5)^2",
+      "(x + 25)(x + 1)",
+      "(x + 10)(x + 2.5)"
+    ],
+    "solution": [
+      {
+        "latex": "\\sqrt{x^2} = x, \\quad \\sqrt{25} = 5, \\quad 2(x)(5) = 10x",
+        "explanation": "Verificamos que cumple la forma a^2 + 2ab + b^2."
+      },
+      {
+        "latex": "(x + 5)^2",
+        "explanation": "Es un trinomio cuadrado perfecto."
+      }
+    ],
+    "hints": [
+      "Es del tipo (x + a)^2 donde a^2 = 25."
+    ]
+  },
+  {
+    "id": "math-9-014",
+    "grade": 9,
+    "category": "Funciones básicas",
+    "subcategory": "Evaluación de funciones",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Evaluación de una Función Lineal",
+    "question": "Dada f(x) = -4x + 15, encuentra f(-3):",
+    "latex": "f(-3) = -4(-3) + 15",
+    "answer": "27",
+    "solution": [
+      {
+        "latex": "f(-3) = -4(-3) + 15",
+        "explanation": "Sustituimos x = -3."
+      },
+      {
+        "latex": "f(-3) = 12 + 15 = 27",
+        "explanation": "Menos por menos da más: -4 × -3 = 12, luego 12 + 15 = 27."
+      }
+    ],
+    "hints": [
+      "Multiplica -4 por -3 (recuerda que el producto de dos negativos es positivo)."
+    ]
+  },
+  {
+    "id": "math-9-015",
+    "grade": 9,
+    "category": "Verdadero o Falso",
+    "subcategory": "Raíces reales",
+    "difficulty": 3,
+    "type": "true_false",
+    "title": "Raíz Cuadrada de Números Negativos",
+    "question": "¿Es verdadero o falso que la ecuación x^2 + 9 = 0 NO tiene ninguna solución real?",
+    "latex": "x^2 = -9",
+    "answer": "Verdadero",
+    "solution": [
+      {
+        "latex": "x^2 = -9 \\implies x = \\pm \\sqrt{-9}",
+        "explanation": "En el conjunto de los números reales, no existe la raíz cuadrada de un número negativo."
+      }
+    ],
+    "hints": [
+      "Elevar cualquier número real al cuadrado da como resultado un número mayor o igual a cero."
+    ]
+  },
+  {
+    "id": "math-9-016",
+    "grade": 9,
+    "category": "Ecuaciones cuadráticas",
+    "subcategory": "Raíces simétricas",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Suma de las Raíces de una Cuadrática",
+    "question": "Sin calcular individualmente las raíces, encuentra la SUMA de las dos soluciones de la ecuación 3x^2 - 12x + 5 = 0:",
+    "latex": "x_1 + x_2 = -\\frac{b}{a}",
+    "answer": "4",
+    "solution": [
+      {
+        "latex": "a = 3, \\quad b = -12, \\quad c = 5",
+        "explanation": "Coeficientes de la ecuación."
+      },
+      {
+        "latex": "x_1 + x_2 = -\\frac{-12}{3} = \\frac{12}{3} = 4",
+        "explanation": "Por las Fórmulas de Vieta, la suma de las raíces es igual a -b/a."
+      }
+    ],
+    "hints": [
+      "Usa la relación de Vieta: la suma de las raíces es -b/a."
+    ]
+  },
+  {
+    "id": "math-9-017",
+    "grade": 9,
+    "category": "Probabilidad",
+    "subcategory": "Combinatoria elemental",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Conectividad de Nodos",
+    "question": "Si hay 5 personas en una reunión y todas se saludan entre sí con un apretón de manos exactamente una vez, ¿cuántos apretones se dan en total?",
+    "latex": "C(n, 2) = \\frac{n(n-1)}{2}",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "C(5, 2) = \\frac{5 \\times 4}{2}",
+        "explanation": "Aplicamos la combinación de 5 personas tomadas de a 2."
+      },
+      {
+        "latex": "\\frac{20}{2} = 10",
+        "explanation": "Se realizan 10 apretones de manos en total."
+      }
+    ],
+    "hints": [
+      "Calcula (5 × 4) / 2."
+    ]
+  },
+  {
+    "id": "math-9-018",
+    "grade": 9,
+    "category": "Geometría",
+    "subcategory": "Área lateral de un cilindro",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Área de la Superficie de un Cilindro",
+    "question": "Un cilindro tiene radio r = 3 cm y altura h = 10 cm. Calcula el valor de su área lateral dividida por \\pi:",
+    "latex": "A_{\\text{lateral}} = 2\\pi r h",
+    "answer": "60",
+    "solution": [
+      {
+        "latex": "A = 2\\pi (3)(10)",
+        "explanation": "Sustituimos el radio 3 y la altura 10."
+      },
+      {
+        "latex": "A = 60\\pi",
+        "explanation": "Al dividir por \\pi, el valor numérico obtenido es 60."
+      }
+    ],
+    "hints": [
+      "Multiplica 2 × r × h = 2 × 3 × 10."
+    ]
+  },
+  {
+    "id": "math-9-019",
+    "grade": 9,
+    "category": "Razonamiento matemático",
+    "subcategory": "Velocidad media",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Cálculo de Distancia Recorrida",
+    "question": "Un auto viaja a una velocidad constante de 75 km/h durante 3.5 horas. ¿Cuántos kilómetros recorre?",
+    "latex": "d = v \\times t",
+    "answer": "262.5",
+    "solution": [
+      {
+        "latex": "d = 75 \\times 3.5",
+        "explanation": "Multiplicamos velocidad por tiempo."
+      },
+      {
+        "latex": "d = 262.5 \\text{ km}",
+        "explanation": "75 × 3 = 225 y 75 × 0.5 = 37.5. Sumados dan 262.5 km."
+      }
+    ],
+    "hints": [
+      "Multiplica 75 por 3.5."
+    ]
+  },
+  {
+    "id": "math-9-020",
+    "grade": 9,
+    "category": "Polinomios",
+    "subcategory": "Grado de un polinomio",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Grado Absoluto de un Polinomio",
+    "question": "Determina el grado absoluto del polinomio:",
+    "latex": "P(x) = 4x^5 - 7x^3 + 2x^2 - 19",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "P(x) = 4x^5 - 7x^3 + 2x^2 - 19",
+        "explanation": "Observamos el exponente más alto de la variable x."
+      },
+      {
+        "latex": "\\text{Grado} = 5",
+        "explanation": "El exponente máximo es 5."
+      }
+    ],
+    "hints": [
+      "El grado es el mayor exponente presente en la variable."
+    ]
+  }
+]

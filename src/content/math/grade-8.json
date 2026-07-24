@@ -1,0 +1,552 @@
+[
+  {
+    "id": "math-8-001",
+    "grade": 8,
+    "category": "Álgebra",
+    "subcategory": "Ecuaciones lineales",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Ecuación Lineal Simple",
+    "question": "Resuelve la siguiente ecuación de primer grado para x:",
+    "latex": "4x - 7 = 21",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "4x - 7 = 21",
+        "explanation": "Ecuación original."
+      },
+      {
+        "latex": "4x = 21 + 7",
+        "explanation": "Sumamos 7 a ambos lados."
+      },
+      {
+        "latex": "4x = 28",
+        "explanation": "Simplificamos."
+      },
+      {
+        "latex": "x = \\frac{28}{4} = 7",
+        "explanation": "Dividimos entre 4."
+      }
+    ],
+    "hints": [
+      "Suma 7 a 21 y luego divide el resultado entre 4."
+    ]
+  },
+  {
+    "id": "math-8-002",
+    "grade": 8,
+    "category": "Álgebra",
+    "subcategory": "Expresiones algebraicas",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Reducción de Términos Semejantes",
+    "question": "Simplifica la expresión algebraica reduciendo términos semejantes:",
+    "latex": "5x + 3y - 2x + 7y",
+    "answer": "3x + 10y",
+    "options": [
+      "3x + 10y",
+      "7x + 10y",
+      "3x + 4y",
+      "13xy"
+    ],
+    "solution": [
+      {
+        "latex": "(5x - 2x) + (3y + 7y)",
+        "explanation": "Agrupamos las x y las y."
+      },
+      {
+        "latex": "3x + 10y",
+        "explanation": "Sumamos los coeficientes."
+      }
+    ],
+    "hints": [
+      "Junta los términos que tienen x por un lado y los términos con y por otro."
+    ]
+  },
+  {
+    "id": "math-8-003",
+    "grade": 8,
+    "category": "Teorema de Pitágoras",
+    "subcategory": "Cálculo de hipotenusa",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Hipotenusa de un Triángulo Rectángulo",
+    "question": "Un triángulo rectángulo tiene catetos de a = 6 cm y b = 8 cm. ¿Cuánto mide su hipotenusa c en cm?",
+    "latex": "c = \\sqrt{a^2 + b^2}",
+    "answer": "10",
+    "solution": [
+      {
+        "latex": "c^2 = 6^2 + 8^2",
+        "explanation": "Aplicamos el Teorema de Pitágoras."
+      },
+      {
+        "latex": "c^2 = 36 + 64 = 100",
+        "explanation": "Elevamos al cuadrado los catetos y los sumamos."
+      },
+      {
+        "latex": "c = \\sqrt{100} = 10",
+        "explanation": "Extraemos la raíz cuadrada de 100."
+      }
+    ],
+    "hints": [
+      "Suma los cuadrados de 6 y 8 (36 + 64) y calcula la raíz cuadrada de esa suma."
+    ]
+  },
+  {
+    "id": "math-8-004",
+    "grade": 8,
+    "category": "Potencias y Raíces",
+    "subcategory": "Leyes de los exponentes",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "División de Potencias",
+    "question": "Calcula el valor numérico de la división de potencias:",
+    "latex": "\\frac{5^7}{5^4}",
+    "answer": "125",
+    "solution": [
+      {
+        "latex": "\\frac{5^7}{5^4} = 5^{7-4} = 5^3",
+        "explanation": "Al dividir potencias de la misma base, restamos los exponentes."
+      },
+      {
+        "latex": "5^3 = 5 \\times 5 \\times 5 = 125",
+        "explanation": "Calculamos 5 al cubo."
+      }
+    ],
+    "hints": [
+      "Resta los exponentes: 7 - 4 = 3, luego calcula 5^3."
+    ]
+  },
+  {
+    "id": "math-8-005",
+    "grade": 8,
+    "category": "Sistemas de Ecuaciones",
+    "subcategory": "Sistema 2x2 básico",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Sistema de Ecuaciones por Eliminación",
+    "question": "Encuentra el valor de x que satisface el siguiente sistema:",
+    "latex": "\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}",
+    "answer": "7",
+    "solution": [
+      {
+        "latex": "(x + y) + (x - y) = 10 + 4",
+        "explanation": "Sumamos ambas ecuaciones término a término para eliminar y."
+      },
+      {
+        "latex": "2x = 14",
+        "explanation": "Simplificamos: y - y = 0."
+      },
+      {
+        "latex": "x = 7",
+        "explanation": "Dividimos 14 entre 2."
+      }
+    ],
+    "hints": [
+      "Suma las dos ecuaciones para eliminar la variable y."
+    ]
+  },
+  {
+    "id": "math-8-006",
+    "grade": 8,
+    "category": "Geometría",
+    "subcategory": "Volumen de un prisma",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Volumen de un Prisma Rectangular",
+    "question": "Un prisma rectangular tiene un largo de 5 cm, ancho de 3 cm y altura de 8 cm. ¿Cuál es su volumen en \\text{cm}^3?",
+    "latex": "V = largo \\times ancho \\times altura",
+    "answer": "120",
+    "solution": [
+      {
+        "latex": "V = 5 \\times 3 \\times 8",
+        "explanation": "Sustituimos las dimensiones en la fórmula de volumen."
+      },
+      {
+        "latex": "V = 15 \\times 8 = 120",
+        "explanation": "Multiplicamos 5 × 3 × 8 = 120."
+      }
+    ],
+    "hints": [
+      "Multiplica las tres dimensiones: 5 × 3 × 8."
+    ]
+  },
+  {
+    "id": "math-8-007",
+    "grade": 8,
+    "category": "Probabilidad básica",
+    "subcategory": "Lanzamiento de dado",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Probabilidad de un Evento Simple",
+    "question": "Al lanzar un dado estándar de 6 caras, ¿cuál es la probabilidad de obtener un número par?",
+    "latex": "P = \\frac{\\text{Casos favorables}}{\\text{Casos posibles}}",
+    "answer": "1/2",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "2/3"
+    ],
+    "solution": [
+      {
+        "latex": "\\text{Casos posibles: } \\{1, 2, 3, 4, 5, 6\\} \\implies 6",
+        "explanation": "Total de resultados posibles."
+      },
+      {
+        "latex": "\\text{Casos favorables (pares): } \\{2, 4, 6\\} \\implies 3",
+        "explanation": "Los números pares en un dado."
+      },
+      {
+        "latex": "P = \\frac{3}{6} = \\frac{1}{2}",
+        "explanation": "Simplificamos 3/6 a 1/2."
+      }
+    ],
+    "hints": [
+      "Hay 3 números pares (2, 4, 6) de un total de 6 caras."
+    ]
+  },
+  {
+    "id": "math-8-008",
+    "grade": 8,
+    "category": "Álgebra",
+    "subcategory": "Productos notables",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "title": "Binomio al Cuadrado",
+    "question": "Desarrolla el binomio al cuadrado:",
+    "latex": "(x + 4)^2",
+    "answer": "x^2 + 8x + 16",
+    "options": [
+      "x^2 + 8x + 16",
+      "x^2 + 16",
+      "x^2 + 4x + 16",
+      "2x + 8"
+    ],
+    "solution": [
+      {
+        "latex": "(a + b)^2 = a^2 + 2ab + b^2",
+        "explanation": "Fórmula del cuadrado de un binomio."
+      },
+      {
+        "latex": "x^2 + 2(x)(4) + 4^2 = x^2 + 8x + 16",
+        "explanation": "Aplicamos la regla con a = x y b = 4."
+      }
+    ],
+    "hints": [
+      "Recuerda que (a+b)^2 = a^2 + 2ab + b^2, no olvides el término del medio 2ab."
+    ]
+  },
+  {
+    "id": "math-8-009",
+    "grade": 8,
+    "category": "Estadística básica",
+    "subcategory": "Media aritmética",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Promedio de Calificaciones",
+    "question": "Un estudiante obtuvo las siguientes notas en 4 exámenes: 80, 90, 75 y 95. ¿Cuál es su promedio?",
+    "latex": "\\bar{x} = \\frac{\\sum x}{n}",
+    "answer": "85",
+    "solution": [
+      {
+        "latex": "80 + 90 + 75 + 95 = 340",
+        "explanation": "Sumamos todas las notas."
+      },
+      {
+        "latex": "\\bar{x} = \\frac{340}{4} = 85",
+        "explanation": "Dividimos la suma total entre la cantidad de exámenes (4)."
+      }
+    ],
+    "hints": [
+      "Suma los 4 datos y divide entre 4."
+    ]
+  },
+  {
+    "id": "math-8-010",
+    "grade": 8,
+    "category": "Geometría",
+    "subcategory": "Ángulos en un triángulo",
+    "difficulty": 1,
+    "type": "numeric",
+    "title": "Suma de Ángulos Interiores",
+    "question": "Dos ángulos de un triángulo miden 45° y 65°. ¿Cuánto mide el tercer ángulo en grados?",
+    "latex": "\\alpha + \\beta + \\gamma = 180^\\circ",
+    "answer": "70",
+    "solution": [
+      {
+        "latex": "45^\\circ + 65^\\circ = 110^\\circ",
+        "explanation": "Sumamos los dos ángulos conocidos."
+      },
+      {
+        "latex": "180^\\circ - 110^\\circ = 70^\\circ",
+        "explanation": "Restamos de 180° ya que la suma de ángulos internos de cualquier triángulo es 180°."
+      }
+    ],
+    "hints": [
+      "La suma de los tres ángulos de un triángulo siempre es 180°."
+    ]
+  },
+  {
+    "id": "math-8-011",
+    "grade": 8,
+    "category": "Álgebra",
+    "subcategory": "Ecuaciones con incógnita en ambos lados",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Ecuaciones con Variables en Ambos Lados",
+    "question": "Resuelve la ecuación:",
+    "latex": "5x - 3 = 2x + 12",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "5x - 2x = 12 + 3",
+        "explanation": "Pasamos los términos con x a la izquierda y las constantes a la derecha."
+      },
+      {
+        "latex": "3x = 15",
+        "explanation": "Simplificamos ambos lados."
+      },
+      {
+        "latex": "x = \\frac{15}{3} = 5",
+        "explanation": "Dividimos entre 3."
+      }
+    ],
+    "hints": [
+      "Resta 2x en ambos lados y suma 3 en ambos lados."
+    ]
+  },
+  {
+    "id": "math-8-012",
+    "grade": 8,
+    "category": "Potencias y Raíces",
+    "subcategory": "Raíz cuadrada",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Operaciones con Raíces",
+    "question": "Calcula el valor de la siguiente expresión:",
+    "latex": "\\sqrt{144} - \\sqrt{49}",
+    "answer": "5",
+    "solution": [
+      {
+        "latex": "\\sqrt{144} = 12, \\quad \\sqrt{49} = 7",
+        "explanation": "Calculamos las raíces cuadradas exactas."
+      },
+      {
+        "latex": "12 - 7 = 5",
+        "explanation": "Restamos los resultados."
+      }
+    ],
+    "hints": [
+      "12^2 = 144 y 7^2 = 49."
+    ]
+  },
+  {
+    "id": "math-8-013",
+    "grade": 8,
+    "category": "Proporcionalidad",
+    "subcategory": "Proporción inversa",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Proporcionalidad Inversa de Trabajadores",
+    "question": "Si 6 obreros construyen una cerca en 12 horas, ¿cuántas horas tardarán 9 obreros trabajando al mismo ritmo?",
+    "latex": "x = \\frac{6 \\times 12}{9}",
+    "answer": "8",
+    "solution": [
+      {
+        "latex": "6 \\times 12 = 72 \\text{ horas-obrero}",
+        "explanation": "La cantidad total de trabajo requerido es constante (inversa)."
+      },
+      {
+        "latex": "x = \\frac{72}{9} = 8 \\text{ horas}",
+        "explanation": "Dividimos entre los 9 obreros."
+      }
+    ],
+    "hints": [
+      "Al haber más obreros, se tarda MENOS tiempo. Es una proporción inversa: 6 × 12 = 9 × x."
+    ]
+  },
+  {
+    "id": "math-8-014",
+    "grade": 8,
+    "category": "Lógica",
+    "subcategory": "Desigualdades simples",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Inecuación Lineal",
+    "question": "Encuentra el conjunto solución para x en la inecuación:",
+    "latex": "2x + 5 > 13",
+    "answer": "x > 4",
+    "options": [
+      "x > 4",
+      "x < 4",
+      "x > 9",
+      "x >= 4"
+    ],
+    "solution": [
+      {
+        "latex": "2x > 13 - 5",
+        "explanation": "Restamos 5 en ambos lados."
+      },
+      {
+        "latex": "2x > 8 \\implies x > 4",
+        "explanation": "Dividimos entre 2 manteniendo la dirección del signo."
+      }
+    ],
+    "hints": [
+      "Resta 5 y luego divide entre 2."
+    ]
+  },
+  {
+    "id": "math-8-015",
+    "grade": 8,
+    "category": "Geometría",
+    "subcategory": "Área de un círculo",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Área de Círculo expresada con Pi",
+    "question": "Si un círculo tiene un radio r = 5 cm, calcula su área expresada en términos de \\pi \\text{ cm}^2:",
+    "latex": "A = \\pi r^2",
+    "answer": "25",
+    "solution": [
+      {
+        "latex": "A = \\pi \\times 5^2",
+        "explanation": "Sustituimos el radio r = 5 en la fórmula."
+      },
+      {
+        "latex": "A = 25\\pi",
+        "explanation": "Como la respuesta nos pide el coeficiente de \\pi, el valor es 25."
+      }
+    ],
+    "hints": [
+      "Eleva el radio 5 al cuadrado (5 × 5)."
+    ]
+  },
+  {
+    "id": "math-8-016",
+    "grade": 8,
+    "category": "Álgebra",
+    "subcategory": "Factor común",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "title": "Factorización por Factor Común",
+    "question": "Factoriza la siguiente expresión algebraica:",
+    "latex": "6x^2 + 12x",
+    "answer": "6x(x + 2)",
+    "options": [
+      "6x(x + 2)",
+      "6(x^2 + 2)",
+      "x(6x + 12)",
+      "18x^3"
+    ],
+    "solution": [
+      {
+        "latex": "\\text{MCD}(6, 12) = 6, \\quad \\text{Factor de variable} = x",
+        "explanation": "Identificamos el término común 6x."
+      },
+      {
+        "latex": "6x(x + 2)",
+        "explanation": "Dividimos cada término entre 6x."
+      }
+    ],
+    "hints": [
+      "Extrae 6x fuera de un paréntesis."
+    ]
+  },
+  {
+    "id": "math-8-017",
+    "grade": 8,
+    "category": "Porcentajes",
+    "subcategory": "Aumento porcentual",
+    "difficulty": 3,
+    "type": "numeric",
+    "title": "Cálculo de Precio con IVA",
+    "question": "Un artículo cuesta $150 sin impuestos. Si se le aplica un impuesto al consumo del 16%, ¿cuál es el precio final?",
+    "latex": "Precio = 150 \\times (1 + 0.16)",
+    "answer": "174",
+    "solution": [
+      {
+        "latex": "150 \\times 0.16 = 24",
+        "explanation": "Calculamos el monto del 16% de IVA."
+      },
+      {
+        "latex": "150 + 24 = 174",
+        "explanation": "Sumamos el impuesto al precio original."
+      }
+    ],
+    "hints": [
+      "Calcula el 16% de 150 (24) y súmaselo a 150."
+    ]
+  },
+  {
+    "id": "math-8-018",
+    "grade": 8,
+    "category": "Verdadero o Falso",
+    "subcategory": "Exponentes",
+    "difficulty": 2,
+    "type": "true_false",
+    "title": "Exponente Cero",
+    "question": "¿Es verdadero o falso que cualquier número real diferente de cero elevado a la potencia 0 es igual a 1?",
+    "latex": "a^0 = 1 \\quad (a \\neq 0)",
+    "answer": "Verdadero",
+    "solution": [
+      {
+        "latex": "a^0 = a^{n-n} = \\frac{a^n}{a^n} = 1",
+        "explanation": "Por definición de propiedades de potencia, cualquier número no nulo elevado a 0 resulta 1."
+      }
+    ],
+    "hints": [
+      "Recuerda la regla de los exponentes para a^0."
+    ]
+  },
+  {
+    "id": "math-8-019",
+    "grade": 8,
+    "category": "Estadística básica",
+    "subcategory": "Mediana",
+    "difficulty": 2,
+    "type": "numeric",
+    "title": "Mediana de un Conjunto de Datos",
+    "question": "Encuentra la mediana del siguiente conjunto ordenado de datos: 3, 5, 8, 12, 15, 19, 21",
+    "latex": "\\text{Mediana}",
+    "answer": "12",
+    "solution": [
+      {
+        "latex": "3, 5, 8, \\mathbf{12}, 15, 19, 21",
+        "explanation": "El conjunto consta de 7 elementos (impar)."
+      },
+      {
+        "latex": "\\text{Elemento central} = 12",
+        "explanation": "La mediana es el valor que ocupa la posición central exactas (el cuarto elemento)."
+      }
+    ],
+    "hints": [
+      "Como hay 7 datos ordenados, la mediana es el dato justo del medio (posición 4)."
+    ]
+  },
+  {
+    "id": "math-8-020",
+    "grade": 8,
+    "category": "Geometría",
+    "subcategory": "Polígonos regulares",
+    "difficulty": 4,
+    "type": "numeric",
+    "title": "Suma de Ángulos de un Pentágono",
+    "question": "Calcula la suma de los ángulos interiores de un pentágono (5 lados) en grados:",
+    "latex": "S = (n - 2) \\times 180^\\circ",
+    "answer": "540",
+    "solution": [
+      {
+        "latex": "S = (5 - 2) \\times 180^\\circ",
+        "explanation": "Sustituimos n = 5 en la fórmula de la suma de ángulos de polígonos."
+      },
+      {
+        "latex": "S = 3 \\times 180^\\circ = 540^\\circ",
+        "explanation": "Multiplicamos 3 por 180°."
+      }
+    ],
+    "hints": [
+      "Usa la fórmula (n - 2) × 180° con n = 5."
+    ]
+  }
+]

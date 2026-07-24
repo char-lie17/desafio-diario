@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python cache & build
+__pycache__/
+*.pyc
+.pytest_cache/
+quality_report.json
