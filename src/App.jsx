@@ -231,8 +231,14 @@ export default function App() {
           <p className="font-semibold text-slate-400 mb-1">
             Desafío Diario — Un problema matemático diario adaptado a tu nivel.
           </p>
-          <p>
+          <p className="mb-2">
             Construido con React, Vite, KaTeX & SymPy. Cero backend, 100% estático.
+          </p>
+          <p className="text-slate-600">
+            ¿Encontraste un error en algún problema? Repórtalo a{' '}
+            <a href="mailto:prompting.homework@gmail.com" className="text-emerald-500/80 hover:text-emerald-400 underline decoration-emerald-500/30 underline-offset-2">
+              prompting.homework@gmail.com
+            </a>
           </p>
         </footer>
       </div>

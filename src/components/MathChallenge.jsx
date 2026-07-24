@@ -66,6 +66,17 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
     ));
   };
 
+  const renderTextWithMath = (text) => {
+    if (!text) return null;
+    const parts = text.split('$');
+    return parts.map((part, index) => {
+      if (index % 2 === 1) {
+        return <KaTeXView key={index} math={part} displayMode={false} />;
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
+
   return (
     <div className="math-card glass-panel rounded-2xl p-6 border border-emerald-500/20 bg-slate-900/80 shadow-xl transition-all">
       {/* Header Badge */}
@@ -94,7 +105,7 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
         <h3 className="text-xl font-bold text-slate-100 mb-2 flex items-center gap-2">
           <span className="text-emerald-400">🧮</span> {problem.title}
         </h3>
-        <p className="text-slate-300 text-base leading-relaxed mb-4">{problem.question}</p>
+        <p className="text-slate-300 text-base leading-relaxed mb-4">{renderTextWithMath(problem.question)}</p>
 
         {/* Formula Container */}
         {problem.latex && (
