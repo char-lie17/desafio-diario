@@ -4,6 +4,7 @@ import grade9 from '../../content/math/grade-9.json';
 import grade10 from '../../content/math/grade-10.json';
 import grade11 from '../../content/math/grade-11.json';
 
+// Force Vite HMR reload
 export const LAUNCH_DATE = '2026-07-23';
 
 const MATH_BY_GRADE = {
