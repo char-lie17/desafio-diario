@@ -8,7 +8,9 @@ import {
   ChevronRight,
   CheckCircle2,
   Brain,
-  Zap
+  Zap,
+  LogOut,
+  User
 } from 'lucide-react';
 import MathChallenge from './components/MathChallenge';
 import {
@@ -23,8 +25,11 @@ import {
   LAUNCH_DATE
 } from './features/daily/dailySelector';
 import StatsModal from './components/StatsModal';
+import { useAuth } from './context/AuthContext';
+import { syncToFirestore, fetchFromFirestore } from './features/sync/firebaseSync';
 
 export default function App() {
+  const { user, signInWithGoogle, logout } = useAuth();
   const [selectedGrade, setSelectedGrade] = useState(() => getSavedGrade());
   const [currentDateStr, setCurrentDateStr] = useState(() => getTodayDateString());
   const [completedStatus, setCompletedStatus] = useState({ math: false });
@@ -45,6 +50,12 @@ export default function App() {
     setStreak(getStreak());
   }, [selectedGrade, currentDateStr]);
 
+  useEffect(() => {
+    if (user) {
+      syncToFirestore(user, selectedGrade, streak, completedStatus, currentDateStr);
+    }
+  }, [user]);
+
   const handleGradeChange = (grade) => {
     setSelectedGrade(grade);
   };
@@ -52,7 +63,13 @@ export default function App() {
   const handleMathSolved = () => {
     const updated = markChallengeCompleted('math', currentDateStr, selectedGrade);
     setCompletedStatus({ ...updated });
-    setStreak(getStreak());
+    const newStreak = getStreak();
+    setStreak(newStreak);
+    
+    if (user) {
+      syncToFirestore(user, selectedGrade, newStreak, updated, currentDateStr);
+    }
+
     // Auto-open stats modal on success to share
     setTimeout(() => setIsStatsOpen(true), 1500);
   };
@@ -108,6 +125,32 @@ export default function App() {
 
           {/* Date Control & Discrete Streak */}
           <div className="flex items-center gap-3">
+            {/* Auth Button */}
+            {user ? (
+              <div className="group relative">
+                <button className="flex items-center gap-2 px-1.5 py-1.5 bg-slate-900 hover:bg-slate-800 transition-colors border border-slate-800 rounded-xl shadow-inner cursor-pointer">
+                  <img src={user.photoURL} alt="Profile" className="w-6 h-6 rounded-lg" />
+                </button>
+                <div className="absolute right-0 top-full mt-2 w-48 bg-slate-900 border border-slate-800 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 overflow-hidden">
+                  <div className="p-3 border-b border-slate-800">
+                    <p className="text-sm font-semibold text-white truncate">{user.displayName}</p>
+                    <p className="text-xs text-slate-400 truncate">{user.email}</p>
+                  </div>
+                  <button onClick={logout} className="w-full text-left px-3 py-2.5 text-xs text-rose-400 hover:bg-slate-800 flex items-center gap-2 transition-colors">
+                    <LogOut className="w-4 h-4" /> Cerrar sesión
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <button 
+                onClick={signInWithGoogle}
+                title="Iniciar sesión"
+                className="flex items-center justify-center w-9 h-9 bg-slate-900 hover:bg-slate-800 transition-colors border border-slate-800 rounded-xl text-slate-400 hover:text-white shadow-inner cursor-pointer"
+              >
+                <User className="w-4 h-4" />
+              </button>
+            )}
+
             {/* Streak Counter */}
             <button 
               onClick={() => setIsStatsOpen(true)}
