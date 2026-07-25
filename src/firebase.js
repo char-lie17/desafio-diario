@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithRedirect, getRedirectResult, signOut } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
@@ -21,15 +21,14 @@ googleProvider.setCustomParameters({
   prompt: 'select_account'
 });
 
-export const signInWithGoogle = async () => {
-  try {
-    const result = await signInWithPopup(auth, googleProvider);
-    return result.user;
-  } catch (error) {
-    console.error("Error signing in with Google", error);
-    throw error;
-  }
+export const signInWithGoogle = () => {
+  signInWithRedirect(auth, googleProvider);
 };
+
+// Process redirect result on page load
+getRedirectResult(auth).catch((error) => {
+  console.error("Error processing redirect:", error);
+});
 
 export const logout = async () => {
   try {
