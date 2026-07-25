@@ -222,7 +222,7 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
                     <li><strong>Multiplicación:</strong> Usa un asterisco <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">*</code>. Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">22*sqrt(3)</code> (en vez de <code className="bg-slate-800 text-rose-400 px-1 py-0.5 rounded">22sqrt(3)</code>).</li>
                     <li><strong>Fracciones:</strong> Usa la barra diagonal <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">/</code>. Usa paréntesis: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">(x+1)/(x-1)</code>.</li>
                     <li><strong>Exponentes:</strong> Usa <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">^</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">x^2</code>. Usa paréntesis si es necesario: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">2^(x+1)</code>.</li>
-                    <li><strong>Raíces:</strong> Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt()</code>. Para $\sqrt{{5}}$: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt(5)</code>.</li>
+                    <li><strong>Raíces:</strong> Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt()</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt(5)</code>.</li>
                   </ul>
                 </div>
               </details>
