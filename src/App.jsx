@@ -39,6 +39,7 @@ import {
   getDailyChessPuzzle
 } from './features/daily/chessLevels';
 import StatsModal from './components/StatsModal';
+import ThematicBackground from './components/ThematicBackground';
 import { useAuth } from './context/AuthContext';
 import { syncToFirestore } from './features/sync/firebaseSync';
 
@@ -200,7 +201,8 @@ export default function App() {
 
   return (
     <div data-module={activeModule} className="min-h-screen pb-16">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6">
+      <ThematicBackground module={activeModule} />
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6">
         {/* TOP BAR */}
         <header className="flex items-center justify-between gap-3 mb-6">
           <div className="flex items-center gap-3 min-w-0">

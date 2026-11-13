@@ -67,3 +67,5 @@ Running either one replaces the datasets, and `generate_curriculum.py` is unseed
 ### Styling
 
 `src/index.css` defines the design tokens and shared component classes (`.card`, `.btn*`, `.chip*`, `.option`, `.alert*`, `.field`, `.module-tab`, `.board-frame`). The module accent comes from `--accent`, switched by `data-module` on the app root (emerald for math, sky for chess). Reuse these classes instead of ad-hoc Tailwind colour utilities.
+
+`src/components/ThematicBackground.jsx` draws the decorative background on one fixed canvas behind the app (`pointer-events: none`, content sits at `z-10`). It repaints only while elements are settling around the cursor, and paints once on touch devices and with `prefers-reduced-motion`. Add new glyphs or shapes to its `THEMES` table.
