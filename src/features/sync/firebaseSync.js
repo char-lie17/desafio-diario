@@ -1,11 +1,12 @@
 import { db } from '../../firebase';
-import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 
-export async function syncToFirestore(user, grade, streak, completedStatus, currentDateStr) {
+// progress is the day's local completion: { math: { [grade]: true }, chess: { [level]: true } }
+export async function syncToFirestore(user, { grade, chessLevel, streak, dateStr, progress }) {
   if (!user) return;
-  
+
   const userRef = doc(db, 'users', user.uid);
-  
+
   try {
     const docSnap = await getDoc(userRef);
     const data = {
@@ -14,25 +15,23 @@ export async function syncToFirestore(user, grade, streak, completedStatus, curr
       photoURL: user.photoURL,
       lastUpdated: new Date().toISOString(),
       grade: grade,
+      chessLevel: chessLevel,
       streak: streak
     };
 
-    if (docSnap.exists()) {
-      // Update existing
-      await updateDoc(userRef, {
-        ...data,
-        [`completedDays.${currentDateStr}.math.${grade}`]: completedStatus.math || false
-      });
-    } else {
-      // Create new
-      await setDoc(userRef, {
-        ...data,
-        totalSolved: 0, // We can increment this later if needed
-        completedDays: {
-          [currentDateStr]: { math: { [grade]: completedStatus.math || false } }
-        }
-      });
+    // Send only completed challenges, and merge: a challenge that is pending
+    // here must not clear one completed on another device, grade or level.
+    const day = {};
+    for (const type of ['math', 'chess']) {
+      const done = Object.keys(progress?.[type] || {}).filter((key) => progress[type][key]);
+      if (done.length) day[type] = Object.fromEntries(done.map((key) => [key, true]));
     }
+
+    await setDoc(userRef, {
+      ...data,
+      ...(!docSnap.exists() ? { totalSolved: 0 } : {}),
+      ...(Object.keys(day).length ? { completedDays: { [dateStr]: day } } : {}),
+    }, { merge: true });
   } catch (error) {
     console.error("Error syncing to Firestore:", error);
   }

@@ -1,0 +1,143 @@
+{
+  "source": "Lichess puzzle database (CC0)",
+  "levels": [
+    {
+      "level": 200,
+      "count": 730,
+      "minRating": 399,
+      "maxRating": 407
+    },
+    {
+      "level": 400,
+      "count": 730,
+      "minRating": 407,
+      "maxRating": 440
+    },
+    {
+      "level": 600,
+      "count": 730,
+      "minRating": 560,
+      "maxRating": 640
+    },
+    {
+      "level": 800,
+      "count": 730,
+      "minRating": 760,
+      "maxRating": 840
+    },
+    {
+      "level": 1000,
+      "count": 730,
+      "minRating": 960,
+      "maxRating": 1040
+    },
+    {
+      "level": 1100,
+      "count": 730,
+      "minRating": 1060,
+      "maxRating": 1140
+    },
+    {
+      "level": 1200,
+      "count": 730,
+      "minRating": 1160,
+      "maxRating": 1240
+    },
+    {
+      "level": 1300,
+      "count": 730,
+      "minRating": 1260,
+      "maxRating": 1340
+    },
+    {
+      "level": 1400,
+      "count": 730,
+      "minRating": 1360,
+      "maxRating": 1440
+    },
+    {
+      "level": 1500,
+      "count": 730,
+      "minRating": 1460,
+      "maxRating": 1540
+    },
+    {
+      "level": 1600,
+      "count": 730,
+      "minRating": 1560,
+      "maxRating": 1640
+    },
+    {
+      "level": 1700,
+      "count": 730,
+      "minRating": 1660,
+      "maxRating": 1740
+    },
+    {
+      "level": 1800,
+      "count": 730,
+      "minRating": 1760,
+      "maxRating": 1840
+    },
+    {
+      "level": 1900,
+      "count": 730,
+      "minRating": 1860,
+      "maxRating": 1940
+    },
+    {
+      "level": 2000,
+      "count": 730,
+      "minRating": 1960,
+      "maxRating": 2040
+    },
+    {
+      "level": 2100,
+      "count": 730,
+      "minRating": 2060,
+      "maxRating": 2140
+    },
+    {
+      "level": 2200,
+      "count": 730,
+      "minRating": 2160,
+      "maxRating": 2240
+    },
+    {
+      "level": 2300,
+      "count": 730,
+      "minRating": 2260,
+      "maxRating": 2340
+    },
+    {
+      "level": 2400,
+      "count": 730,
+      "minRating": 2360,
+      "maxRating": 2440
+    },
+    {
+      "level": 2500,
+      "count": 730,
+      "minRating": 2460,
+      "maxRating": 2540
+    },
+    {
+      "level": 2600,
+      "count": 730,
+      "minRating": 2560,
+      "maxRating": 2640
+    },
+    {
+      "level": 2700,
+      "count": 730,
+      "minRating": 2660,
+      "maxRating": 2740
+    },
+    {
+      "level": 2800,
+      "count": 730,
+      "minRating": 2760,
+      "maxRating": 2840
+    }
+  ]
+}

@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js",
+    "build:chess": "python content-engine/build_chess_levels.py"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

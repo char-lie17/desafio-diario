@@ -1,28 +1,430 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 @import 'katex/dist/katex.min.css';
 
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+}
+
+/* ---------- Design tokens ---------- */
 :root {
-  font-family: 'Outfit', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color-scheme: dark;
+  font-family: var(--font-sans);
+
+  --bg: #0a0f1c;
+  --surface: #111829;
+  --surface-2: #18213a;
+  --surface-3: #212c49;
+  --line: #27324f;
+  --line-strong: #3a4769;
+  --text: #f1f5f9;
+  --text-muted: #a3b0c7;
+  --text-faint: #7c8aa5;
+
+  --ok: #34d399;
+  --ok-soft: rgb(52 211 153 / 0.12);
+  --bad: #fb7185;
+  --bad-soft: rgb(251 113 133 / 0.12);
+  --hint: #fbbf24;
+  --hint-soft: rgb(251 191 36 / 0.12);
+
+  /* Module accent: emerald for mathematics (default) */
+  --accent: #34d399;
+  --accent-hover: #6ee7b7;
+  --accent-ink: #04291d;
+  --accent-soft: rgb(52 211 153 / 0.12);
+  --accent-line: rgb(52 211 153 / 0.4);
+
+  --radius: 1.25rem;
+  --radius-sm: 0.875rem;
+}
+
+/* Chess uses a sky accent, matched to the board colours */
+[data-module='chess'] {
+  --accent: #7dd3fc;
+  --accent-hover: #bae6fd;
+  --accent-ink: #082f49;
+  --accent-soft: rgb(125 211 252 / 0.12);
+  --accent-line: rgb(125 211 252 / 0.4);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b0f19;
-  color: #f8fafc;
+  background-color: var(--bg);
+  color: var(--text);
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Glassmorphism Panels */
-.glass-panel {
-  background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
 }
 
-/* KaTeX custom sizing and colors */
+/* Keyboard focus is always visible */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* ---------- Components ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px -18px rgb(0 0 0 / 0.7);
+}
+
+.card-inset {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem; /* 44px touch target */
+  padding: 0 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.1s, opacity 0.15s;
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.btn-secondary {
+  background: var(--surface-2);
+  border-color: var(--line);
+  color: var(--text);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--surface-3);
+  border-color: var(--line-strong);
+}
+
+.btn-hint {
+  background: var(--hint-soft);
+  border-color: rgb(251 191 36 / 0.35);
+  color: var(--hint);
+}
+
+.btn-hint:hover:not(:disabled) {
+  background: rgb(251 191 36 / 0.2);
+}
+
+.btn-icon {
+  flex: none;
+  width: 2.75rem;
+  padding: 0;
+}
+
+.btn-lg {
+  min-height: 3.25rem;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.3125rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.chip-accent {
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent);
+}
+
+.chip-ok {
+  background: var(--ok-soft);
+  border-color: rgb(52 211 153 / 0.4);
+  color: var(--ok);
+}
+
+/* Module switch (Matemáticas / Ajedrez) */
+.module-tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text-muted);
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+@media (min-width: 640px) {
+  .module-tab {
+    min-height: 4rem;
+    padding: 0.625rem 1rem;
+  }
+}
+
+.module-tab:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+
+.module-tab[aria-selected='true'] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.module-tab-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.module-tab[aria-selected='true'] .module-tab-icon {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* Difficulty options (grades and chess levels) */
+.option {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  min-width: 3.5rem;
+  min-height: 2.75rem;
+  padding: 0 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+}
+
+.option:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+
+.option:active {
+  transform: scale(0.96);
+}
+
+.option[data-done='true'] {
+  border-color: rgb(52 211 153 / 0.5);
+  color: var(--ok);
+}
+
+.option[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.option-done {
+  position: absolute;
+  top: -0.375rem;
+  right: -0.375rem;
+  display: grid;
+  place-items: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 999px;
+  background: var(--ok);
+  color: #04291d;
+  border: 2px solid var(--surface);
+}
+
+/* Feedback messages */
+.alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.alert strong {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.alert-ok {
+  background: var(--ok-soft);
+  border-color: rgb(52 211 153 / 0.4);
+  color: #a7f3d0;
+}
+
+.alert-ok strong,
+.alert-ok svg {
+  color: var(--ok);
+}
+
+.alert-bad {
+  background: var(--bad-soft);
+  border-color: rgb(251 113 133 / 0.45);
+  color: #fecdd3;
+}
+
+.alert-bad strong,
+.alert-bad svg {
+  color: var(--bad);
+}
+
+.alert-hint {
+  background: var(--hint-soft);
+  border-color: rgb(251 191 36 / 0.35);
+  color: #fde68a;
+}
+
+.alert-hint strong,
+.alert-hint svg {
+  color: var(--hint);
+}
+
+.field {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line-strong);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.field::placeholder {
+  color: var(--text-faint);
+}
+
+.field:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* Chess board frame */
+.board-frame {
+  position: relative;
+  width: 100%;
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 0.375rem;
+  border-radius: 1.125rem;
+  background: linear-gradient(160deg, #2b3a5c, #1a2440);
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.8);
+  transition: box-shadow 0.3s, border-color 0.3s;
+  touch-action: manipulation;
+}
+
+.board-frame[data-state='solved'] {
+  border-color: var(--ok);
+  box-shadow: 0 0 0 2px rgb(52 211 153 / 0.35), 0 24px 48px -24px rgb(0 0 0 / 0.8);
+}
+
+.board-frame[data-state='wrong'] {
+  border-color: var(--bad);
+  box-shadow: 0 0 0 2px rgb(251 113 133 / 0.35), 0 24px 48px -24px rgb(0 0 0 / 0.8);
+}
+
+.skeleton {
+  background: linear-gradient(100deg, var(--surface-2) 30%, var(--surface-3) 50%, var(--surface-2) 70%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: var(--radius-sm);
+}
+
+/* Horizontal scroller for the level list on small screens */
+.scroll-row {
+  scrollbar-width: none;
+  scroll-snap-type: x proximity;
+}
+
+.scroll-row::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-row > * {
+  scroll-snap-align: center;
+}
+
+/* KaTeX sizing */
 .katex-math-render {
   font-size: 1.1em;
 }
@@ -31,16 +433,15 @@ body {
   margin: 0.5em 0 !important;
 }
 
-/* Keyframe Animations */
+/* ---------- Animations ---------- */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 @keyframes shake {
@@ -49,12 +450,29 @@ body {
   40%, 80% { transform: translateX(5px); }
 }
 
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
 .animate-fadeIn {
-  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .animate-shake {
   animation: shake 0.4s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* Custom scrollbar */
@@ -64,14 +482,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0b0f19;
+  background: var(--bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: var(--surface-3);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: var(--line-strong);
 }

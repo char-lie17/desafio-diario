@@ -63,6 +63,8 @@ export function getDailyMathProblem(grade = 9, dateStr = getTodayDateString()) {
 
 // Storage keys
 const STORAGE_GRADE_KEY = 'desafiodiario_grade';
+const STORAGE_CHESS_LEVEL_KEY = 'desafiodiario_chess_level';
+const STORAGE_MODULE_KEY = 'desafiodiario_module';
 const STORAGE_COMPLETED_KEY = 'desafiodiario_completed';
 const STORAGE_STREAK_KEY = 'desafiodiario_streak';
 
@@ -75,44 +77,77 @@ export function saveGrade(grade) {
   localStorage.setItem(STORAGE_GRADE_KEY, grade.toString());
 }
 
-export function getCompletedStatus(dateStr = getTodayDateString(), grade = null) {
+// Chess difficulty is a target puzzle rating, independent of the school grade.
+export function getSavedChessLevel(fallback) {
+  const saved = parseInt(localStorage.getItem(STORAGE_CHESS_LEVEL_KEY), 10);
+  return Number.isNaN(saved) ? fallback : saved;
+}
+
+export function saveChessLevel(level) {
+  localStorage.setItem(STORAGE_CHESS_LEVEL_KEY, level.toString());
+}
+
+// Active module: 'math' or 'chess'
+export function getSavedModule() {
+  return localStorage.getItem(STORAGE_MODULE_KEY) === 'chess' ? 'chess' : 'math';
+}
+
+export function saveModule(module) {
+  localStorage.setItem(STORAGE_MODULE_KEY, module);
+}
+
+function readCompleted() {
+  const raw = localStorage.getItem(STORAGE_COMPLETED_KEY);
+  return raw ? JSON.parse(raw) : {};
+}
+
+// Stored shape per date: { math: { [grade]: true }, chess: { [level]: true } }.
+// Older versions stored a single boolean for math or chess; those are dropped
+// because they do not say which grade or level was solved.
+function normalizeDay(dayData) {
+  const isMap = (value) => value && typeof value === 'object';
+  return {
+    math: isMap(dayData?.math) ? { ...dayData.math } : {},
+    chess: isMap(dayData?.chess) ? { ...dayData.chess } : {},
+  };
+}
+
+// Everything completed on one date: { math: { 9: true }, chess: { 1200: true } }
+export function getDayProgress(dateStr = getTodayDateString()) {
   try {
-    const raw = localStorage.getItem(STORAGE_COMPLETED_KEY);
-    const data = raw ? JSON.parse(raw) : {};
-    const dayData = data[dateStr] || { math: {}, chess: false };
-    // Migrate legacy boolean math format to per-grade object
-    if (typeof dayData.math === 'boolean') {
-      dayData.math = {};
-    }
-    const mathDone = grade !== null ? (dayData.math[grade] || false) : false;
-    return { math: mathDone, chess: dayData.chess || false };
+    return normalizeDay(readCompleted()[dateStr]);
   } catch (e) {
-    return { math: false, chess: false };
+    return { math: {}, chess: {} };
   }
 }
 
-export function markChallengeCompleted(type, dateStr = getTodayDateString(), grade = null) {
+// type: 'math' (key = grade) or 'chess' (key = level). Returns the day's progress.
+export function markChallengeCompleted(type, dateStr, key) {
   try {
-    const raw = localStorage.getItem(STORAGE_COMPLETED_KEY);
-    const data = raw ? JSON.parse(raw) : {};
-    const dayData = data[dateStr] || { math: {}, chess: false };
-    // Migrate legacy boolean math format
-    if (typeof dayData.math === 'boolean') {
-      dayData.math = {};
-    }
-    if (type === 'math' && grade !== null) {
-      dayData.math[grade] = true;
-    } else if (type === 'chess') {
-      dayData.chess = true;
+    const data = readCompleted();
+    const dayData = normalizeDay(data[dateStr]);
+    if ((type === 'math' || type === 'chess') && key !== null && key !== undefined) {
+      dayData[type][key] = true;
     }
     data[dateStr] = dayData;
     localStorage.setItem(STORAGE_COMPLETED_KEY, JSON.stringify(data));
     updateStreak(dateStr);
-    // Return the resolved status for this specific grade
-    const mathDone = grade !== null ? (dayData.math[grade] || false) : false;
-    return { math: mathDone, chess: dayData.chess || false };
+    return dayData;
   } catch (e) {
-    return { math: false, chess: false };
+    return { math: {}, chess: {} };
+  }
+}
+
+// Total challenges solved on this device, across dates, grades and levels.
+export function getTotalSolved() {
+  try {
+    return Object.values(readCompleted()).reduce((total, dayData) => {
+      const day = normalizeDay(dayData);
+      const count = (map) => Object.values(map).filter(Boolean).length;
+      return total + count(day.math) + count(day.chess);
+    }, 0);
+  } catch (e) {
+    return 0;
   }
 }
 

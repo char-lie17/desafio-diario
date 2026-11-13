@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Star, CheckCircle, XCircle, Lightbulb, BookOpen, RefreshCw, Award } from 'lucide-react';
+import { Star, CheckCircle2, XCircle, Lightbulb, BookOpen, Check } from 'lucide-react';
 import KaTeXView from './KaTeXView';
 import MathToolbar from './MathToolbar';
 import confetti from 'canvas-confetti';
@@ -87,7 +87,7 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
     return Array.from({ length: 5 }).map((_, i) => (
       <Star
         key={i}
-        className={`w-4 h-4 ${i < diff ? 'text-amber-400 fill-amber-400' : 'text-slate-600'}`}
+        className={`w-3.5 h-3.5 ${i < diff ? 'text-amber-400 fill-amber-400' : 'text-slate-600'}`}
       />
     ));
   };
@@ -103,39 +103,36 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
     });
   };
 
+  const isChoice = problem.type === 'multiple_choice' || problem.type === 'true_false';
+  const choices = problem.type === 'true_false' ? ['Verdadero', 'Falso'] : (problem.options || []);
+
   return (
-    <div className="math-card glass-panel rounded-2xl p-6 border border-emerald-500/20 bg-slate-900/80 shadow-xl transition-all">
-      {/* Header Badge */}
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-5 border-b border-slate-800 pb-4">
-        <div className="flex items-center gap-2">
-          <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
-            {problem.grade}.º Grado
-          </span>
-          <span className="px-3 py-1 text-xs font-semibold rounded-full bg-slate-800 text-slate-300">
-            {problem.category}
-          </span>
-          {problem.subcategory && (
-            <span className="hidden sm:inline-block px-3 py-1 text-xs rounded-full bg-slate-800/60 text-slate-400">
-              {problem.subcategory}
-            </span>
-          )}
+    <section aria-label="Problema de matemáticas del día" className="card p-4 sm:p-6 animate-fadeIn">
+      {/* Header */}
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-5 pb-4 border-b border-[var(--line)]">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="chip chip-accent">{problem.grade}.º Grado</span>
+          <span className="chip">{problem.category}</span>
+          {problem.subcategory && <span className="chip hidden sm:inline-flex">{problem.subcategory}</span>}
         </div>
-        <div className="flex items-center gap-1 bg-slate-800/40 px-2.5 py-1 rounded-lg">
-          <span className="text-xs text-slate-400 mr-1">Dificultad:</span>
-          {renderStars(problem.difficulty)}
+        <div className="flex items-center gap-2">
+          <span className="chip" title={`Dificultad ${problem.difficulty} de 5`}>
+            <span className="sr-only">Dificultad {problem.difficulty} de 5</span>
+            <span className="flex gap-0.5" aria-hidden="true">{renderStars(problem.difficulty)}</span>
+          </span>
+          {isCompleted && (
+            <span className="chip chip-ok"><CheckCircle2 className="w-3.5 h-3.5" /> Completado</span>
+          )}
         </div>
       </div>
 
-      {/* Question Title & Prompt */}
+      {/* Question */}
       <div className="mb-6">
-        <h3 className="text-xl font-bold text-slate-100 mb-2 flex items-center gap-2">
-          <span className="text-emerald-400">🧮</span> {problem.title}
-        </h3>
-        <p className="text-slate-300 text-base leading-relaxed mb-4">{renderTextWithMath(problem.question)}</p>
+        <h2 className="text-2xl font-bold text-slate-50 mb-2">{problem.title}</h2>
+        <p className="text-slate-300 text-base leading-relaxed">{renderTextWithMath(problem.question)}</p>
 
-        {/* Formula Container */}
         {problem.latex && (
-          <div className="my-5 p-5 bg-slate-950/80 rounded-xl border border-emerald-500/30 flex justify-center items-center text-emerald-300 overflow-x-auto shadow-inner">
+          <div className="card-inset my-5 p-5 flex justify-center items-center text-[var(--accent)] overflow-x-auto">
             <KaTeXView math={problem.latex} displayMode={true} className="text-lg md:text-xl" />
           </div>
         )}
@@ -143,86 +140,75 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
 
       {/* Answer Inputs */}
       {status !== 'success' && (
-        <div className="mb-6">
-          {problem.type === 'multiple_choice' && problem.options && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {problem.options.map((opt, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setSelectedOption(opt)}
-                  className={`p-3.5 rounded-xl border text-left font-medium transition-all flex items-center justify-between ${
-                    selectedOption === opt
-                      ? 'border-emerald-400 bg-emerald-500/20 text-emerald-300 shadow-md shadow-emerald-500/10'
-                      : 'border-slate-700 bg-slate-800/50 text-slate-200 hover:border-slate-600 hover:bg-slate-800'
-                  }`}
-                >
-                  <span>{opt}</span>
-                  <span className={`w-4 h-4 rounded-full border flex items-center justify-center text-xs ${
-                    selectedOption === opt ? 'border-emerald-400 bg-emerald-400 text-slate-950 font-bold' : 'border-slate-600'
-                  }`}>
-                    {selectedOption === opt ? '✓' : ''}
-                  </span>
-                </button>
-              ))}
+        <div className="mb-5">
+          {isChoice && choices.length > 0 && (
+            <div role="radiogroup" aria-label="Opciones de respuesta" className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {choices.map((opt) => {
+                const active = selectedOption === opt;
+                return (
+                  <button
+                    key={opt}
+                    type="button"
+                    role="radio"
+                    aria-checked={active}
+                    onClick={() => setSelectedOption(opt)}
+                    className={`min-h-13 p-3.5 rounded-[var(--radius-sm)] border text-left font-medium transition-all flex items-center justify-between gap-3 cursor-pointer ${
+                      active
+                        ? 'border-[var(--accent)] bg-[var(--accent-soft)] text-slate-50 shadow-[0_0_0_1px_var(--accent)]'
+                        : 'border-[var(--line)] bg-[var(--surface-2)] text-slate-200 hover:border-[var(--line-strong)] hover:bg-[var(--surface-3)]'
+                    }`}
+                  >
+                    <span>{opt}</span>
+                    <span className={`w-5 h-5 shrink-0 rounded-full border grid place-items-center transition-colors ${
+                      active ? 'border-[var(--accent)] bg-[var(--accent)] text-[var(--accent-ink)]' : 'border-[var(--line-strong)]'
+                    }`}>
+                      {active && <Check className="w-3 h-3" strokeWidth={4} />}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           )}
 
-          {problem.type === 'true_false' && (
-            <div className="grid grid-cols-2 gap-4">
-              {['Verdadero', 'Falso'].map((opt) => (
-                <button
-                  key={opt}
-                  onClick={() => setSelectedOption(opt)}
-                  className={`p-4 rounded-xl border text-center font-bold transition-all ${
-                    selectedOption === opt
-                      ? 'border-emerald-400 bg-emerald-500/20 text-emerald-300 shadow-md shadow-emerald-500/10'
-                      : 'border-slate-700 bg-slate-800/50 text-slate-200 hover:border-slate-600 hover:bg-slate-800'
-                  }`}
-                >
-                  {opt}
-                </button>
-              ))}
-            </div>
-          )}
-
-          {(!problem.type || problem.type === 'numeric' || problem.type === 'algebraic') && (
+          {!isChoice && (
             <div className="flex flex-col gap-3">
               <MathToolbar onInsert={(text) => setUserAnswer((prev) => prev + text)} />
-              
-              <div className="flex flex-col sm:flex-row gap-3">
-                <input
-                  type="text"
-                  value={userAnswer}
-                  onChange={(e) => setUserAnswer(e.target.value)}
-                  onKeyDown={(e) => e.key === 'Enter' && handleCheckAnswer()}
-                  placeholder="Ingresa tu respuesta (usa los botones o escribe)..."
-                  className="flex-1 px-4 py-3.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 font-mono"
-                />
-              </div>
+
+              <label className="sr-only" htmlFor="math-answer">Tu respuesta</label>
+              <input
+                id="math-answer"
+                type="text"
+                value={userAnswer}
+                onChange={(e) => setUserAnswer(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && handleCheckAnswer()}
+                placeholder="Escribe tu respuesta…"
+                autoComplete="off"
+                className="field font-mono"
+              />
 
               {/* Live Math Formatted Preview */}
               {userAnswer.trim() !== '' && (
-                <div className="p-3 bg-slate-950/60 border border-slate-800 rounded-xl flex items-center gap-3 text-sm">
-                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Vista Previa:</span>
-                  <div className="text-emerald-400 font-medium">
+                <div className="card-inset p-3 flex items-center gap-3 text-sm">
+                  <span className="eyebrow">Vista previa</span>
+                  <div className="text-[var(--accent)] font-medium">
                     <KaTeXView math={formatUserAnswerToLatex(userAnswer)} displayMode={false} />
                   </div>
                 </div>
               )}
 
               {/* FORMATTING GUIDE (Collapsible, right below input) */}
-              <details className="mt-1 bg-slate-900/40 border border-slate-800/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden text-left">
-                <summary className="px-4 py-3 cursor-pointer flex items-center justify-between text-xs font-semibold text-slate-400 hover:text-slate-300 hover:bg-slate-800/40 transition-colors select-none">
-                  <span>💡 Guía: Cómo dar formato a tus respuestas</span>
-                  <span className="text-[10px] opacity-60 uppercase tracking-wider">Expandir</span>
+              <details className="group card-inset overflow-hidden [&_summary::-webkit-details-marker]:hidden text-left">
+                <summary className="min-h-11 px-4 cursor-pointer flex items-center justify-between text-xs font-semibold text-[var(--text-muted)] hover:text-slate-200 transition-colors select-none">
+                  <span>Cómo escribir tu respuesta</span>
+                  <span className="eyebrow group-open:hidden">Ver guía</span>
+                  <span className="eyebrow hidden group-open:inline">Ocultar</span>
                 </summary>
-                <div className="px-4 pb-4 pt-2 text-xs text-slate-400 leading-relaxed border-t border-slate-800/40 mt-1">
-                  <p className="mb-2 text-slate-300 font-medium">Para expresiones complejas, sigue estas reglas de escritura:</p>
+                <div className="px-4 pb-4 pt-1 text-xs text-[var(--text-muted)] leading-relaxed [&_code]:bg-[var(--surface-3)] [&_code]:text-[var(--accent)] [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded">
                   <ul className="list-disc pl-4 space-y-1.5">
-                    <li><strong>Multiplicación:</strong> Usa un asterisco <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">*</code>. Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">22*sqrt(3)</code> (en vez de <code className="bg-slate-800 text-rose-400 px-1 py-0.5 rounded">22sqrt(3)</code>).</li>
-                    <li><strong>Fracciones:</strong> Usa la barra diagonal <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">/</code>. Usa paréntesis: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">(x+1)/(x-1)</code>.</li>
-                    <li><strong>Exponentes:</strong> Usa <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">^</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">x^2</code>. Usa paréntesis si es necesario: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">2^(x+1)</code>.</li>
-                    <li><strong>Raíces:</strong> Escribe <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt()</code>. Ejemplo: <code className="bg-slate-800 text-emerald-400 px-1 py-0.5 rounded">sqrt(5)</code>.</li>
+                    <li><strong className="text-slate-200">Multiplicación:</strong> usa un asterisco, por ejemplo <code>22*sqrt(3)</code>.</li>
+                    <li><strong className="text-slate-200">Fracciones:</strong> usa la barra y paréntesis, por ejemplo <code>(x+1)/(x-1)</code>.</li>
+                    <li><strong className="text-slate-200">Exponentes:</strong> usa <code>^</code>, por ejemplo <code>x^2</code> o <code>2^(x+1)</code>.</li>
+                    <li><strong className="text-slate-200">Raíces:</strong> escribe <code>sqrt()</code>, por ejemplo <code>sqrt(5)</code>.</li>
                   </ul>
                 </div>
               </details>
@@ -230,101 +216,90 @@ export default function MathChallenge({ problem, onSolve, isCompleted }) {
           )}
 
           {/* Action Row */}
-          <div className="flex flex-wrap items-center justify-between gap-3 mt-5">
-            <div className="flex gap-2">
-              {problem.hints && problem.hints.length > 0 && (
-                <button
-                  onClick={() => setShowHint(!showHint)}
-                  className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/30 hover:bg-amber-500/20 transition-colors flex items-center gap-1.5"
-                >
-                  <Lightbulb className="w-3.5 h-3.5" />
-                  {showHint ? 'Ocultar pista' : 'Ver pista'}
-                </button>
-              )}
+          <div className="flex flex-wrap items-center gap-2 mt-5">
+            {problem.hints && problem.hints.length > 0 && (
+              <button type="button" onClick={() => setShowHint(!showHint)} className="btn btn-hint">
+                <Lightbulb className="w-4 h-4" />
+                {showHint ? 'Ocultar pista' : 'Pista'}
+              </button>
+            )}
 
-              {attempts >= 2 && (
-                <button
-                  onClick={() => setShowSolution(!showSolution)}
-                  className="px-3.5 py-2 text-xs font-semibold rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 transition-colors flex items-center gap-1.5"
-                >
-                  <BookOpen className="w-3.5 h-3.5" />
-                  {showSolution ? 'Ocultar solución' : 'Ver solución'}
-                </button>
-              )}
-            </div>
+            {attempts >= 2 && (
+              <button type="button" onClick={() => setShowSolution(!showSolution)} className="btn btn-secondary">
+                <BookOpen className="w-4 h-4" />
+                {showSolution ? 'Ocultar solución' : 'Ver solución'}
+              </button>
+            )}
 
             <button
+              type="button"
               onClick={handleCheckAnswer}
-              disabled={
-                (problem.type === 'multiple_choice' || problem.type === 'true_false')
-                  ? !selectedOption
-                  : !userAnswer.trim()
-              }
-              className="px-6 py-3.5 bg-emerald-500 hover:bg-emerald-400 disabled:opacity-50 disabled:cursor-not-allowed text-slate-950 font-bold rounded-xl shadow-lg shadow-emerald-500/20 transition-all flex items-center gap-2 text-sm ml-auto"
+              disabled={isChoice ? !selectedOption : !userAnswer.trim()}
+              className="btn btn-primary btn-lg ml-auto w-full sm:w-auto"
             >
-              <span>Comprobar respuesta</span>
+              Comprobar respuesta
             </button>
           </div>
         </div>
       )}
 
-      {/* Hints Banner */}
-      {showHint && problem.hints && (
-        <div className="mb-5 p-4 bg-amber-950/40 border border-amber-500/30 rounded-xl text-amber-200 text-sm flex items-start gap-3 animate-fadeIn">
-          <Lightbulb className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-          <div>
-            <span className="font-bold block mb-1">Pista educativa:</span>
-            {problem.hints.map((hint, i) => (
-              <p key={i}>{hint}</p>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Feedback Messages */}
-      {status === 'error' && (
-        <div className="mb-5 p-4 bg-rose-950/40 border border-rose-500/40 rounded-xl text-rose-200 text-sm flex items-center gap-3 animate-shake">
-          <XCircle className="w-5 h-5 text-rose-400 shrink-0" />
-          <div>
-            <span className="font-bold block">Respuesta incorrecta</span>
-            <span>Revisa el procedimiento e inténtalo de nuevo. {attempts >= 2 ? '¡Puedes habilitar la solución abajo!' : ''}</span>
-          </div>
-        </div>
-      )}
-
-      {status === 'success' && (
-        <div className="mb-6 p-4 bg-emerald-950/60 border border-emerald-500/40 rounded-xl text-emerald-200 text-sm flex items-center justify-between gap-3 animate-fadeIn">
-          <div className="flex items-center gap-3">
-            <CheckCircle className="w-6 h-6 text-emerald-400 shrink-0" />
+      <div role="status" aria-live="polite" className="flex flex-col gap-3">
+        {/* Hints Banner */}
+        {showHint && problem.hints && (
+          <div className="alert alert-hint animate-fadeIn">
+            <Lightbulb className="w-5 h-5 shrink-0 mt-0.5" />
             <div>
-              <span className="font-bold text-base block text-emerald-300">¡Excelente razonamiento!</span>
-              <span>Has completado correctamente el desafío matemático de hoy.</span>
+              <strong>Pista</strong>
+              {problem.hints.map((hint, i) => (
+                <p key={i}>{hint}</p>
+              ))}
             </div>
           </div>
-          <Award className="w-8 h-8 text-emerald-400 opacity-80 hidden sm:block" />
-        </div>
-      )}
+        )}
+
+        {/* Feedback Messages */}
+        {status === 'error' && (
+          <div key={attempts} className="alert alert-bad animate-shake">
+            <XCircle className="w-5 h-5 shrink-0 mt-0.5" />
+            <div>
+              <strong>Respuesta incorrecta</strong>
+              Revisa el procedimiento e inténtalo de nuevo.{attempts >= 2 ? ' Ya puedes ver la solución.' : ''}
+            </div>
+          </div>
+        )}
+
+        {status === 'success' && (
+          <div className="alert alert-ok animate-fadeIn">
+            <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" />
+            <div>
+              <strong>¡Excelente razonamiento!</strong>
+              Has resuelto correctamente el problema de este día.
+            </div>
+          </div>
+        )}
+      </div>
 
       {/* Step-by-Step Solution Breakdown */}
       {showSolution && problem.solution && (
-        <div className="mt-6 border-t border-slate-800 pt-5 animate-fadeIn">
-          <h4 className="text-sm font-bold text-slate-200 uppercase tracking-wider mb-4 flex items-center gap-2">
-            <BookOpen className="w-4 h-4 text-emerald-400" /> Solución Paso a Paso
-          </h4>
-          <div className="space-y-3">
+        <div className="mt-6 border-t border-[var(--line)] pt-5 animate-fadeIn">
+          <h3 className="eyebrow mb-3 flex items-center gap-2">
+            <BookOpen className="w-4 h-4 text-[var(--accent)]" /> Solución paso a paso
+          </h3>
+          <ol className="space-y-2.5">
             {problem.solution.map((step, idx) => (
-              <div key={idx} className="p-3.5 bg-slate-950/60 rounded-xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                <div className="text-emerald-300 font-mono text-sm sm:w-1/2">
+              <li key={idx} className="card-inset p-3.5 flex flex-col sm:flex-row sm:items-center gap-3">
+                <span className="grid place-items-center w-6 h-6 shrink-0 rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-xs font-bold">{idx + 1}</span>
+                <div className="text-[var(--accent)] text-sm sm:w-1/2 overflow-x-auto">
                   <KaTeXView math={step.latex} />
                 </div>
-                <div className="text-slate-400 text-xs sm:w-1/2 border-t sm:border-t-0 sm:border-l border-slate-800 pt-2 sm:pt-0 sm:pl-3">
+                <div className="text-[var(--text-muted)] text-sm sm:w-1/2 border-t sm:border-t-0 sm:border-l border-[var(--line)] pt-2 sm:pt-0 sm:pl-3">
                   {step.explanation}
                 </div>
-              </div>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       )}
-    </div>
+    </section>
   );
 }

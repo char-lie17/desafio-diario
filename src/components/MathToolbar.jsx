@@ -23,19 +23,22 @@ export default function MathToolbar({ onInsert }) {
   ];
 
   return (
-    <div className="flex flex-wrap items-center gap-1.5 p-2 bg-slate-950/90 border border-slate-800 rounded-xl mb-3">
-      <span className="text-[10px] uppercase font-bold text-slate-500 mr-1 px-1">Teclado Matemático:</span>
-      {tools.map((item, idx) => (
-        <button
-          key={idx}
-          type="button"
-          onClick={() => onInsert(item.text)}
-          title={item.title}
-          className="px-2.5 py-1 text-xs font-mono font-bold bg-slate-800 hover:bg-emerald-500/20 text-slate-200 hover:text-emerald-300 border border-slate-700 hover:border-emerald-500/40 rounded-lg transition-all active:scale-95"
-        >
-          {item.label}
-        </button>
-      ))}
+    <div role="group" aria-label="Teclado matemático" className="card-inset p-2.5">
+      <p className="eyebrow mb-2 px-0.5">Teclado matemático</p>
+      <div className="flex flex-wrap gap-1.5">
+        {tools.map((item, idx) => (
+          <button
+            key={idx}
+            type="button"
+            onClick={() => onInsert(item.text)}
+            title={item.title}
+            aria-label={item.title}
+            className="min-w-11 h-11 sm:min-w-10 sm:h-10 px-2 text-sm font-mono font-bold bg-[var(--surface-2)] hover:bg-[var(--accent-soft)] text-slate-200 hover:text-[var(--accent)] border border-[var(--line)] hover:border-[var(--accent-line)] rounded-lg transition-all active:scale-95 cursor-pointer"
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
